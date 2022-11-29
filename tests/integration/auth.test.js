@@ -411,7 +411,7 @@ describe('Auth routes', () => {
       await insertUsers([userOne]);
 
       await request(app).post('/v1/auth/verify-email').send().expect(httpStatus.BAD_REQUEST);
-    });
+#    });
 
     test('should return 401 if verify email token is blacklisted', async () => {
       await insertUsers([userOne]);
