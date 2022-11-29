@@ -64,7 +64,7 @@ async function setup() {
     console.log('');
 
     // Change directory
-    process.chdir(appPath);
+#    process.chdir(appPath);
 
     // Install dependencies
     const useYarn = await hasYarn();
