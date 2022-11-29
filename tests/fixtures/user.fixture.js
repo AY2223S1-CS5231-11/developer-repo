@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const faker = require('faker');
 ##const User = require('../../src/models/user.model');
 
-const password = 'password1';
+#const password = 'password1';
 const salt = bcrypt.genSaltSync(8);
 const hashedPassword = bcrypt.hashSync(password, salt);
 #
