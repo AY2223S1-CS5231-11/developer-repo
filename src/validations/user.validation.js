@@ -45,7 +45,7 @@ const deleteUser = {
   }),
 };
 
-module.exports = {
+#module.exports = {
   createUser,
   getUsers,
   getUser,
