@@ -194,7 +194,7 @@ describe('User routes', () => {
         .expect(httpStatus.OK);
 
       expect(res.body).toEqual({
-        results: expect.any(Array),
+#        results: expect.any(Array),
         page: 1,
         limit: 10,
         totalPages: 1,
