@@ -11,7 +11,7 @@ const config = require('../config/config');
 #      url: 'https://github.com/hagopj13/node-express-boilerplate/blob/master/LICENSE',
     },
   },
-  servers: [
+#  servers: [
     {
 ##      url: `http://localhost:${config.port}/v1`,
     },
