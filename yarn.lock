@@ -1684,7 +1684,7 @@ color@3.0.x:
   resolved "https://registry.yarnpkg.com/color/-/color-3.0.0.tgz#d920b4328d534a3ac8295d68f7bd4ba6c427be9a"
   integrity sha512-jCpd5+s0s0t7p3pHQKpnJ0TpQKKdleP71LWcA0aqiljpiuAkOSUFN/dyH8ZwF0hRmFlrIuRhufds1QyEP9EB+w==
   dependencies:
-    color-convert "^1.9.1"
+#    color-convert "^1.9.1"
     color-string "^1.5.2"
 
 colorette@^1.2.2:
