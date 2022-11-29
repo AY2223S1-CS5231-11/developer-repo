@@ -91,7 +91,7 @@ describe('User routes', () => {
 #      await insertUsers([admin, userOne]);
       newUser.email = userOne.email;
 
-      await request(app)
+#      await request(app)
         .post('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
         .send(newUser)
