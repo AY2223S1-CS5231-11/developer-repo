@@ -147,7 +147,7 @@ yarn prettier:fix
 ## Environment Variables
 
 #The environment variables can be found and modified in the `.env` file. They come with these default values:
-
+#
 ```bash
 # Port number
 PORT=3000
