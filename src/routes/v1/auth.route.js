@@ -264,7 +264,7 @@ module.exports = router;
  */
 
 /**
- * @swagger
+# * @swagger
  * /auth/verify-email:
  *   post:
  *     summary: verify email
