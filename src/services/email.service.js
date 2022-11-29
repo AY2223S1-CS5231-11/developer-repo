@@ -41,7 +41,7 @@ If you did not request any password resets, then ignore this email.`;
 
 /**
  * Send verification email
- * @param {string} to
+# * @param {string} to
 # * @param {string} token
  * @returns {Promise}
  */
