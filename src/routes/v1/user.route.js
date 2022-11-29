@@ -198,7 +198,7 @@ module.exports = router;
  *             properties:
  *               name:
  *                 type: string
- *               email:
+# *               email:
  *                 type: string
  *                 format: email
  *                 description: must be unique
