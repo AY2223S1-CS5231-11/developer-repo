@@ -142,7 +142,7 @@ describe('Error middlewares', () => {
         expect.objectContaining({
           code: httpStatus.INTERNAL_SERVER_ERROR,
           message: httpStatus[httpStatus.INTERNAL_SERVER_ERROR],
-        })
+#        })
 #      );
       expect(res.locals.errorMessage).toBe(error.message);
       config.env = process.env.NODE_ENV;
