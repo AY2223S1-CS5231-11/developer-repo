@@ -30,7 +30,7 @@ defaultRoutes.forEach((route) => {
 });
 
 /* istanbul ignore next */
-#if (config.env === 'development') {
+##if (config.env === 'development') {
   devRoutes.forEach((route) => {
     router.use(route.path, route.route);
 #  });
