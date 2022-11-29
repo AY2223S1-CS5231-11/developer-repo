@@ -345,7 +345,7 @@ It is up to the server (or process manager) to actually read them from the conso
 This app uses pm2 in production mode, which is already configured to store the logs in log files.
 
 Note: API request information (request url, response code, timestamp, etc.) are also automatically logged (using [morgan](https://github.com/expressjs/morgan)).
-
+#
 ## Custom Mongoose Plugins
 
 The app also contains 2 custom mongoose plugins that you can attach to any mongoose model schema. You can find the plugins in `src/models/plugins`.
