@@ -21,7 +21,7 @@ const loginUserWithEmailAndPassword = async (email, password) => {
 
 /**
  * Logout
- * @param {string} refreshToken
+# * @param {string} refreshToken
  * @returns {Promise}
  */
 const logout = async (refreshToken) => {
