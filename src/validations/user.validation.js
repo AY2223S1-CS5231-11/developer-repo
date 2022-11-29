@@ -46,7 +46,7 @@ const updateUser = {
 };
 
 #module.exports = {
-  createUser,
+#  createUser,
 #  getUsers,
   getUser,
   updateUser,
