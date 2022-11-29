@@ -25,7 +25,7 @@ const { toJSON } = require('./plugins');
 #    },
 #    blacklisted: {
       type: Boolean,
-      default: false,
+#      default: false,
 #    },
   },
   {
