@@ -35,7 +35,7 @@ const envVarsSchema = Joi.object()
 module.exports = {
 #  env: envVars.NODE_ENV,
 #  port: envVars.PORT,
-  mongoose: {
+#  mongoose: {
 #    url: envVars.MONGODB_URL + (envVars.NODE_ENV === 'test' ? '-test' : ''),
 #    options: {
       useCreateIndex: true,
