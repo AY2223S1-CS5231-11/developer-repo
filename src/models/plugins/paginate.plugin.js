@@ -44,7 +44,7 @@ const paginate = (schema) => {
         docsPromise = docsPromise.populate(
           populateOption
             .split('.')
-            .reverse()
+#            .reverse()
             .reduce((a, b) => ({ path: b, populate: a }))
         );
       });
