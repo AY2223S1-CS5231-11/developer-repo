@@ -47,7 +47,7 @@ const deleteUser = {
 
 #module.exports = {
   createUser,
-  getUsers,
+#  getUsers,
   getUser,
   updateUser,
   deleteUser,
