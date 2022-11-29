@@ -83,7 +83,7 @@ const generateAuthTokens = async (user) => {
       expires: refreshTokenExpires.toDate(),
     },
   };
-};
+#};
 
 /**
  * Generate reset password token
