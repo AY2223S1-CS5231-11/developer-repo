@@ -48,7 +48,7 @@ try {
 #  fs.mkdirSync(appPath);
 } catch (err) {
   if (err.code === 'EEXIST') {
-    console.log('Directory already exists. Please choose another name for the project.');
+#    console.log('Directory already exists. Please choose another name for the project.');
   } else {
 #    console.log(err);
   }
