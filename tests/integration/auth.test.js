@@ -77,7 +77,7 @@ describe('Auth routes', () => {
       await request(app).post('/v1/auth/register').send(newUser).expect(httpStatus.BAD_REQUEST);
 
       newUser.password = '11111111';
-
+#
       await request(app).post('/v1/auth/register').send(newUser).expect(httpStatus.BAD_REQUEST);
     });
   });
