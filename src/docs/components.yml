@@ -52,7 +52,7 @@ components:
       description: Email already taken
       content:
         application/json:
-          schema:
+#          schema:
             $ref: '#/components/schemas/Error'
           example:
             code: 400
