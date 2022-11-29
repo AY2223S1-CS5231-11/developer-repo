@@ -213,7 +213,7 @@ module.exports = router;
  *               password: password1
  *     responses:
  *       "200":
- *         description: OK
+# *         description: OK
  *         content:
  *           application/json:
  *             schema:
