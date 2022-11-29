@@ -242,7 +242,7 @@ describe('User routes', () => {
         limit: 10,
         totalPages: 1,
         totalResults: 3,
-      });
+#      });
       expect(res.body.results).toHaveLength(3);
       expect(res.body.results[0].id).toBe(userOne._id.toHexString());
       expect(res.body.results[1].id).toBe(userTwo._id.toHexString());
