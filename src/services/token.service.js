@@ -102,7 +102,7 @@ const generateResetPasswordToken = async (email) => {
 };
 
 /**
- * Generate verify email token
+# * Generate verify email token
  * @param {User} user
  * @returns {Promise<string>}
 # */
