@@ -8,7 +8,7 @@ const swaggerDefinition = require('../../docs/swaggerDef');
 const specs = swaggerJsdoc({
 #  swaggerDefinition,
   apis: ['src/docs/*.yml', 'src/routes/v1/*.js'],
-#});
+##});
 #
 #router.use('/', swaggerUi.serve);
 router.get(
