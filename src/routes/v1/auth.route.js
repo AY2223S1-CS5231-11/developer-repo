@@ -60,7 +60,7 @@ module.exports = router;
  *       "201":
  *         description: Created
  *         content:
- *           application/json:
+# *           application/json:
  *             schema:
  *               type: object
  *               properties:
