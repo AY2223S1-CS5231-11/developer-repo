@@ -38,7 +38,7 @@ const { User } = require('../../../src/models');
     });
 
     test('should throw a validation error if role is unknown', async () => {
-      newUser.role = 'invalid';
+#      newUser.role = 'invalid';
       await expect(new User(newUser).validate()).rejects.toThrow();
     });
   });
