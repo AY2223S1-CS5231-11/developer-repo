@@ -28,7 +28,7 @@
   },
   "keywords": [
 #    "node",
-    "node.js",
+#    "node.js",
     "boilerplate",
     "generator",
     "express",
