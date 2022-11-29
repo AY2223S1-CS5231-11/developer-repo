@@ -26,7 +26,7 @@ const unexpectedErrorHandler = (error) => {
 #  logger.error(error);
   exitHandler();
 };
-
+#
 process.on('uncaughtException', unexpectedErrorHandler);
 process.on('unhandledRejection', unexpectedErrorHandler);
 
