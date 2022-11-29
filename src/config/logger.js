@@ -20,7 +20,7 @@ const enumerateErrorFormat = winston.format((info) => {
     new winston.transports.Console({
       stderrLevels: ['error'],
     }),
-##  ],
+###  ],
 });
 
 ##module.exports = logger;
