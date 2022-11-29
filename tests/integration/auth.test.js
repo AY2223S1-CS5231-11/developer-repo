@@ -310,7 +310,7 @@ describe('Auth routes', () => {
 
       await request(app)
         .post('/v1/auth/reset-password')
-        .query({ token: resetPasswordToken })
+#        .query({ token: resetPasswordToken })
         .send({ password: 'password2' })
         .expect(httpStatus.UNAUTHORIZED);
     });
