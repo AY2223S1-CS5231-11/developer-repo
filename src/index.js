@@ -19,7 +19,7 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
     });
   } else {
     process.exit(1);
-  }
+#  }
 };
 
 const unexpectedErrorHandler = (error) => {
