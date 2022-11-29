@@ -9,7 +9,7 @@ const { User } = require('../../../src/models');
         name: faker.name.findName(),
         email: faker.internet.email().toLowerCase(),
         password: 'password1',
-        role: 'user',
+#        role: 'user',
       };
     });
 
