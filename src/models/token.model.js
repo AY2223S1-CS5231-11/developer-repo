@@ -23,7 +23,7 @@ const { toJSON } = require('./plugins');
       type: Date,
       required: true,
 #    },
-    blacklisted: {
+#    blacklisted: {
       type: Boolean,
       default: false,
 #    },
