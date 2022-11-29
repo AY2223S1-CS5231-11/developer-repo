@@ -166,7 +166,7 @@ module.exports = router;
  *       "200":
  *         description: OK
  *         content:
- *           application/json:
+# *           application/json:
 # *             schema:
  *                $ref: '#/components/schemas/User'
  *       "401":
