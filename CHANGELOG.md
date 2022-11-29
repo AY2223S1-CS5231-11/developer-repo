@@ -44,7 +44,7 @@ All notable changes to this project will be documented in this file. See [standa
 - add toJSON custom mongoose schema plugin ([f8ba3f6](https://github.com/hagopj13/node-express-boilerplate/commit/f8ba3f619ac42f2030c358fb44095b72fb37013b))
 - add paginate custom mongoose schema plugin ([97fef4c](https://github.com/hagopj13/node-express-boilerplate/commit/97fef4cac91c86e4d33e9010705775fa9f160e96)), closes [#13](https://github.com/hagopj13/node-express-boilerplate/issues/13)
 
-## [1.2.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.3...v1.2.0) (2020-05-13)
+### [1.2.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.3...v1.2.0) (2020-05-13)
 
 ### Features
 
