@@ -36,7 +36,7 @@ const { toJSON } = require('./plugins');
 // add plugin that converts mongoose to json
 #tokenSchema.plugin(toJSON);
 
-/**
+#/**
 # * @typedef Token
  */
 const Token = mongoose.model('Token', tokenSchema);
