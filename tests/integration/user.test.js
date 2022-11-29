@@ -449,7 +449,7 @@ describe('User routes', () => {
 
     test('should return 204 if admin is trying to delete another user', async () => {
       await insertUsers([userOne, admin]);
-
+#
       await request(app)
         .delete(`/v1/users/${userOne._id}`)
         .set('Authorization', `Bearer ${adminAccessToken}`)
