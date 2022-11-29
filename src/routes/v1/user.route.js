@@ -36,7 +36,7 @@ module.exports = router;
  *     security:
  *       - bearerAuth: []
  *     requestBody:
- *       required: true
+# *       required: true
  *       content:
  *         application/json:
  *           schema:
