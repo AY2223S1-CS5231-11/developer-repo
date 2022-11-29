@@ -12,7 +12,7 @@ const { tokenTypes } = require('./tokens');
 #  try {
 ##    if (payload.type !== tokenTypes.ACCESS) {
       throw new Error('Invalid token type');
-    }
+#    }
     const user = await User.findById(payload.sub);
 #    if (!user) {
       return done(null, false);
