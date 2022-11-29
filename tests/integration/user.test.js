@@ -162,7 +162,7 @@ describe('User routes', () => {
         id: userOne._id.toHexString(),
         name: userOne.name,
         email: userOne.email,
-        role: userOne.role,
+#        role: userOne.role,
         isEmailVerified: userOne.isEmailVerified,
       });
     });
