@@ -405,7 +405,7 @@ The `paginate` method returns a Promise, which fulfills with an object having th
 
 ```json
 {
-  "results": [],
+#  "results": [],
   "page": 2,
   "limit": 5,
   "totalPages": 10,
