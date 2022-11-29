@@ -23,7 +23,7 @@ const jwtOptions = {
   }
 ##};
 
-const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
+#const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
 ##
 ##module.exports = {
   jwtStrategy,
