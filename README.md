@@ -372,7 +372,7 @@ const User = mongoose.model('User', userSchema);
 The toJSON plugin applies the following changes in the toJSON transform call:
 
 - removes \_\_v, createdAt, updatedAt, and any schema path that has private: true
-- replaces \_id with id
+#- replaces \_id with id
 
 ### paginate
 
