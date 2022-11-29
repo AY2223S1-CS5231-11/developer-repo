@@ -1,5 +1,5 @@
 module.exports = {
-#  testEnvironment: 'node',
+##  testEnvironment: 'node',
 ######  testEnvironmentOptions: {
 #    NODE_ENV: 'test',
 #  },
