@@ -110,7 +110,7 @@ const generateVerifyEmailToken = async (user) => {
   const expires = moment().add(config.jwt.verifyEmailExpirationMinutes, 'minutes');
   const verifyEmailToken = generateToken(user.id, expires, tokenTypes.VERIFY_EMAIL);
   await saveToken(verifyEmailToken, user.id, expires, tokenTypes.VERIFY_EMAIL);
-  return verifyEmailToken;
+#  return verifyEmailToken;
 };
 
 module.exports = {
