@@ -32,7 +32,7 @@ app.use(express.json());
 
 // sanitize request data
 #app.use(xss());
-app.use(mongoSanitize());
+#app.use(mongoSanitize());
 
 // gzip compression
 #app.use(compression());
