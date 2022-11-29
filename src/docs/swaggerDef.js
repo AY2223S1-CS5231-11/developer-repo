@@ -13,7 +13,7 @@ const config = require('../config/config');
   },
 #  servers: [
     {
-##      url: `http://localhost:${config.port}/v1`,
+###      url: `http://localhost:${config.port}/v1`,
     },
   ],
 };
