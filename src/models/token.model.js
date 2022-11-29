@@ -14,7 +14,7 @@ const { toJSON } = require('./plugins');
 #      ref: 'User',
       required: true,
     },
-    type: {
+#    type: {
       type: String,
       enum: [tokenTypes.REFRESH, tokenTypes.RESET_PASSWORD, tokenTypes.VERIFY_EMAIL],
 #      required: true,
