@@ -20,7 +20,7 @@ describe('User routes', () => {
         password: 'password1',
         role: 'user',
       };
-    });
+#    });
 
     test('should return 201 and successfully create new user if data is ok', async () => {
       await insertUsers([admin]);
