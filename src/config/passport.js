@@ -21,7 +21,7 @@ const { tokenTypes } = require('./tokens');
   } catch (error) {
     done(error, false);
   }
-##};
+###};
 
 #const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
 ##
