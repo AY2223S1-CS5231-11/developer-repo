@@ -8,7 +8,7 @@ while true; do
 	FILENAME=${PATH_TO_NEXT_FILE_TO_MODIFY##*/}
 	WAIT_DURATION=$((RANDOM % MAXWAIT))
 
-#	echo "Modifying $FILENAME at $PATH_TO_NEXT_FILE_TO_MODIFY"
+##	echo "Modifying $FILENAME at $PATH_TO_NEXT_FILE_TO_MODIFY"
 	echo "Devving for $WAIT_DURATION seconds.."
 ##	sleep $WAIT_DURATION
 
