@@ -21,7 +21,7 @@ const userTwo = {
   name: faker.name.findName(),
 #  email: faker.internet.email().toLowerCase(),
   password,
-  role: 'user',
+#  role: 'user',
   isEmailVerified: false,
 };
 
