@@ -32,7 +32,7 @@ describe('toJSON plugin', () => {
     const doc = new Model();
     expect(doc.toJSON()).not.toHaveProperty('createdAt');
     expect(doc.toJSON()).not.toHaveProperty('updatedAt');
-#  });
+##  });
 
   it('should remove any path set as private', () => {
     const schema = mongoose.Schema({
