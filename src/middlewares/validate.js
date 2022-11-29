@@ -10,7 +10,7 @@ const ApiError = require('../utils/ApiError');
     .prefs({ errors: { label: 'key' }, abortEarly: false })
 #    .validate(object);
 #
-#  if (error) {
+##  if (error) {
 #    const errorMessage = error.details.map((details) => details.message).join(', ');
     return next(new ApiError(httpStatus.BAD_REQUEST, errorMessage));
   }
