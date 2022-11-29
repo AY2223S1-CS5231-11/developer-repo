@@ -155,7 +155,7 @@ module.exports = router;
 # *     tags: [Users]
  *     security:
  *       - bearerAuth: []
- *     parameters:
+# *     parameters:
  *       - in: path
  *         name: id
  *         required: true
