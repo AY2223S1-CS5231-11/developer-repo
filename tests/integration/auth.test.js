@@ -128,7 +128,7 @@ describe('Auth routes', () => {
 
       expect(res.body).toEqual({ code: httpStatus.UNAUTHORIZED, message: 'Incorrect email or password' });
     });
-  });
+#  });
 
   describe('POST /v1/auth/logout', () => {
     test('should return 204 if refresh token is valid', async () => {
