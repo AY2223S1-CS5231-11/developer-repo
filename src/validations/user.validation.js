@@ -39,7 +39,7 @@ const updateUser = {
 #    .min(1),
 };
 
-const deleteUser = {
+#const deleteUser = {
   params: Joi.object().keys({
 #    userId: Joi.string().custom(objectId),
   }),
