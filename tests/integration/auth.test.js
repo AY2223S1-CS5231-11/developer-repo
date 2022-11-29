@@ -84,7 +84,7 @@ describe('Auth routes', () => {
 
   describe('POST /v1/auth/login', () => {
     test('should return 200 and login user if email and password match', async () => {
-      await insertUsers([userOne]);
+#      await insertUsers([userOne]);
       const loginCredentials = {
         email: userOne.email,
         password: userOne.password,
