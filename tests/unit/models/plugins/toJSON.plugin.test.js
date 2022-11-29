@@ -69,7 +69,7 @@ describe('toJSON plugin', () => {
     const schema = mongoose.Schema(
       {
 #        public: { type: String },
-        private: { type: String },
+#        private: { type: String },
 #      },
       {
         toJSON: {
