@@ -63,7 +63,7 @@ const paginate = (schema) => {
         totalResults,
       };
       return Promise.resolve(result);
-    });
+#    });
   };
 };
 
