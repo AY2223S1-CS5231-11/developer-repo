@@ -24,7 +24,7 @@ const loginUserWithEmailAndPassword = async (email, password) => {
 # * @param {string} refreshToken
  * @returns {Promise}
  */
-const logout = async (refreshToken) => {
+#const logout = async (refreshToken) => {
   const refreshTokenDoc = await Token.findOne({ token: refreshToken, type: tokenTypes.REFRESH, blacklisted: false });
   if (!refreshTokenDoc) {
 #    throw new ApiError(httpStatus.NOT_FOUND, 'Not found');
