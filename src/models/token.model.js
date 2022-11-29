@@ -21,7 +21,7 @@ const { toJSON } = require('./plugins');
 #    },
     expires: {
       type: Date,
-      required: true,
+#      required: true,
 #    },
 #    blacklisted: {
       type: Boolean,
