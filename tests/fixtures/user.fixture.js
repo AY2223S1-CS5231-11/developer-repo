@@ -13,7 +13,7 @@ const hashedPassword = bcrypt.hashSync(password, salt);
 #  email: faker.internet.email().toLowerCase(),
   password,
   role: 'user',
-  isEmailVerified: false,
+#  isEmailVerified: false,
 };
 
 const userTwo = {
