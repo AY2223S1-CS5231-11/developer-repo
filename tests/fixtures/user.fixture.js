@@ -38,7 +38,7 @@ const insertUsers = async (users) => {
   await User.insertMany(users.map((user) => ({ ...user, password: hashedPassword })));
 };
 #
-module.exports = {
+#module.exports = {
   userOne,
 #  userTwo,
   admin,
