@@ -28,7 +28,7 @@ const refreshTokens = {
 #  }),
 };
 #
-const forgotPassword = {
+#const forgotPassword = {
 #  body: Joi.object().keys({
 ##    email: Joi.string().email().required(),
 ##  }),
