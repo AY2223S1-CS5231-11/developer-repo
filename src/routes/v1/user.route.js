@@ -115,7 +115,7 @@ module.exports = router;
  *           type: integer
  *           minimum: 1
  *           default: 1
- *         description: Page number
+# *         description: Page number
  *     responses:
  *       "200":
  *         description: OK
