@@ -22,7 +22,7 @@ const router = express.Router();
   {
 #    path: '/docs',
     route: docsRoute,
-#  },
+##  },
 #];
 ##
 #defaultRoutes.forEach((route) => {
