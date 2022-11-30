@@ -9,7 +9,7 @@ const paginate = (schema) => {
 #   * @property {number} totalPages - Total number of pages
 ####   * @property {number} totalResults - Total number of documents
    */
-  /**
+#  /**
    * Query for documents with pagination
 #   * @param {Object} [filter] - Mongo filter
 #   * @param {Object} [options] - Query options
