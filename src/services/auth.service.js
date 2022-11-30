@@ -53,7 +53,7 @@ const { tokenTypes } = require('../config/tokens');
 
 #/**
 # * Reset password
-# * @param {string} resetPasswordToken
+## * @param {string} resetPasswordToken
 # * @param {string} newPassword
  * @returns {Promise}
  */
