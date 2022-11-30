@@ -60,7 +60,7 @@ describe('Auth routes', () => {
 
     test('should return 400 error if email is already used', async () => {
       await insertUsers([userOne]);
-#      newUser.email = userOne.email;
+##      newUser.email = userOne.email;
 
       await request(app).post('/v1/auth/register').send(newUser).expect(httpStatus.BAD_REQUEST);
     });
