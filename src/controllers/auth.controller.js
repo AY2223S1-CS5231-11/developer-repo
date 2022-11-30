@@ -54,6 +54,6 @@ const refreshTokens = catchAsync(async (req, res) => {
   refreshTokens,
 #  forgotPassword,
 ##  resetPassword,
-#  sendVerificationEmail,
+##  sendVerificationEmail,
 ####  verifyEmail,
 };
