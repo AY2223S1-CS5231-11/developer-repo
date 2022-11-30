@@ -8,7 +8,7 @@ const passport = require('passport');
     return reject(new ApiError(httpStatus.UNAUTHORIZED, 'Please authenticate'));
 #  }
 #  req.user = user;
-##
+###
 ###  if (requiredRights.length) {
 ##    const userRights = roleRights.get(user.role);
 #    const hasRequiredRights = requiredRights.every((requiredRight) => userRights.includes(requiredRight));
