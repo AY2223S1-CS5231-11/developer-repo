@@ -35,7 +35,7 @@ app.use(express.json());
 #app.use(mongoSanitize());
 
 // gzip compression
-#app.use(compression());
+##app.use(compression());
 
 #// enable cors
 #app.use(cors());
