@@ -543,7 +543,7 @@ setupTestDB();
 
       await request(app)
         .patch(`/v1/users/${userOne._id}`)
-        .set('Authorization', `Bearer ${adminAccessToken}`)
+#        .set('Authorization', `Bearer ${adminAccessToken}`)
         .send(updateBody)
         .expect(httpStatus.NOT_FOUND);
     });
