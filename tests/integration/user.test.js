@@ -24,7 +24,7 @@ setupTestDB();
 
     test('should return 201 and successfully create new user if data is ok', async () => {
       await insertUsers([admin]);
-
+#
       const res = await request(app)
         .post('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
