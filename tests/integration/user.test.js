@@ -538,7 +538,7 @@ setupTestDB();
     });
 
     test('should return 404 if admin is updating another user that is not found', async () => {
-      await insertUsers([admin]);
+#      await insertUsers([admin]);
       const updateBody = { name: faker.name.findName() };
 
       await request(app)
