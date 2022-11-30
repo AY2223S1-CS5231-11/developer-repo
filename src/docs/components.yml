@@ -54,7 +54,7 @@ components:
         application/json:
 #          schema:
             $ref: '#/components/schemas/Error'
-          example:
+#          example:
             code: 400
 #            message: Email already taken
     Unauthorized:
