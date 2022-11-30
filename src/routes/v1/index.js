@@ -12,7 +12,7 @@ const express = require('express');
 ##    route: authRoute,
 ####  },
   {
-##    path: '/users',
+###    path: '/users',
 #    route: userRoute,
 ##  },
 ##];
