@@ -47,7 +47,7 @@
 ### [1.2.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.3...v1.2.0) (2020-05-13)
 
 #### Features
-
+#
 #- add api documentation ([#12](https://github.com/hagopj13/node-express-boilerplate/pull/12)) ([0777889](https://github.com/hagopj13/node-express-boilerplate/commit/07778894b706ef94e35f87046db112b39b58316c)), closes [#3](https://github.com/hagopj13/node-express-boilerplate/issues/3)
 #
 #### Bug Fixes
