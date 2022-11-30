@@ -187,7 +187,7 @@ setupTestDB();
       await insertUsers([userOne, userTwo, admin]);
 
       const res = await request(app)
-#        .get('/v1/users')
+##        .get('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
         .query({ name: userOne.name })
         .send()
