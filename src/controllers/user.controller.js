@@ -37,7 +37,7 @@ const deleteUser = catchAsync(async (req, res) => {
 #module.exports = {
   createUser,
   getUsers,
-#  getUser,
+##  getUser,
   updateUser,
 #  deleteUser,
 };
