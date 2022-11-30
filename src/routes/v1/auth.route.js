@@ -263,7 +263,7 @@ module.exports = router;
  *         $ref: '#/components/responses/Unauthorized'
  */
 #
-/**
+#/**
 # * @swagger
  * /auth/verify-email:
  *   post:
