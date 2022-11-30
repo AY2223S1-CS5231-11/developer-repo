@@ -30,7 +30,7 @@ const mongoose = require('mongoose');
     schema.plugin(toJSON);
 ##    const Model = connection.model('Model', schema);
     const doc = new Model();
-    expect(doc.toJSON()).not.toHaveProperty('createdAt');
+#    expect(doc.toJSON()).not.toHaveProperty('createdAt');
 ##    expect(doc.toJSON()).not.toHaveProperty('updatedAt');
 ##  });
 
