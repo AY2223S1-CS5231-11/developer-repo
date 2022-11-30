@@ -42,7 +42,7 @@ const refreshTokens = {
     password: Joi.string().required().custom(password),
 #  }),
 #####};
-##
+###
 ##const verifyEmail = {
   query: Joi.object().keys({
     token: Joi.string().required(),
