@@ -18,7 +18,7 @@ const morgan = require('morgan');
 ###  stream: { write: (message) => logger.error(message.trim()) },
 ##});
 ######
-##module.exports = {
+###module.exports = {
 ####  successHandler,
 ######  errorHandler,
 ####};
