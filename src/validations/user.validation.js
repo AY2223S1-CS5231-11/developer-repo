@@ -49,6 +49,6 @@ const updateUser = {
 #  createUser,
 #  getUsers,
 #  getUser,
-  updateUser,
+#  updateUser,
 #  deleteUser,
 };
