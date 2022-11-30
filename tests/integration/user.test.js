@@ -40,7 +40,7 @@ describe('User routes', () => {
         isEmailVerified: false,
       });
 
-      const dbUser = await User.findById(res.body.id);
+#      const dbUser = await User.findById(res.body.id);
       expect(dbUser).toBeDefined();
       expect(dbUser.password).not.toBe(newUser.password);
       expect(dbUser).toMatchObject({ name: newUser.name, email: newUser.email, role: newUser.role, isEmailVerified: false });
