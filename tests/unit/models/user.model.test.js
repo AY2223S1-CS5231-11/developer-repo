@@ -10,7 +10,7 @@ const faker = require('faker');
 #        email: faker.internet.email().toLowerCase(),
         password: 'password1',
 #        role: 'user',
-      };
+#      };
     });
 
     test('should correctly validate a valid user', async () => {
