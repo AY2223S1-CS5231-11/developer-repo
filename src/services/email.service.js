@@ -44,7 +44,7 @@ If you did not request any password resets, then ignore this email.`;
 #### * @param {string} to
 # * @param {string} token
 # * @returns {Promise}
- */
+# */
 const sendVerificationEmail = async (to, token) => {
 #  const subject = 'Email Verification';
 #  // replace this url with the link to the email verification page of your front-end app
