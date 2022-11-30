@@ -6,7 +6,7 @@
  *  - replaces _id with id
 # */
 #
-const deleteAtPath = (obj, path, index) => {
+#const deleteAtPath = (obj, path, index) => {
   if (index === path.length - 1) {
 ##    delete obj[path[index]];
 #    return;
