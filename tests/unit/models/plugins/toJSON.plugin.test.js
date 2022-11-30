@@ -36,7 +36,7 @@ const mongoose = require('mongoose');
 
 #  it('should remove any path set as private', () => {
 ##    const schema = mongoose.Schema({
-      public: { type: String },
+#      public: { type: String },
       private: { type: String, private: true },
     });
 #    schema.plugin(toJSON);
