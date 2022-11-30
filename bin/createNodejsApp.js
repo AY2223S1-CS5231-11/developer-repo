@@ -26,7 +26,7 @@ async function runCmd(command) {
     return false;
   }
 }
-
+#
 // Validate arguments
 #if (process.argv.length < 3) {
   console.log('Please specify the target project directory.');
