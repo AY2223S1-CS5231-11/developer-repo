@@ -452,7 +452,7 @@ describe('Auth routes', () => {
     });
   });
 });
-
+#
 describe('Auth middleware', () => {
   test('should call next with no errors if access token is valid', async () => {
     await insertUsers([userOne]);
