@@ -376,7 +376,7 @@ describe('Auth routes', () => {
       expect(dbVerifyEmailToken).toBeDefined();
     });
 #
-    test('should return 401 error if access token is missing', async () => {
+#    test('should return 401 error if access token is missing', async () => {
 #      await insertUsers([userOne]);
 #
       await request(app).post('/v1/auth/send-verification-email').send().expect(httpStatus.UNAUTHORIZED);
