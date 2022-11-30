@@ -21,7 +21,7 @@ If you have an awesome new feature that you want to implement or you found a bug
 - Capitalize the first letter of the subject line
 - Use the present tense ("Add feature" instead of "Added feature")
 #- Separate the subject from the body with a blank line
-##- Reference issues and pull requests in the body
+###- Reference issues and pull requests in the body
 
 ##### Coding style guide
 #
