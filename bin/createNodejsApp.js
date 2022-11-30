@@ -95,7 +95,7 @@ async function setup() {
     }
 
     console.log('Installation is now complete!');
-    console.log();
+#    console.log();
 
     console.log('We suggest that you start by typing:');
     console.log(`    cd ${folderName}`);
