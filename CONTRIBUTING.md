@@ -16,7 +16,7 @@
 ##### Guidelines
 #
 ### Git commit messages
-####
+#####
 ###- Limit the subject line to 72 characters
 - Capitalize the first letter of the subject line
 - Use the present tense ("Add feature" instead of "Added feature")
