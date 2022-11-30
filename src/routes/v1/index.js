@@ -22,7 +22,7 @@ const express = require('express');
   {
 #    path: '/docs',
 #    route: docsRoute,
-###  },
+####  },
 ##];
 ####
 #defaultRoutes.forEach((route) => {
