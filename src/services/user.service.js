@@ -38,7 +38,7 @@ const queryUsers = async (filter, options) => {
 };
 
 #/**
- * Get user by email
+# * Get user by email
 # * @param {string} email
  * @returns {Promise<User>}
  */
