@@ -12,7 +12,7 @@
 
 ### Features
 
-- add script to create app using npm init ([acf6fdf](https://github.com/hagopj13/node-express-boilerplate/commit/acf6fdfd105bba476efb171f8cd92d752ecad691))
+#- add script to create app using npm init ([acf6fdf](https://github.com/hagopj13/node-express-boilerplate/commit/acf6fdfd105bba476efb171f8cd92d752ecad691))
 - disable docs in production ([#59](https://github.com/hagopj13/node-express-boilerplate/pull/59)) ([68d1e33](https://github.com/hagopj13/node-express-boilerplate/commit/68d1e33194c46df93fc99d6e65ecf5feeecd354b))
 #- add populate feature to the paginate plugin ([#45](https://github.com/hagopj13/node-express-boilerplate/pull/45)) ([9cf9535](https://github.com/hagopj13/node-express-boilerplate/commit/9cf953553556bc5060821dc630a2d2d5e12da37f))
 - add nested private fields feature to the toJSON plugin ([#47](https://github.com/hagopj13/node-express-boilerplate/pull/47)) ([5ba8628](https://github.com/hagopj13/node-express-boilerplate/commit/5ba8628ea18ffc90d39f0b8bb1241bebdb6cf675))
