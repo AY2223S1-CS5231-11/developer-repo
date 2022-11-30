@@ -12,4 +12,4 @@ FROM node:alpine
 ####
 ######COPY --chown=node:node . .
 #####
-######EXPOSE 3000
+#######EXPOSE 3000
