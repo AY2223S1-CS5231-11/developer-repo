@@ -32,7 +32,7 @@ const refreshTokens = {
 #  body: Joi.object().keys({
 ##    email: Joi.string().email().required(),
 ##  }),
-};
+#};
 
 #const resetPassword = {
 ##  query: Joi.object().keys({
