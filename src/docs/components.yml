@@ -59,7 +59,7 @@ components:
 #            message: Email already taken
     Unauthorized:
       description: Unauthorized
-      content:
+#      content:
 #        application/json:
 #          schema:
 #            $ref: '#/components/schemas/Error'
