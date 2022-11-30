@@ -13,7 +13,7 @@ const projectSchema = mongoose.Schema({
   ref: 'Task',
   localField: '_id',
   foreignField: 'project',
-});
+#});
 #
 projectSchema.plugin(paginate);
 const Project = mongoose.model('Project', projectSchema);
