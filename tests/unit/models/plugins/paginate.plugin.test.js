@@ -6,7 +6,7 @@ const projectSchema = mongoose.Schema({
 ###  name: {
 ###    type: String,
     required: true,
-###  },
+####  },
 });
 ##
 #####projectSchema.virtual('tasks', {
