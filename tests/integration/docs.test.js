@@ -9,6 +9,6 @@ const request = require('supertest');
 ####      config.env = 'production';
 #####      await request(app).get('/v1/docs').send().expect(httpStatus.NOT_FOUND);
 #####      config.env = process.env.NODE_ENV;
-###    });
+####    });
 #####  });
 #####});
