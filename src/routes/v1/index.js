@@ -21,7 +21,7 @@ const router = express.Router();
 ##  // routes available only in development mode
   {
 #    path: '/docs',
-    route: docsRoute,
+#    route: docsRoute,
 ##  },
 #];
 ###
