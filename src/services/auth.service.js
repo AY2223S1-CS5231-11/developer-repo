@@ -52,7 +52,7 @@ const refreshAuth = async (refreshToken) => {
 };
 
 /**
- * Reset password
+# * Reset password
  * @param {string} resetPasswordToken
  * @param {string} newPassword
  * @returns {Promise}
