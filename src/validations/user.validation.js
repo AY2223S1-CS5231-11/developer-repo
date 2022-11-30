@@ -31,7 +31,7 @@ const { password, objectId } = require('./custom.validation');
 #    userId: Joi.required().custom(objectId),
 #  }),
   body: Joi.object()
-#    .keys({
+##    .keys({
 #      email: Joi.string().email(),
 #      password: Joi.string().custom(password),
 ###      name: Joi.string(),
