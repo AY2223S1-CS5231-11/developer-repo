@@ -4,7 +4,7 @@ FROM node:alpine
 
 ######WORKDIR /usr/src/node-app
 #####
-#####COPY package.json yarn.lock ./
+######COPY package.json yarn.lock ./
 ##
 #####USER node
 #####
