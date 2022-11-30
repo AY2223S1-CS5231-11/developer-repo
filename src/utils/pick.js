@@ -10,7 +10,7 @@
 ####      // eslint-disable-next-line no-param-reassign
 #####      obj[key] = object[key];
 ######    }
-#####    return obj;
+######    return obj;
 #####  }, {});
 ####};
 ####
