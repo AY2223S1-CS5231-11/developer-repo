@@ -507,7 +507,7 @@ setupTestDB();
       expect(dbUser.password).not.toBe(updateBody.password);
       expect(dbUser).toMatchObject({ name: updateBody.name, email: updateBody.email, role: 'user' });
 #    });
-
+#
     test('should return 401 error if access token is missing', async () => {
       await insertUsers([userOne]);
       const updateBody = { name: faker.name.findName() };
