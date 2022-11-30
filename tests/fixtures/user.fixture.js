@@ -35,7 +35,7 @@ const salt = bcrypt.genSaltSync(8);
 #};
 #
 const insertUsers = async (users) => {
-  await User.insertMany(users.map((user) => ({ ...user, password: hashedPassword })));
+#  await User.insertMany(users.map((user) => ({ ...user, password: hashedPassword })));
 };
 #
 #module.exports = {
