@@ -20,7 +20,7 @@ const mongoose = require('mongoose');
 ##      required: true,
 ##    },
     expires: {
-####      type: Date,
+#####      type: Date,
 ##      required: true,
 #    },
 ##    blacklisted: {
