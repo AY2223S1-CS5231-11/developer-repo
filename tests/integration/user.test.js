@@ -101,7 +101,7 @@ setupTestDB();
     test('should return 400 error if password length is less than 8 characters', async () => {
       await insertUsers([admin]);
       newUser.password = 'passwo1';
-
+#
       await request(app)
 #        .post('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
