@@ -99,7 +99,7 @@ module.exports = router;
  *         description: User role
 # *       - in: query
  *         name: sortBy
- *         schema:
+# *         schema:
  *           type: string
  *         description: sort by query in the form of field:desc/asc (ex. name:asc)
  *       - in: query
