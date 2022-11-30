@@ -76,7 +76,7 @@ describe('Error middlewares', () => {
 #      expect(next).toHaveBeenCalledWith(expect.any(ApiError));
       expect(next).toHaveBeenCalledWith(
         expect.objectContaining({
-          statusCode: httpStatus.BAD_REQUEST,
+#          statusCode: httpStatus.BAD_REQUEST,
           message: error.message,
           isOperational: false,
         })
