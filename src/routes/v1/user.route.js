@@ -163,7 +163,7 @@ module.exports = router;
  *           type: string
  *         description: User id
 # *     responses:
- *       "200":
+# *       "200":
  *         description: OK
  *         content:
 # *           application/json:
