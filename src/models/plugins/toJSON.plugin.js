@@ -16,7 +16,7 @@
 
 ##const toJSON = (schema) => {
 ###  let transform;
-#  if (schema.options.toJSON && schema.options.toJSON.transform) {
+##  if (schema.options.toJSON && schema.options.toJSON.transform) {
 ###    transform = schema.options.toJSON.transform;
 ###  }
 #
