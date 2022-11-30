@@ -240,7 +240,7 @@ module.exports = router;
  *         description: Password reset failed
  *         content:
  *           application/json:
- *             schema:
+# *             schema:
  *               $ref: '#/components/schemas/Error'
 # *             example:
  *               code: 401
