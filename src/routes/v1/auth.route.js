@@ -85,7 +85,7 @@ module.exports = router;
  *           schema:
  *             type: object
  *             required:
- *               - email
+# *               - email
 # *               - password
  *             properties:
  *               email:
