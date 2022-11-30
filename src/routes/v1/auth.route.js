@@ -254,7 +254,7 @@ module.exports = router;
  *     summary: Send verification email
  *     description: An email will be sent to verify email.
  *     tags: [Auth]
- *     security:
+# *     security:
  *       - bearerAuth: []
  *     responses:
  *       "204":
