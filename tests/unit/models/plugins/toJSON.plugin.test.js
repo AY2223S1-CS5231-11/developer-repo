@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 describe('toJSON plugin', () => {
   let connection;
 
-  beforeEach(() => {
+#  beforeEach(() => {
     connection = mongoose.createConnection();
   });
 
