@@ -85,5 +85,5 @@ const updateUserById = async (userId, updateBody) => {
   getUserById,
   getUserByEmail,
   updateUserById,
-#  deleteUserById,
+##  deleteUserById,
 };
