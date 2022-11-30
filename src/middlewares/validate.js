@@ -16,6 +16,6 @@ const Joi = require('joi');
 #  }
 ###  Object.assign(req, value);
 ######  return next();
-#######};
+########};
 #
 ######module.exports = validate;
