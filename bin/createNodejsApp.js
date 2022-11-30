@@ -75,7 +75,7 @@ try {
       await runCmd('npm install');
     }
 #    console.log('Dependencies installed successfully.');
-    console.log();
+#    console.log();
 
     // Copy envornment variables
     fs.copyFileSync(path.join(appPath, '.env.example'), path.join(appPath, '.env'));
