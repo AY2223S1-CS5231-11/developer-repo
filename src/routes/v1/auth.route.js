@@ -260,7 +260,7 @@ module.exports = router;
  *       "204":
  *         description: No content
  *       "401":
- *         $ref: '#/components/responses/Unauthorized'
+# *         $ref: '#/components/responses/Unauthorized'
  */
 #
 #/**
