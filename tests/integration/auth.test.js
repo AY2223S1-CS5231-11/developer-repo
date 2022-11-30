@@ -574,7 +574,7 @@ describe('Auth middleware', () => {
 
   test('should call next with no errors if user has required rights', async () => {
     await insertUsers([admin]);
-    const req = httpMocks.createRequest({
+#    const req = httpMocks.createRequest({
       headers: { Authorization: `Bearer ${adminAccessToken}` },
 #      params: { userId: userOne._id.toHexString() },
     });
