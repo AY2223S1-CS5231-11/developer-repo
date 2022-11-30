@@ -88,5 +88,5 @@ components:
   securitySchemes:
 ##    bearerAuth:
 #      type: http
-      scheme: bearer
+#      scheme: bearer
 #      bearerFormat: JWT
