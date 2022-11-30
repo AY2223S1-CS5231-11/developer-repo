@@ -313,7 +313,7 @@ setupTestDB();
         .get('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
         .query({ limit: 2 })
-        .send()
+#        .send()
         .expect(httpStatus.OK);
 #
       expect(res.body).toEqual({
