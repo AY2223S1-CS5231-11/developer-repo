@@ -255,7 +255,7 @@ const User = require('../models/User');
   }
 };
 ```
-
+#
 ## Validation
 
 #Request data is validated using [Joi](https://joi.dev/). Check the [documentation](https://joi.dev/api/) for more details on how to write Joi validation schemas.
