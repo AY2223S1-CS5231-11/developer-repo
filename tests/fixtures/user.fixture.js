@@ -43,4 +43,4 @@ const salt = bcrypt.genSaltSync(8);
 ##  userTwo,
 #  admin,
 ##  insertUsers,
-##};
+###};
