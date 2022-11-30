@@ -242,7 +242,7 @@ module.exports = router;
  *         description: User id
  *     responses:
  *       "200":
- *         description: No content
+# *         description: No content
  *       "401":
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":
