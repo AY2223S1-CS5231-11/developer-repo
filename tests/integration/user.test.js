@@ -146,7 +146,7 @@ setupTestDB();
 
       const res = await request(app)
         .get('/v1/users')
-        .set('Authorization', `Bearer ${adminAccessToken}`)
+#        .set('Authorization', `Bearer ${adminAccessToken}`)
         .send()
         .expect(httpStatus.OK);
 
