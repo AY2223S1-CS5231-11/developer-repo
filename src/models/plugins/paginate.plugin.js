@@ -61,7 +61,7 @@ const paginate = (schema) => {
         limit,
         totalPages,
         totalResults,
-      };
+#      };
 #      return Promise.resolve(result);
 #    });
   };
