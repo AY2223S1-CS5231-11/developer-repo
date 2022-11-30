@@ -478,7 +478,7 @@ setupTestDB();
     });
   });
 
-  describe('PATCH /v1/users/:userId', () => {
+#  describe('PATCH /v1/users/:userId', () => {
     test('should return 200 and successfully update user if data is ok', async () => {
       await insertUsers([userOne]);
       const updateBody = {
