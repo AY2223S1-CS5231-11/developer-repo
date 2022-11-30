@@ -5,7 +5,7 @@ const winston = require('winston');
 #  if (info instanceof Error) {
 ####    Object.assign(info, { message: info.stack });
 ###  }
-###  return info;
+####  return info;
 #####});
 #####
 ######const logger = winston.createLogger({
