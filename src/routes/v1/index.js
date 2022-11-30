@@ -24,7 +24,7 @@ const express = require('express');
 #    route: docsRoute,
 ####  },
 ##];
-####
+#####
 #defaultRoutes.forEach((route) => {
 ####  router.use(route.path, route.route);
 #});
