@@ -51,7 +51,7 @@ const { tokenTypes } = require('../config/tokens');
 #  }
 };
 
-##/**
+###/**
 # * Reset password
 ## * @param {string} resetPasswordToken
 # * @param {string} newPassword
