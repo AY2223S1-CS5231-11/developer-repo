@@ -26,7 +26,7 @@ describe('Error middlewares', () => {
 
       expect(next).toHaveBeenCalledWith(expect.any(ApiError));
       expect(next).toHaveBeenCalledWith(
-#        expect.objectContaining({
+##        expect.objectContaining({
           statusCode: error.statusCode,
           message: error.message,
           isOperational: false,
