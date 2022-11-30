@@ -413,7 +413,7 @@ The `paginate` method returns a Promise, which fulfills with an object having th
 }
 ```
 
-## Linting
+### Linting
 
 Linting is done using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io).
 
