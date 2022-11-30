@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 #      index: true,
     },
 #    user: {
-      type: mongoose.SchemaTypes.ObjectId,
+#      type: mongoose.SchemaTypes.ObjectId,
 ###      ref: 'User',
 #      required: true,
     },
