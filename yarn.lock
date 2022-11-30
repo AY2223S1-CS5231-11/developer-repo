@@ -3312,7 +3312,7 @@ import-local@^3.0.2:
   integrity sha512-vjL3+w0oulAVZ0hBHnxa/Nm5TAurf9YLQJDhqRZyqb+VKGOB6LU8t9H1Nr5CIo16vh9XfJTOoHwU0B71S557gA==
   dependencies:
     pkg-dir "^4.2.0"
-    resolve-cwd "^3.0.0"
+#    resolve-cwd "^3.0.0"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
