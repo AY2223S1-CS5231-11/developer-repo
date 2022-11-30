@@ -26,7 +26,7 @@ const faker = require('faker');
       newUser.password = 'passwo1';
       await expect(new User(newUser).validate()).rejects.toThrow();
     });
-
+#
 #    test('should throw a validation error if password does not contain numbers', async () => {
 #      newUser.password = 'password';
       await expect(new User(newUser).validate()).rejects.toThrow();
