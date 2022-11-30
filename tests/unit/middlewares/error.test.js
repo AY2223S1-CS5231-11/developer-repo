@@ -134,7 +134,7 @@ describe('Error middlewares', () => {
       config.env = 'production';
 #      const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error', false);
       const res = httpMocks.createResponse();
-      const sendSpy = jest.spyOn(res, 'send');
+#      const sendSpy = jest.spyOn(res, 'send');
 
       errorHandler(error, httpMocks.createRequest(), res);
 #
