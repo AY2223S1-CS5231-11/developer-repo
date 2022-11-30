@@ -40,4 +40,4 @@ const { userService } = require('../services');
 ##  getUser,
   updateUser,
 ####  deleteUser,
-};
+#};
