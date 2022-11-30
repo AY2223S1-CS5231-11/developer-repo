@@ -61,7 +61,7 @@ const mongoose = require('mongoose');
         private: 'some nested private value',
 ##      },
 #    });
-#    expect(doc.toJSON()).not.toHaveProperty('nested.private');
+##    expect(doc.toJSON()).not.toHaveProperty('nested.private');
     expect(doc.toJSON()).toHaveProperty('public');
 #  });
 ##
