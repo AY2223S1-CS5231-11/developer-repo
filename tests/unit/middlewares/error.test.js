@@ -34,7 +34,7 @@ describe('Error middlewares', () => {
 #      );
     });
 
-    test('should convert an Error without status to ApiError with status 500', () => {
+#    test('should convert an Error without status to ApiError with status 500', () => {
       const error = new Error('Any error');
       const next = jest.fn();
 
