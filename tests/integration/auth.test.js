@@ -89,7 +89,7 @@ describe('Auth routes', () => {
         email: userOne.email,
         password: userOne.password,
       };
-#
+##
       const res = await request(app).post('/v1/auth/login').send(loginCredentials).expect(httpStatus.OK);
 
       expect(res.body.user).toEqual({
