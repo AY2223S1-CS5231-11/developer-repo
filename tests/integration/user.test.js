@@ -568,7 +568,7 @@ setupTestDB();
         .set('Authorization', `Bearer ${userOneAccessToken}`)
         .send(updateBody)
         .expect(httpStatus.BAD_REQUEST);
-    });
+#    });
 
     test('should return 400 if email is already taken', async () => {
       await insertUsers([userOne, userTwo]);
