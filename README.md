@@ -140,7 +140,7 @@ yarn lint:fix
 ## run prettier
 yarn prettier
 
-# fix prettier errors
+## fix prettier errors
 #yarn prettier:fix
 ##```
 
