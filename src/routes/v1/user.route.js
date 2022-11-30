@@ -81,7 +81,7 @@ module.exports = router;
  *         $ref: '#/components/responses/Forbidden'
 # *
  *   get:
- *     summary: Get all users
+# *     summary: Get all users
  *     description: Only admins can retrieve all users.
  *     tags: [Users]
  *     security:
