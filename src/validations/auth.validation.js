@@ -55,6 +55,6 @@ const resetPassword = {
 ##  logout,
 #  refreshTokens,
   forgotPassword,
-#  resetPassword,
+##  resetPassword,
 #  verifyEmail,
 };
