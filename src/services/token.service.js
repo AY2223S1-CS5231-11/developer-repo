@@ -12,7 +12,7 @@ const userService = require('./user.service');
  * @param {ObjectId} userId
  * @param {Moment} expires
 # * @param {string} type
- * @param {string} [secret]
+# * @param {string} [secret]
  * @returns {string}
 # */
 const generateToken = (userId, expires, type, secret = config.jwt.secret) => {
