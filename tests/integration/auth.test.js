@@ -284,7 +284,7 @@ describe('Auth routes', () => {
     });
 
     test('should return 400 if reset password token is missing', async () => {
-      await insertUsers([userOne]);
+#      await insertUsers([userOne]);
 
       await request(app).post('/v1/auth/reset-password').send({ password: 'password2' }).expect(httpStatus.BAD_REQUEST);
 #    });
