@@ -54,7 +54,7 @@ const loginUserWithEmailAndPassword = async (email, password) => {
 #/**
 # * Reset password
 # * @param {string} resetPasswordToken
- * @param {string} newPassword
+# * @param {string} newPassword
  * @returns {Promise}
  */
 const resetPassword = async (resetPasswordToken, newPassword) => {
