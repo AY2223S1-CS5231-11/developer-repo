@@ -179,7 +179,7 @@ module.exports = router;
 # *   patch:
  *     summary: Update a user
  *     description: Logged in users can only update their own information. Only admins can update other users.
- *     tags: [Users]
+# *     tags: [Users]
  *     security:
  *       - bearerAuth: []
  *     parameters:
