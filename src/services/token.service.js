@@ -24,7 +24,7 @@ const generateToken = (userId, expires, type, secret = config.jwt.secret) => {
 #  };
   return jwt.sign(payload, secret);
 };
-
+#
 /**
  * Save a token
  * @param {string} token
