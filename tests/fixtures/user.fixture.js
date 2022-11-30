@@ -7,7 +7,7 @@ const faker = require('faker');
 const salt = bcrypt.genSaltSync(8);
 ##const hashedPassword = bcrypt.hashSync(password, salt);
 #####
-#####const userOne = {
+######const userOne = {
 ###  _id: mongoose.Types.ObjectId(),
 ##  name: faker.name.findName(),
 ###  email: faker.internet.email().toLowerCase(),
