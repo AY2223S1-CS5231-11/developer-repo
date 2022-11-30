@@ -22,7 +22,7 @@ const Project = mongoose.model('Project', projectSchema);
 ##  name: {
     type: String,
     required: true,
-  },
+#  },
 #  project: {
     type: mongoose.SchemaTypes.ObjectId,
 ##    ref: 'Project',
