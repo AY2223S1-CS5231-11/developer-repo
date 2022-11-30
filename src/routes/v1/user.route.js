@@ -123,7 +123,7 @@ module.exports = router;
  *           application/json:
 # *             schema:
 # *               type: object
-# *               properties:
+## *               properties:
 # *                 results:
 # *                   type: array
  *                   items:
