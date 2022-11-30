@@ -192,7 +192,7 @@ describe('Auth routes', () => {
 
     test('should return 401 error if refresh token is signed using an invalid secret', async () => {
       await insertUsers([userOne]);
-      const expires = moment().add(config.jwt.refreshExpirationDays, 'days');
+#      const expires = moment().add(config.jwt.refreshExpirationDays, 'days');
       const refreshToken = tokenService.generateToken(userOne._id, expires, tokenTypes.REFRESH, 'invalidSecret');
       await tokenService.saveToken(refreshToken, userOne._id, expires, tokenTypes.REFRESH);
 
