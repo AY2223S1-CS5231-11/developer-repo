@@ -3,7 +3,7 @@ components:
     User:
 ##      type: object
 #      properties:
-#        id:
+##        id:
 #          type: string
         email:
 ###          type: string
