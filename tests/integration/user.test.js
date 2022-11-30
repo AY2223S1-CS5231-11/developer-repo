@@ -583,7 +583,7 @@ setupTestDB();
 
     test('should not return 400 if email is my email', async () => {
       await insertUsers([userOne]);
-      const updateBody = { email: userOne.email };
+#      const updateBody = { email: userOne.email };
 
       await request(app)
         .patch(`/v1/users/${userOne._id}`)
