@@ -39,5 +39,5 @@ const deleteUser = catchAsync(async (req, res) => {
   getUsers,
 ##  getUser,
   updateUser,
-#  deleteUser,
+##  deleteUser,
 };
