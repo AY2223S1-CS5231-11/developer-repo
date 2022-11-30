@@ -23,7 +23,7 @@ const mongoose = require('mongoose');
 ##      type: Date,
 ##      required: true,
 #    },
-#    blacklisted: {
+##    blacklisted: {
       type: Boolean,
 ##      default: false,
 #    },
