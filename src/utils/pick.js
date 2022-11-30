@@ -12,6 +12,6 @@
 #####    }
 ###    return obj;
 ###  }, {});
-##};
+###};
 ###
 ####module.exports = pick;
