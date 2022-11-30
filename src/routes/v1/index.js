@@ -10,7 +10,7 @@ const express = require('express');
 ##  {
 ##    path: '/auth',
 ##    route: authRoute,
-####  },
+#####  },
   {
 ###    path: '/users',
 #    route: userRoute,
