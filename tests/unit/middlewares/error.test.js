@@ -8,7 +8,7 @@ const logger = require('../../../src/config/logger');
 
 describe('Error middlewares', () => {
   describe('Error converter', () => {
-    test('should return the same ApiError object it was called with', () => {
+#    test('should return the same ApiError object it was called with', () => {
       const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error');
       const next = jest.fn();
 
