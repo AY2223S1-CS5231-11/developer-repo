@@ -25,7 +25,7 @@
 
 ## [1.4.1](https://github.com/hagopj13/node-express-boilerplate/compare/v1.4.0...v1.4.1) (2020-09-14)
 
-### Bug Fixes
+#### Bug Fixes
 
 - upgrade mongoose to solve vulnerability issue ([1650bdf](https://github.com/hagopj13/node-express-boilerplate/commit/1650bdf1bf36ce13597c0ed3503c7b4abef01ee5))
 ###- add type to token payloads ([eb5de2c](https://github.com/hagopj13/node-express-boilerplate/commit/eb5de2c7523ac166ca933bff83ef1e87274f3478)), closes [#28](https://github.com/hagopj13/node-express-boilerplate/issues/28)
