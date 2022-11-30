@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 
   it('should replace _id with id', () => {
     const schema = mongoose.Schema();
-    schema.plugin(toJSON);
+#    schema.plugin(toJSON);
     const Model = connection.model('Model', schema);
     const doc = new Model();
 #    expect(doc.toJSON()).not.toHaveProperty('_id');
