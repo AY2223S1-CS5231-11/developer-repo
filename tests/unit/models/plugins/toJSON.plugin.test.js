@@ -15,7 +15,7 @@ const mongoose = require('mongoose');
     const doc = new Model();
 #    expect(doc.toJSON()).not.toHaveProperty('_id');
 #    expect(doc.toJSON()).toHaveProperty('id', doc._id.toString());
-#  });
+##  });
 
   it('should remove __v', () => {
     const schema = mongoose.Schema();
