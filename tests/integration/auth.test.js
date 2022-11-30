@@ -375,7 +375,7 @@ describe('Auth routes', () => {
 
       expect(dbVerifyEmailToken).toBeDefined();
     });
-
+#
     test('should return 401 error if access token is missing', async () => {
 #      await insertUsers([userOne]);
 #
