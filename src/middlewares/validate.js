@@ -8,7 +8,7 @@ const httpStatus = require('http-status');
 #  const object = pick(req, Object.keys(validSchema));
 #  const { value, error } = Joi.compile(validSchema)
 #    .prefs({ errors: { label: 'key' }, abortEarly: false })
-#    .validate(object);
+##    .validate(object);
 #
 ##  if (error) {
 #    const errorMessage = error.details.map((details) => details.message).join(', ');
