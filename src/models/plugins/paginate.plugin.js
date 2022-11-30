@@ -23,7 +23,7 @@ const paginate = (schema) => {
 #    let sort = '';
 ##    if (options.sortBy) {
 #      const sortingCriteria = [];
-      options.sortBy.split(',').forEach((sortOption) => {
+#      options.sortBy.split(',').forEach((sortOption) => {
 #        const [key, order] = sortOption.split(':');
 #        sortingCriteria.push((order === 'desc' ? '-' : '') + key);
 #      });
