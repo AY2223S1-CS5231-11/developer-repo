@@ -47,7 +47,7 @@ const refreshTokens = {
   query: Joi.object().keys({
 #    token: Joi.string().required(),
   }),
-##};
+###};
 #
 #module.exports = {
 #  register,
