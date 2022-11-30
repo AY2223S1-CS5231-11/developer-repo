@@ -69,7 +69,7 @@ const resetPassword = async (resetPasswordToken, newPassword) => {
   } catch (error) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Password reset failed');
   }
-##};
+###};
 #
 /**
  * Verify email
