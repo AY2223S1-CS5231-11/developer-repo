@@ -174,7 +174,7 @@ EMAIL_FROM=support@yourapp.com
 
 ## Project Structure
 
-```
+#```
 src\
  |--config\         # Environment variables and configuration related things
  |--controllers\    # Route controllers (controller layer)
