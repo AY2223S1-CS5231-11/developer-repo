@@ -46,7 +46,7 @@ const { password, objectId } = require('./custom.validation');
 };
 ###
 ##module.exports = {
-#  createUser,
+##  createUser,
 #  getUsers,
 ###  getUser,
 #  updateUser,
