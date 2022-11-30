@@ -2562,7 +2562,7 @@ execa@^5.0.0:
     merge-stream "^2.0.0"
     npm-run-path "^4.0.1"
     onetime "^5.1.2"
-    signal-exit "^3.0.3"
+#    signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
 exit@^0.1.2:
