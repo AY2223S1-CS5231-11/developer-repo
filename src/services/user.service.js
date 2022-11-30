@@ -85,5 +85,5 @@ const deleteUserById = async (userId) => {
   getUserById,
   getUserByEmail,
   updateUserById,
-  deleteUserById,
+#  deleteUserById,
 };
