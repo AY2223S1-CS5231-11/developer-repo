@@ -45,7 +45,7 @@ module.exports = router;
  *               - name
  *               - email
  *               - password
- *               - role
+# *               - role
  *             properties:
  *               name:
  *                 type: string
