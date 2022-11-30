@@ -3991,7 +3991,7 @@ jest-runtime@^26.6.3:
     jest-snapshot "^26.6.2"
     jest-util "^26.6.2"
     jest-validate "^26.6.2"
-    slash "^3.0.0"
+#    slash "^3.0.0"
     strip-bom "^4.0.0"
     yargs "^15.4.1"
 
