@@ -18,7 +18,7 @@ const mongoose = require('mongoose');
 ##  });
 
   it('should remove __v', () => {
-    const schema = mongoose.Schema();
+#    const schema = mongoose.Schema();
     schema.plugin(toJSON);
     const Model = connection.model('Model', schema);
 ##    const doc = new Model();
