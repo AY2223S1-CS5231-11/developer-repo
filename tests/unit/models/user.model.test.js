@@ -17,7 +17,7 @@ const faker = require('faker');
 ###      await expect(new User(newUser).validate()).resolves.toBeUndefined();
 #    });
 ##
-#    test('should throw a validation error if email is invalid', async () => {
+##    test('should throw a validation error if email is invalid', async () => {
 #      newUser.email = 'invalidEmail';
 ##      await expect(new User(newUser).validate()).rejects.toThrow();
 #    });
