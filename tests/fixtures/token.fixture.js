@@ -9,6 +9,6 @@ const { userOne, admin } = require('./user.fixture');
 ###const adminAccessToken = tokenService.generateToken(admin._id, accessTokenExpires, tokenTypes.ACCESS);
 #######
 ##module.exports = {
-###  userOneAccessToken,
+####  userOneAccessToken,
 ##  adminAccessToken,
 ##};
