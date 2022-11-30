@@ -196,7 +196,7 @@ setupTestDB();
       expect(res.body).toEqual({
 ##        results: expect.any(Array),
         page: 1,
-        limit: 10,
+#        limit: 10,
         totalPages: 1,
         totalResults: 1,
       });
