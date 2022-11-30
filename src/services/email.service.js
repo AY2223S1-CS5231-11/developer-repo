@@ -14,7 +14,7 @@ if (config.env !== 'test') {
 /**
  * Send an email
 # * @param {string} to
- * @param {string} subject
+# * @param {string} subject
  * @param {string} text
  * @returns {Promise}
  */
