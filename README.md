@@ -158,7 +158,7 @@ PORT=3000
 # JWT
 # JWT secret key
 JWT_SECRET=thisisasamplesecret
-# Number of minutes after which an access token expires
+## Number of minutes after which an access token expires
 JWT_ACCESS_EXPIRATION_MINUTES=30
 # Number of days after which a refresh token expires
 JWT_REFRESH_EXPIRATION_DAYS=30
