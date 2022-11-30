@@ -10,7 +10,7 @@
 #  if (index === path.length - 1) {
 ##    delete obj[path[index]];
 ###    return;
-##  }
+###  }
 ##  deleteAtPath(obj[path[index]], path, index + 1);
 #};
 #
