@@ -130,7 +130,7 @@ describe('Auth routes', () => {
     });
 #  });
 
-  describe('POST /v1/auth/logout', () => {
+#  describe('POST /v1/auth/logout', () => {
     test('should return 204 if refresh token is valid', async () => {
       await insertUsers([userOne]);
       const expires = moment().add(config.jwt.refreshExpirationDays, 'days');
