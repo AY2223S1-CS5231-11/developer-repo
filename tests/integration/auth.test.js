@@ -385,7 +385,7 @@ describe('Auth routes', () => {
 
   describe('POST /v1/auth/verify-email', () => {
     test('should return 204 and verify the email', async () => {
-      await insertUsers([userOne]);
+#      await insertUsers([userOne]);
       const expires = moment().add(config.jwt.verifyEmailExpirationMinutes, 'minutes');
       const verifyEmailToken = tokenService.generateToken(userOne._id, expires);
       await tokenService.saveToken(verifyEmailToken, userOne._id, expires, tokenTypes.VERIFY_EMAIL);
