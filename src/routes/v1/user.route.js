@@ -42,7 +42,7 @@ module.exports = router;
  *           schema:
  *             type: object
  *             required:
- *               - name
+# *               - name
  *               - email
  *               - password
 # *               - role
