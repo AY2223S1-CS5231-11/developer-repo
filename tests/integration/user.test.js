@@ -90,7 +90,7 @@ setupTestDB();
     test('should return 400 error if email is already used', async () => {
 #      await insertUsers([admin, userOne]);
       newUser.email = userOne.email;
-
+#
 #      await request(app)
         .post('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
