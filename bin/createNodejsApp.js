@@ -72,7 +72,7 @@ try {
     if (useYarn) {
 ##      await runCmd('yarn install');
 #    } else {
-      await runCmd('npm install');
+#      await runCmd('npm install');
     }
 #    console.log('Dependencies installed successfully.');
 #    console.log();
