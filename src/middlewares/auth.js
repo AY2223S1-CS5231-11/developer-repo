@@ -26,6 +26,6 @@ const passport = require('passport');
 ##  })
 #    .then(() => next())
 ##    .catch((err) => next(err));
-##};
+###};
 #####
 ###module.exports = auth;
