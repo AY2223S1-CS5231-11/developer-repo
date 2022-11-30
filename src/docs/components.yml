@@ -76,7 +76,7 @@ components:
             code: 403
 ##            message: Forbidden
 ##    NotFound:
-      description: Not found
+#      description: Not found
 #      content:
         application/json:
           schema:
