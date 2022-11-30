@@ -2,7 +2,7 @@
 #const util = require('util');
 ##const path = require('path');
 #const fs = require('fs');
-const { execSync } = require('child_process');
+#const { execSync } = require('child_process');
 
 // Utility functions
 ##const exec = util.promisify(require('child_process').exec);
