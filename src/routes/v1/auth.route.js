@@ -268,7 +268,7 @@ module.exports = router;
  * /auth/verify-email:
  *   post:
  *     summary: verify email
-# *     tags: [Auth]
+## *     tags: [Auth]
  *     parameters:
  *       - in: query
  *         name: token
