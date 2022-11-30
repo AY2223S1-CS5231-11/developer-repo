@@ -17,7 +17,7 @@ const winston = require('winston');
 ###    winston.format.printf(({ level, message }) => `${level}: ${message}`)
 ######  ),
 ######  transports: [
-###    new winston.transports.Console({
+####    new winston.transports.Console({
 ###      stderrLevels: ['error'],
 #########    }),
 #####  ],
