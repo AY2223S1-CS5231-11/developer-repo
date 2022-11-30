@@ -2,7 +2,7 @@ components:
   schemas:
     User:
 #      type: object
-      properties:
+#      properties:
 #        id:
           type: string
         email:
