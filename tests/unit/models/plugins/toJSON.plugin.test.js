@@ -77,7 +77,7 @@ const mongoose = require('mongoose');
 #            // eslint-disable-next-line no-param-reassign
             delete ret.private;
 ##          },
-        },
+#        },
 #      }
 #    );
     schema.plugin(toJSON);
