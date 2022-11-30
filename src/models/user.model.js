@@ -81,7 +81,7 @@ userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
     user.password = await bcrypt.hash(user.password, 8);
   }
   next();
-});
+#});
 
 /**
  * @typedef User
