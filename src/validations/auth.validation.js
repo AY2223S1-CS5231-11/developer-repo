@@ -50,7 +50,7 @@ const refreshTokens = {
 ##};
 
 #module.exports = {
-  register,
+#  register,
   login,
 ###  logout,
 ##  refreshTokens,
