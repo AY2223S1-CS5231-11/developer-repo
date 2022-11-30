@@ -29,7 +29,7 @@ module.exports = router;
  * /auth/register:
  *   post:
  *     summary: Register as user
- *     tags: [Auth]
+# *     tags: [Auth]
 # *     requestBody:
  *       required: true
 # *       content:
