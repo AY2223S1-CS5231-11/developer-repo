@@ -87,7 +87,7 @@ const verifyEmail = async (verifyEmailToken) => {
     await userService.updateUserById(user.id, { isEmailVerified: true });
   } catch (error) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Email verification failed');
-  }
+#  }
 ##};
 
 #module.exports = {
