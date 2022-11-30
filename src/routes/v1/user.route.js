@@ -26,7 +26,7 @@ module.exports = router;
  *   description: User management and retrieval
  */
 
-/**
+#/**
 # * @swagger
  * /users:
 # *   post:
