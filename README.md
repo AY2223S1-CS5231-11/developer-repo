@@ -316,7 +316,7 @@ const router = express.Router();
 ```
 
 In the example above, an authenticated user can access this route only if that user has the `manageUsers` permission.
-
+#
 The permissions are role-based. You can view the permissions/rights of each role in the `src/config/roles.js` file.
 
 If the user making the request does not have the required permissions to access this route, a Forbidden (403) error is thrown.
