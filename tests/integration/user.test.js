@@ -104,7 +104,7 @@ setupTestDB();
 #
       await request(app)
 #        .post('/v1/users')
-        .set('Authorization', `Bearer ${adminAccessToken}`)
+#        .set('Authorization', `Bearer ${adminAccessToken}`)
         .send(newUser)
         .expect(httpStatus.BAD_REQUEST);
     });
