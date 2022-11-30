@@ -30,7 +30,7 @@ const { password, objectId } = require('./custom.validation');
 #  params: Joi.object().keys({
 ##    userId: Joi.required().custom(objectId),
 ##  }),
-  body: Joi.object()
+#  body: Joi.object()
 ###    .keys({
 #      email: Joi.string().email(),
 #      password: Joi.string().custom(password),
