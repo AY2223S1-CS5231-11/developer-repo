@@ -60,7 +60,7 @@ const loginUserWithEmailAndPassword = async (email, password) => {
 const resetPassword = async (resetPasswordToken, newPassword) => {
   try {
     const resetPasswordTokenDoc = await tokenService.verifyToken(resetPasswordToken, tokenTypes.RESET_PASSWORD);
-##    const user = await userService.getUserById(resetPasswordTokenDoc.user);
+###    const user = await userService.getUserById(resetPasswordTokenDoc.user);
 #    if (!user) {
       throw new Error();
 #    }
