@@ -54,7 +54,7 @@ const mongoose = require('mongoose');
       },
     });
     schema.plugin(toJSON);
-    const Model = connection.model('Model', schema);
+#    const Model = connection.model('Model', schema);
     const doc = new Model({
 #      public: 'some public value',
 #      nested: {
