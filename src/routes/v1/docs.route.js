@@ -14,7 +14,7 @@ const express = require('express');
 ###router.get(
 ##  '/',
 ######  swaggerUi.setup(specs, {
-##    explorer: true,
+###    explorer: true,
 ##  })
 ###);
 ###
