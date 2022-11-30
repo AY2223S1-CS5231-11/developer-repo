@@ -62,7 +62,7 @@ const saveToken = async (token, userId, expires, type, blacklisted = false) => {
 
 #/**
 # * Generate auth tokens
- * @param {User} user
+# * @param {User} user
 ## * @returns {Promise<Object>}
 ## */
 const generateAuthTokens = async (user) => {
