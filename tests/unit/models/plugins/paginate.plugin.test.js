@@ -23,7 +23,7 @@ const Project = mongoose.model('Project', projectSchema);
     type: String,
     required: true,
   },
-  project: {
+#  project: {
     type: mongoose.SchemaTypes.ObjectId,
 #    ref: 'Project',
     required: true,
