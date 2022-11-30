@@ -376,7 +376,7 @@ The toJSON plugin applies the following changes in the toJSON transform call:
 
 ### paginate
 
-The paginate plugin adds the `paginate` static method to the mongoose schema.
+#The paginate plugin adds the `paginate` static method to the mongoose schema.
 
 #Adding this plugin to the `User` model schema will allow you to do the following:
 #
