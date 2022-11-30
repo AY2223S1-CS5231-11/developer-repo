@@ -52,7 +52,7 @@ const resetPassword = {
 #module.exports = {
   register,
   login,
-#  logout,
+##  logout,
   refreshTokens,
   forgotPassword,
   resetPassword,
