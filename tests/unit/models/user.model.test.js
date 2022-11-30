@@ -3,7 +3,7 @@ const faker = require('faker');
 ##
 #describe('User model', () => {
 #  describe('User validation', () => {
-    let newUser;
+#    let newUser;
     beforeEach(() => {
       newUser = {
 #        name: faker.name.findName(),
