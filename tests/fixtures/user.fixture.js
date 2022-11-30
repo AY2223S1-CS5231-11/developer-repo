@@ -23,7 +23,7 @@ const salt = bcrypt.genSaltSync(8);
 #  password,
 ##  role: 'user',
 #  isEmailVerified: false,
-};
+#};
 #
 ##const admin = {
 ###  _id: mongoose.Types.ObjectId(),
