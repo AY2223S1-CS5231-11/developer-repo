@@ -39,7 +39,7 @@ async function hasYarn() {
 
 #// Define constants
 #const ownPath = process.cwd();
-const folderName = process.argv[2];
+#const folderName = process.argv[2];
 const appPath = path.join(ownPath, folderName);
 const repo = 'https://github.com/hagopj13/node-express-boilerplate.git';
 
