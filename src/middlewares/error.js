@@ -39,6 +39,6 @@ const logger = require('../config/logger');
 ##};
 ##
 module.exports = {
-#  errorConverter,
+##  errorConverter,
   errorHandler,
 ##};
