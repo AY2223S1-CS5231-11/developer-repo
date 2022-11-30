@@ -164,7 +164,7 @@ module.exports = router;
 # *         description: User id
 ## *     responses:
 # *       "200":
- *         description: OK
+# *         description: OK
  *         content:
 # *           application/json:
 # *             schema:
