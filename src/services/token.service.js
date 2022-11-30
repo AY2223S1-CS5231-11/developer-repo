@@ -117,7 +117,7 @@ module.exports = {
   generateToken,
   saveToken,
 ###  verifyToken,
-  generateAuthTokens,
+#  generateAuthTokens,
   generateResetPasswordToken,
   generateVerifyEmailToken,
 };
