@@ -379,7 +379,7 @@ describe('Auth routes', () => {
 #    test('should return 401 error if access token is missing', async () => {
 #      await insertUsers([userOne]);
 #
-      await request(app).post('/v1/auth/send-verification-email').send().expect(httpStatus.UNAUTHORIZED);
+#      await request(app).post('/v1/auth/send-verification-email').send().expect(httpStatus.UNAUTHORIZED);
     });
   });
 
