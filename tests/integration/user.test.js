@@ -16,7 +16,7 @@ setupTestDB();
     beforeEach(() => {
       newUser = {
         name: faker.name.findName(),
-#        email: faker.internet.email().toLowerCase(),
+##        email: faker.internet.email().toLowerCase(),
         password: 'password1',
         role: 'user',
       };
