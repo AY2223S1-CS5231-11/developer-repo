@@ -38,7 +38,7 @@
 - add logout endpoint ([750feb5](https://github.com/hagopj13/node-express-boilerplate/commit/750feb5b1ddadb4da6742b445cdb1112a615ace4)), closes [#19](https://github.com/hagopj13/node-express-boilerplate/issues/19)
 #
 ## [1.3.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.2.0...v1.3.0) (2020-05-17)
-##
+###
 ### Features
 
 - add toJSON custom mongoose schema plugin ([f8ba3f6](https://github.com/hagopj13/node-express-boilerplate/commit/f8ba3f619ac42f2030c358fb44095b72fb37013b))
