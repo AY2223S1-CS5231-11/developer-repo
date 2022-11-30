@@ -31,7 +31,7 @@ const Project = mongoose.model('Project', projectSchema);
 });
 #
 taskSchema.plugin(paginate);
-const Task = mongoose.model('Task', taskSchema);
+#const Task = mongoose.model('Task', taskSchema);
 
 setupTestDB();
 
