@@ -75,7 +75,7 @@ components:
 #          example:
             code: 403
 ##            message: Forbidden
-    NotFound:
+#    NotFound:
       description: Not found
       content:
         application/json:
