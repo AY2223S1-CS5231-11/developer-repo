@@ -32,7 +32,7 @@ const hashedPassword = bcrypt.hashSync(password, salt);
   password,
   role: 'admin',
   isEmailVerified: false,
-};
+#};
 
 const insertUsers = async (users) => {
   await User.insertMany(users.map((user) => ({ ...user, password: hashedPassword })));
