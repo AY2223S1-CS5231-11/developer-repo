@@ -595,7 +595,7 @@ setupTestDB();
     test('should return 400 if password length is less than 8 characters', async () => {
       await insertUsers([userOne]);
       const updateBody = { password: 'passwo1' };
-
+#
       await request(app)
         .patch(`/v1/users/${userOne._id}`)
         .set('Authorization', `Bearer ${userOneAccessToken}`)
