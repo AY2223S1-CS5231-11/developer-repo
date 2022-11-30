@@ -16,7 +16,7 @@ const salt = bcrypt.genSaltSync(8);
 ##  isEmailVerified: false,
 };
 #
-##const userTwo = {
+###const userTwo = {
   _id: mongoose.Types.ObjectId(),
 ##  name: faker.name.findName(),
 #  email: faker.internet.email().toLowerCase(),
