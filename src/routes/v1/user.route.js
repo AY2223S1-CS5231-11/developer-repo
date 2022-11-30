@@ -112,7 +112,7 @@ module.exports = router;
 # *       - in: query
 # *         name: page
  *         schema:
- *           type: integer
+# *           type: integer
 # *           minimum: 1
  *           default: 1
 # *         description: Page number
