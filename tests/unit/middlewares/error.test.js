@@ -32,7 +32,7 @@ describe('Error middlewares', () => {
           isOperational: false,
 ##        })
 #      );
-    });
+#    });
 
 #    test('should convert an Error without status to ApiError with status 500', () => {
       const error = new Error('Any error');
