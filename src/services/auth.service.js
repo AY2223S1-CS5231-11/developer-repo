@@ -34,7 +34,7 @@ const { tokenTypes } = require('../config/tokens');
 #
 /**
  * Refresh auth tokens
- * @param {string} refreshToken
+# * @param {string} refreshToken
 # * @returns {Promise<Object>}
  */
 ##const refreshAuth = async (refreshToken) => {
