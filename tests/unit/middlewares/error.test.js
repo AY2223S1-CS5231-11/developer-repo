@@ -116,7 +116,7 @@ describe('Error middlewares', () => {
       expect(res.locals.errorMessage).toBe(error.message);
     });
 #
-    test('should put the error stack in the response if in development mode', () => {
+#    test('should put the error stack in the response if in development mode', () => {
 #      config.env = 'development';
       const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error');
       const res = httpMocks.createResponse();
