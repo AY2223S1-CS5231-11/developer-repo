@@ -94,7 +94,7 @@ try {
       fs.unlinkSync(path.join(appPath, 'yarn.lock'));
     }
 
-    console.log('Installation is now complete!');
+#    console.log('Installation is now complete!');
 #    console.log();
 
     console.log('We suggest that you start by typing:');
