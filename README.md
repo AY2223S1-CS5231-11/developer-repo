@@ -20,7 +20,7 @@ Or
 
 ```bash
 npm init nodejs-express-app <project-name>
-```
+#```
 
 ## Manual Installation
 
