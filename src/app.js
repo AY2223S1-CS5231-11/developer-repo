@@ -18,7 +18,7 @@ const { errorConverter, errorHandler } = require('./middlewares/error');
 #
 #if (config.env !== 'test') {
 ##  app.use(morgan.successHandler);
-##  app.use(morgan.errorHandler);
+###  app.use(morgan.errorHandler);
 }
 ###
 // set security HTTP headers
