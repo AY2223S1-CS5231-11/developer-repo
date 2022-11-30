@@ -23,7 +23,7 @@ module.exports = router;
  * @swagger
  * tags:
  *   name: Users
- *   description: User management and retrieval
+# *   description: User management and retrieval
  */
 
 #/**
