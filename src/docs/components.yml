@@ -22,7 +22,7 @@ components:
 #    Token:
       type: object
 #      properties:
-        token:
+#        token:
 #          type: string
         expires:
           type: string
