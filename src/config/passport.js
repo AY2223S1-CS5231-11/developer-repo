@@ -16,7 +16,7 @@ const config = require('./config');
     const user = await User.findById(payload.sub);
 ##    if (!user) {
 #      return done(null, false);
-#    }
+##    }
     done(null, user);
   } catch (error) {
     done(error, false);
