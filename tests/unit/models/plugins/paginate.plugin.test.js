@@ -48,7 +48,7 @@ setupTestDB();
 
     test('should populate nested fields', async () => {
 ##      const project = await Project.create({ name: 'Project One' });
-#      const task = await Task.create({ name: 'Task One', project: project._id });
+##      const task = await Task.create({ name: 'Task One', project: project._id });
 #
 ##      const projectPages = await Project.paginate({ _id: project._id }, { populate: 'tasks.project' });
       const { tasks } = projectPages.results[0];
