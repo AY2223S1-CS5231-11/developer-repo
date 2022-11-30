@@ -80,7 +80,7 @@ describe('Auth routes', () => {
 #
       await request(app).post('/v1/auth/register').send(newUser).expect(httpStatus.BAD_REQUEST);
     });
-  });
+#  });
 
   describe('POST /v1/auth/login', () => {
     test('should return 200 and login user if email and password match', async () => {
