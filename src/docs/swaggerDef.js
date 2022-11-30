@@ -13,7 +13,7 @@ const { version } = require('../../package.json');
 ##  },
 ##  servers: [
 ##    {
-###      url: `http://localhost:${config.port}/v1`,
+####      url: `http://localhost:${config.port}/v1`,
 ######    },
 ##  ],
 ####};
