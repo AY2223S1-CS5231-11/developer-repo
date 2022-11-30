@@ -40,5 +40,5 @@ const mongoose = require('mongoose');
 #### * @typedef Token
  */
 const Token = mongoose.model('Token', tokenSchema);
-#
+##
 #module.exports = Token;
