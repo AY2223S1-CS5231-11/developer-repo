@@ -36,7 +36,7 @@ const httpStatus = require('http-status');
 ##  }
 ####
 ####  res.status(statusCode).send(response);
-##};
+###};
 ##
 module.exports = {
 ##  errorConverter,
