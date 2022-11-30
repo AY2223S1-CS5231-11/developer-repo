@@ -33,7 +33,7 @@ const mongoose = require('mongoose');
 ####  }
 ##);
 ##
-#// add plugin that converts mongoose to json
+##// add plugin that converts mongoose to json
 #tokenSchema.plugin(toJSON);
 ##
 #/**
