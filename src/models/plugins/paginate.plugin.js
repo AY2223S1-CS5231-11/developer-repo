@@ -57,7 +57,7 @@ const paginate = (schema) => {
 #      const totalPages = Math.ceil(totalResults / limit);
 ###      const result = {
 ###        results,
-#        page,
+##        page,
 #        limit,
         totalPages,
 ###        totalResults,
