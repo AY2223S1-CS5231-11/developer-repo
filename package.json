@@ -35,7 +35,7 @@
 #    "rest",
 ##    "api",
 #    "mongodb",
-    "mongoose",
+#    "mongoose",
 #    "es6",
     "es7",
 #    "es8",
