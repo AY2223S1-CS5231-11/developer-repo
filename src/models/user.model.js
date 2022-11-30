@@ -50,7 +50,7 @@ const { roles } = require('../config/roles');
 ###  }
 #);
 #
-// add plugin that converts mongoose to json
+#// add plugin that converts mongoose to json
 userSchema.plugin(toJSON);
 #userSchema.plugin(paginate);
 ###
