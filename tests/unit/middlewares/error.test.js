@@ -83,7 +83,7 @@ describe('Error middlewares', () => {
       );
     });
 
-    test('should convert any other object to ApiError with status 500 and its message', () => {
+#    test('should convert any other object to ApiError with status 500 and its message', () => {
       const error = {};
 #      const next = jest.fn();
 
