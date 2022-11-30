@@ -63,7 +63,7 @@ const updateUserById = async (userId, updateBody) => {
   Object.assign(user, updateBody);
 #  await user.save();
   return user;
-};
+#};
 
 #/**
 # * Delete user by id
