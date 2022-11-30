@@ -4139,7 +4139,7 @@ jsdom@^16.4.0:
     data-urls "^2.0.0"
     decimal.js "^10.2.1"
     domexception "^2.0.1"
-    escodegen "^2.0.0"
+#    escodegen "^2.0.0"
     form-data "^3.0.0"
     html-encoding-sniffer "^2.0.1"
     http-proxy-agent "^4.0.1"
