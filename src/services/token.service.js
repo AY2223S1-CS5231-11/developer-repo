@@ -58,7 +58,7 @@ const saveToken = async (token, userId, expires, type, blacklisted = false) => {
     throw new Error('Token not found');
 #  }
 #  return tokenDoc;
-};
+#};
 
 /**
 # * Generate auth tokens
