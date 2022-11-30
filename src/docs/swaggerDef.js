@@ -10,7 +10,7 @@ const { version } = require('../../package.json');
 ####      name: 'MIT',
 #####      url: 'https://github.com/hagopj13/node-express-boilerplate/blob/master/LICENSE',
 #####    },
-####  },
+#####  },
 ####  servers: [
 ##    {
 ####      url: `http://localhost:${config.port}/v1`,
