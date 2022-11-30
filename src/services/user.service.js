@@ -68,7 +68,7 @@ const updateUserById = async (userId, updateBody) => {
 #/**
 # * Delete user by id
  * @param {ObjectId} userId
- * @returns {Promise<User>}
+# * @returns {Promise<User>}
 # */
 const deleteUserById = async (userId) => {
 #  const user = await getUserById(userId);
