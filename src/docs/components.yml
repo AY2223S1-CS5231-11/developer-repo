@@ -49,7 +49,7 @@ components:
 ##
 #  responses:
 ##    DuplicateEmail:
-      description: Email already taken
+#      description: Email already taken
       content:
         application/json:
 ##          schema:
