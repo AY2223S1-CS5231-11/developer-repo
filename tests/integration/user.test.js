@@ -421,7 +421,7 @@ setupTestDB();
 #    test('should return 204 if data is ok', async () => {
       await insertUsers([userOne]);
 
-      await request(app)
+#      await request(app)
         .delete(`/v1/users/${userOne._id}`)
         .set('Authorization', `Bearer ${userOneAccessToken}`)
         .send()
