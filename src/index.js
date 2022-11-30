@@ -31,7 +31,7 @@ const mongoose = require('mongoose');
 ####process.on('unhandledRejection', unexpectedErrorHandler);
 ##
 #process.on('SIGTERM', () => {
-#####  logger.info('SIGTERM received');
+######  logger.info('SIGTERM received');
 ##  if (server) {
     server.close();
 ###  }
