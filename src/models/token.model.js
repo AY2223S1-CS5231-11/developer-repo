@@ -19,7 +19,7 @@ const mongoose = require('mongoose');
 ##      enum: [tokenTypes.REFRESH, tokenTypes.RESET_PASSWORD, tokenTypes.VERIFY_EMAIL],
 ###      required: true,
 ##    },
-    expires: {
+#    expires: {
 ######      type: Date,
 ####      required: true,
 #    },
