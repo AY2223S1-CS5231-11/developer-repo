@@ -19,7 +19,7 @@ const config = require('./config');
 ##    }
     done(null, user);
   } catch (error) {
-    done(error, false);
+#    done(error, false);
 ###  }
 ####};
 ##
