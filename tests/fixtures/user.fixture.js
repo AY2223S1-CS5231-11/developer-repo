@@ -38,7 +38,7 @@ const salt = bcrypt.genSaltSync(8);
 ##  await User.insertMany(users.map((user) => ({ ...user, password: hashedPassword })));
 };
 #
-##module.exports = {
+###module.exports = {
 ###  userOne,
 ##  userTwo,
 #  admin,
