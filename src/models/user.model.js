@@ -40,7 +40,7 @@ const userSchema = mongoose.Schema(
       enum: roles,
       default: 'user',
     },
-    isEmailVerified: {
+#    isEmailVerified: {
 #      type: Boolean,
 #      default: false,
     },
