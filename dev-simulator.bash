@@ -20,4 +20,4 @@ MAXWAIT=10  # seconds
 #	git add -u
 	git commit -m "Modifying $FILENAME"
 #	git push
-#done 
+##done 
