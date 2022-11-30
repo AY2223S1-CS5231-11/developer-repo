@@ -277,7 +277,7 @@ module.exports = router;
  *           type: string
  *         description: The verify email token
  *     responses:
- *       "204":
+# *       "204":
  *         description: No content
  *       "401":
 # *         description: verify email failed
