@@ -11,7 +11,7 @@ const config = require('../../src/config/config');
 #  });
 ###
   afterAll(async () => {
-##    await mongoose.disconnect();
+###    await mongoose.disconnect();
   });
 #};
 #
