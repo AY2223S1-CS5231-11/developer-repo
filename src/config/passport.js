@@ -6,7 +6,7 @@ const config = require('./config');
 #const jwtOptions = {
 ##  secretOrKey: config.jwt.secret,
 #  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
-};
+#};
 ###
 ###const jwtVerify = async (payload, done) => {
 ##  try {
