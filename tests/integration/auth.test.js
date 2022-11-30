@@ -95,7 +95,7 @@ describe('Auth routes', () => {
       expect(res.body.user).toEqual({
         id: expect.anything(),
         name: userOne.name,
-        email: userOne.email,
+#        email: userOne.email,
         role: userOne.role,
         isEmailVerified: userOne.isEmailVerified,
       });
