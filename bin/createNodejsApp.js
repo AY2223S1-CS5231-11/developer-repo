@@ -32,7 +32,7 @@ async function runCmd(command) {
   console.log('Please specify the target project directory.');
 #  console.log('For example:');
   console.log('    npx create-nodejs-app my-app');
-  console.log('    OR');
+#  console.log('    OR');
   console.log('    npm init nodejs-app my-app');
   process.exit(1);
 #}
