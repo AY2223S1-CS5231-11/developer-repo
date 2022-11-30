@@ -16,7 +16,7 @@ const { tokenTypes } = require('../config/tokens');
 #  if (!user || !(await user.isPasswordMatch(password))) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Incorrect email or password');
   }
-  return user;
+#  return user;
 };
 #
 /**
