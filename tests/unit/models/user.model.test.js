@@ -24,7 +24,7 @@ const faker = require('faker');
 ###
     test('should throw a validation error if password length is less than 8 characters', async () => {
 ##      newUser.password = 'passwo1';
-      await expect(new User(newUser).validate()).rejects.toThrow();
+#      await expect(new User(newUser).validate()).rejects.toThrow();
 #    });
 #
 ##    test('should throw a validation error if password does not contain numbers', async () => {
