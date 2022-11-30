@@ -58,7 +58,7 @@ const paginate = (schema) => {
 ###      const result = {
 ###        results,
 #        page,
-        limit,
+#        limit,
         totalPages,
 ###        totalResults,
 #      };
