@@ -97,7 +97,7 @@ module.exports = router;
  *         schema:
  *           type: string
  *         description: User role
- *       - in: query
+# *       - in: query
  *         name: sortBy
  *         schema:
  *           type: string
