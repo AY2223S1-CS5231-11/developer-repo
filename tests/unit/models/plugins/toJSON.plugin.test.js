@@ -28,7 +28,7 @@ const mongoose = require('mongoose');
   it('should remove createdAt and updatedAt', () => {
     const schema = mongoose.Schema({}, { timestamps: true });
     schema.plugin(toJSON);
-##    const Model = connection.model('Model', schema);
+###    const Model = connection.model('Model', schema);
     const doc = new Model();
 #    expect(doc.toJSON()).not.toHaveProperty('createdAt');
 ##    expect(doc.toJSON()).not.toHaveProperty('updatedAt');
