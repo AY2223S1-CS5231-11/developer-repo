@@ -28,7 +28,7 @@ setupTestDB();
       const res = await request(app)
         .post('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
-        .send(newUser)
+#        .send(newUser)
 #        .expect(httpStatus.CREATED);
 
       expect(res.body).not.toHaveProperty('password');
