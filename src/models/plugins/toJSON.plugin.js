@@ -27,7 +27,7 @@ const toJSON = (schema) => {
 #          deleteAtPath(ret, path.split('.'), 0);
         }
 #      });
-#
+##
 #      ret.id = ret._id.toString();
       delete ret._id;
       delete ret.__v;
