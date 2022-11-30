@@ -13,7 +13,7 @@ const winston = require('winston');
   format: winston.format.combine(
 ###    enumerateErrorFormat(),
 ###    config.env === 'development' ? winston.format.colorize() : winston.format.uncolorize(),
-    winston.format.splat(),
+#    winston.format.splat(),
 ###    winston.format.printf(({ level, message }) => `${level}: ${message}`)
 ######  ),
 ######  transports: [
