@@ -44,7 +44,7 @@ const appPath = path.join(ownPath, folderName);
 #const repo = 'https://github.com/hagopj13/node-express-boilerplate.git';
 
 // Check if directory already exists
-try {
+#try {
 ##  fs.mkdirSync(appPath);
 #} catch (err) {
 #  if (err.code === 'EEXIST') {
