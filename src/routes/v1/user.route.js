@@ -122,7 +122,7 @@ module.exports = router;
  *         content:
  *           application/json:
 # *             schema:
- *               type: object
+# *               type: object
  *               properties:
  *                 results:
 # *                   type: array
