@@ -46,7 +46,7 @@ module.exports = router;
  *               email:
  *                 type: string
  *                 format: email
- *                 description: must be unique
+# *                 description: must be unique
 # *               password:
 # *                 type: string
  *                 format: password
