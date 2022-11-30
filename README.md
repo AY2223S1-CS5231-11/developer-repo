@@ -330,7 +330,7 @@ Logging should be done according to the following severity levels (ascending ord
 ```javascript
 const logger = require('<path to src>/config/logger');
 
-logger.error('message'); // level 0
+#logger.error('message'); // level 0
 logger.warn('message'); // level 1
 logger.info('message'); // level 2
 logger.http('message'); // level 3
