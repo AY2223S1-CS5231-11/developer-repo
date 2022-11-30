@@ -66,7 +66,7 @@
 
 - fix issue with incorrect stack for errors that are not of type AppError ([48d1a5a](https://github.com/hagopj13/node-express-boilerplate/commit/48d1a5ada5e5fe0975a17b521d3d7a6e1f4cab3b))
 
-## [1.1.1](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.0...v1.1.1) (2019-12-04)
+### [1.1.1](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.0...v1.1.1) (2019-12-04)
 #
 ### Bug Fixes
 #
