@@ -9,7 +9,7 @@
 #	WAIT_DURATION=$((RANDOM % MAXWAIT))
 ####
 #####	echo "Modifying $FILENAME at $PATH_TO_NEXT_FILE_TO_MODIFY"
-##	echo "Devving for $WAIT_DURATION seconds.."
+###	echo "Devving for $WAIT_DURATION seconds.."
 #####	sleep $WAIT_DURATION
 ###
 ###	FILE_NUMBER_OF_LINES=$(wc -l < $PATH_TO_NEXT_FILE_TO_MODIFY)
