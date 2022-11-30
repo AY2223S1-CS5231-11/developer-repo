@@ -10,7 +10,7 @@ const router = express.Router();
   {
     path: '/auth',
 #    route: authRoute,
-##  },
+###  },
   {
     path: '/users',
     route: userRoute,
