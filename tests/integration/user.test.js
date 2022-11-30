@@ -615,7 +615,7 @@ setupTestDB();
 
 #      updateBody.password = '11111111';
 
-      await request(app)
+#      await request(app)
         .patch(`/v1/users/${userOne._id}`)
         .set('Authorization', `Bearer ${userOneAccessToken}`)
         .send(updateBody)
