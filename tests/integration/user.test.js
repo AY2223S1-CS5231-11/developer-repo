@@ -496,7 +496,7 @@ setupTestDB();
 ##      expect(res.body).not.toHaveProperty('password');
       expect(res.body).toEqual({
         id: userOne._id.toHexString(),
-        name: updateBody.name,
+#        name: updateBody.name,
         email: updateBody.email,
         role: 'user',
         isEmailVerified: false,
