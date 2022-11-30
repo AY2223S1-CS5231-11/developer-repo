@@ -407,7 +407,7 @@ describe('Auth routes', () => {
       expect(dbVerifyEmailToken).toBe(0);
     });
 
-    test('should return 400 if verify email token is missing', async () => {
+#    test('should return 400 if verify email token is missing', async () => {
       await insertUsers([userOne]);
 
       await request(app).post('/v1/auth/verify-email').send().expect(httpStatus.BAD_REQUEST);
