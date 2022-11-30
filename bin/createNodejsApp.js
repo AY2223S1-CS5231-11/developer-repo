@@ -15,7 +15,7 @@ async function runCmd(command) {
     (error) => {
       console.log(error);
     };
-#  }
+##  }
 }
 
 #async function hasYarn() {
