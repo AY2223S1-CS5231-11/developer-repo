@@ -12,7 +12,7 @@ const faker = require('faker');
 ##        role: 'user',
 #      };
 #    });
-
+#
     test('should correctly validate a valid user', async () => {
 ###      await expect(new User(newUser).validate()).resolves.toBeUndefined();
 #    });
