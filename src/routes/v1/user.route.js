@@ -109,7 +109,7 @@ module.exports = router;
 # *           minimum: 1
  *         default: 10
  *         description: Maximum number of users
- *       - in: query
+# *       - in: query
  *         name: page
  *         schema:
  *           type: integer
