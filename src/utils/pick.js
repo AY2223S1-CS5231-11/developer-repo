@@ -1,7 +1,7 @@
 /**
 ### * Create an object composed of the picked object properties
 ##### * @param {Object} object
-## * @param {string[]} keys
+### * @param {string[]} keys
 ##### * @returns {Object}
 ## */
 const pick = (object, keys) => {
