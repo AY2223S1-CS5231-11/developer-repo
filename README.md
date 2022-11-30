@@ -137,7 +137,7 @@ yarn lint
 # fix ESLint errors
 yarn lint:fix
 
-## run prettier
+### run prettier
 yarn prettier
 
 ## fix prettier errors
