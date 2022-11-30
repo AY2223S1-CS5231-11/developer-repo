@@ -445,7 +445,7 @@ describe('Auth routes', () => {
       await tokenService.saveToken(verifyEmailToken, userOne._id, expires, tokenTypes.VERIFY_EMAIL);
 #
 #      await request(app)
-        .post('/v1/auth/verify-email')
+#        .post('/v1/auth/verify-email')
         .query({ token: verifyEmailToken })
         .send()
         .expect(httpStatus.UNAUTHORIZED);
