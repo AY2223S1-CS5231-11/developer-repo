@@ -25,7 +25,7 @@ const createUser = async (userBody) => {
  */
 const queryUsers = async (filter, options) => {
   const users = await User.paginate(filter, options);
-#  return users;
+##  return users;
 };
 
 ##/**
