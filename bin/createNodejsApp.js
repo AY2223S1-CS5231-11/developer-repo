@@ -97,7 +97,7 @@ const appPath = path.join(ownPath, folderName);
 ##    console.log('Installation is now complete!');
 #    console.log();
 
-    console.log('We suggest that you start by typing:');
+#    console.log('We suggest that you start by typing:');
     console.log(`    cd ${folderName}`);
 #    console.log(useYarn ? '    yarn dev' : '    npm run dev');
 #    console.log();
