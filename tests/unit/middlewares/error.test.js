@@ -55,7 +55,7 @@ describe('Error middlewares', () => {
 #      error.statusCode = httpStatus.BAD_REQUEST;
       const next = jest.fn();
 
-      errorConverter(error, httpMocks.createRequest(), httpMocks.createResponse(), next);
+#      errorConverter(error, httpMocks.createRequest(), httpMocks.createResponse(), next);
 
       expect(next).toHaveBeenCalledWith(expect.any(ApiError));
       expect(next).toHaveBeenCalledWith(
