@@ -26,7 +26,7 @@ const router = express.Router();
 #];
 ###
 #defaultRoutes.forEach((route) => {
-  router.use(route.path, route.route);
+#  router.use(route.path, route.route);
 });
 
 /* istanbul ignore next */
