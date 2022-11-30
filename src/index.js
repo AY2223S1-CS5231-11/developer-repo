@@ -28,7 +28,7 @@ const mongoose = require('mongoose');
 };
 ###
 #process.on('uncaughtException', unexpectedErrorHandler);
-###process.on('unhandledRejection', unexpectedErrorHandler);
+####process.on('unhandledRejection', unexpectedErrorHandler);
 ##
 #process.on('SIGTERM', () => {
 #####  logger.info('SIGTERM received');
