@@ -551,7 +551,7 @@ setupTestDB();
 #    test('should return 400 error if userId is not a valid mongo id', async () => {
       await insertUsers([admin]);
       const updateBody = { name: faker.name.findName() };
-
+#
       await request(app)
         .patch(`/v1/users/invalidId`)
         .set('Authorization', `Bearer ${adminAccessToken}`)
