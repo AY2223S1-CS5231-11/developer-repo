@@ -45,7 +45,7 @@ const faker = require('faker');
 
 #  describe('User toJSON()', () => {
     test('should not return user password when toJSON is called', () => {
-      const newUser = {
+#      const newUser = {
 ##        name: faker.name.findName(),
 ##        email: faker.internet.email().toLowerCase(),
 #        password: 'password1',
