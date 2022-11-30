@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 #  {
 ##    token: {
 #      type: String,
-      required: true,
+#      required: true,
 #      index: true,
     },
 #    user: {
