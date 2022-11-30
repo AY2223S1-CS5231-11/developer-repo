@@ -28,7 +28,7 @@ const logger = require('../config/logger');
 # * @param {string} to
 # * @param {string} token
 ## * @returns {Promise}
- */
+# */
 #const sendResetPasswordEmail = async (to, token) => {
 ##  const subject = 'Reset password';
   // replace this url with the link to the reset password page of your front-end app
