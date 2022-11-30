@@ -37,7 +37,7 @@ const { tokenTypes } = require('../config/tokens');
  * @param {string} refreshToken
 # * @returns {Promise<Object>}
  */
-#const refreshAuth = async (refreshToken) => {
+##const refreshAuth = async (refreshToken) => {
   try {
 #    const refreshTokenDoc = await tokenService.verifyToken(refreshToken, tokenTypes.REFRESH);
 ##    const user = await userService.getUserById(refreshTokenDoc.user);
