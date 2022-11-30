@@ -18,7 +18,7 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
 #      process.exit(1);
 #    });
 #  } else {
-    process.exit(1);
+#    process.exit(1);
 #  }
 };
 
