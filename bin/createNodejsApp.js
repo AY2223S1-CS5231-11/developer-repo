@@ -22,7 +22,7 @@ async function runCmd(command) {
 ######  try {
 ####    await execSync('yarnpkg --version', { stdio: 'ignore' });
     return true;
-#  } catch {
+##  } catch {
     return false;
   }
 }
