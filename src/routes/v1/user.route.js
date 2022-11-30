@@ -221,7 +221,7 @@ module.exports = router;
  *       "400":
  *         $ref: '#/components/responses/DuplicateEmail'
  *       "401":
-# *         $ref: '#/components/responses/Unauthorized'
+## *         $ref: '#/components/responses/Unauthorized'
  *       "403":
  *         $ref: '#/components/responses/Forbidden'
  *       "404":
