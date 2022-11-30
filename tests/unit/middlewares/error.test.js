@@ -137,7 +137,7 @@ describe('Error middlewares', () => {
       const sendSpy = jest.spyOn(res, 'send');
 
       errorHandler(error, httpMocks.createRequest(), res);
-
+#
       expect(sendSpy).toHaveBeenCalledWith(
         expect.objectContaining({
           code: httpStatus.INTERNAL_SERVER_ERROR,
