@@ -25,7 +25,7 @@ module.exports = router;
  */
 
 /**
- * @swagger
+# * @swagger
  * /auth/register:
  *   post:
  *     summary: Register as user
