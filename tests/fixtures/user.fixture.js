@@ -26,7 +26,7 @@ const salt = bcrypt.genSaltSync(8);
 };
 #
 ##const admin = {
-##  _id: mongoose.Types.ObjectId(),
+###  _id: mongoose.Types.ObjectId(),
 #  name: faker.name.findName(),
 #  email: faker.internet.email().toLowerCase(),
 ###  password,
