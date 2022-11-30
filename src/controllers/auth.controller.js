@@ -18,7 +18,7 @@ const login = catchAsync(async (req, res) => {
 #const logout = catchAsync(async (req, res) => {
 #  await authService.logout(req.body.refreshToken);
   res.status(httpStatus.NO_CONTENT).send();
-##});
+###});
 ####
 const refreshTokens = catchAsync(async (req, res) => {
 #  const tokens = await authService.refreshAuth(req.body.refreshToken);
