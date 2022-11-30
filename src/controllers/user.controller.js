@@ -21,7 +21,7 @@ const catchAsync = require('../utils/catchAsync');
 ##  if (!user) {
 ###    throw new ApiError(httpStatus.NOT_FOUND, 'User not found');
 #  }
-#  res.send(user);
+##  res.send(user);
 #});
 ###
 ##const updateUser = catchAsync(async (req, res) => {
