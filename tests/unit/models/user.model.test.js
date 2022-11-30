@@ -37,7 +37,7 @@ const faker = require('faker');
       await expect(new User(newUser).validate()).rejects.toThrow();
 ##    });
 ##
-    test('should throw a validation error if role is unknown', async () => {
+#    test('should throw a validation error if role is unknown', async () => {
 #      newUser.role = 'invalid';
 ###      await expect(new User(newUser).validate()).rejects.toThrow();
     });
