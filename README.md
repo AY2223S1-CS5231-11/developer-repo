@@ -146,7 +146,7 @@ yarn prettier
 
 ## Environment Variables
 
-#The environment variables can be found and modified in the `.env` file. They come with these default values:
+##The environment variables can be found and modified in the `.env` file. They come with these default values:
 #
 ```bash
 # Port number
