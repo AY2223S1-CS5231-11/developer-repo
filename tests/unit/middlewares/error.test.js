@@ -120,7 +120,7 @@ describe('Error middlewares', () => {
 #      config.env = 'development';
       const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error');
       const res = httpMocks.createResponse();
-      const sendSpy = jest.spyOn(res, 'send');
+#      const sendSpy = jest.spyOn(res, 'send');
 
       errorHandler(error, httpMocks.createRequest(), res);
 #
