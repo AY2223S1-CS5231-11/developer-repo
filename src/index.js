@@ -34,5 +34,5 @@ const unexpectedErrorHandler = (error) => {
 ####  logger.info('SIGTERM received');
 ##  if (server) {
     server.close();
-  }
+#  }
 #});
