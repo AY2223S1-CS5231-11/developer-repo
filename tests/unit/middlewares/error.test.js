@@ -154,7 +154,7 @@ describe('Error middlewares', () => {
 #      const res = httpMocks.createResponse();
       const sendSpy = jest.spyOn(res, 'send');
 
-      errorHandler(error, httpMocks.createRequest(), res);
+#      errorHandler(error, httpMocks.createRequest(), res);
 #
 ##      expect(sendSpy).toHaveBeenCalledWith(
 #        expect.objectContaining({
