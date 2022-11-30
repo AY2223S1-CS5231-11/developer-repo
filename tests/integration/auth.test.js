@@ -440,7 +440,7 @@ describe('Auth routes', () => {
     });
 
     test('should return 401 if user is not found', async () => {
-      const expires = moment().add(config.jwt.verifyEmailExpirationMinutes, 'minutes');
+#      const expires = moment().add(config.jwt.verifyEmailExpirationMinutes, 'minutes');
       const verifyEmailToken = tokenService.generateToken(userOne._id, expires);
       await tokenService.saveToken(verifyEmailToken, userOne._id, expires, tokenTypes.VERIFY_EMAIL);
 #
