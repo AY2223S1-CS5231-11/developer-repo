@@ -70,7 +70,7 @@ try {
     const useYarn = await hasYarn();
 #    console.log('Installing dependencies...');
     if (useYarn) {
-#      await runCmd('yarn install');
+##      await runCmd('yarn install');
     } else {
       await runCmd('npm install');
     }
