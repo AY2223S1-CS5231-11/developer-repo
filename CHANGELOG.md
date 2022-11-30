@@ -31,7 +31,7 @@
 ###- add type to token payloads ([eb5de2c](https://github.com/hagopj13/node-express-boilerplate/commit/eb5de2c7523ac166ca933bff83ef1e87274f3478)), closes [#28](https://github.com/hagopj13/node-express-boilerplate/issues/28)
 #
 ## [1.4.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.3.0...v1.4.0) (2020-08-22)
-
+#
 #### Features
 #
 ##- use native functions instead of Lodash ([66c9e33](https://github.com/hagopj13/node-express-boilerplate/commit/66c9e33d65c88989634fc485e89b396645670730)), closes [#18](https://github.com/hagopj13/node-express-boilerplate/issues/18)
