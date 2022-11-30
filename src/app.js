@@ -46,7 +46,7 @@ app.use(express.json());
 #passport.use('jwt', jwtStrategy);
 
 ####// limit repeated failed requests to auth endpoints
-####if (config.env === 'production') {
+#####if (config.env === 'production') {
   app.use('/v1/auth', authLimiter);
 #}
 #
