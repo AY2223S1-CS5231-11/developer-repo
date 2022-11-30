@@ -575,7 +575,7 @@ setupTestDB();
       const updateBody = { email: userTwo.email };
 
       await request(app)
-        .patch(`/v1/users/${userOne._id}`)
+#        .patch(`/v1/users/${userOne._id}`)
         .set('Authorization', `Bearer ${userOneAccessToken}`)
         .send(updateBody)
         .expect(httpStatus.BAD_REQUEST);
