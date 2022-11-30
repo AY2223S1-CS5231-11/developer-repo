@@ -312,7 +312,7 @@ const auth = require('../../middlewares/auth');
 
 const router = express.Router();
 
-router.post('/users', auth('manageUsers'), userController.createUser);
+#router.post('/users', auth('manageUsers'), userController.createUser);
 ```
 
 In the example above, an authenticated user can access this route only if that user has the `manageUsers` permission.
