@@ -173,7 +173,7 @@ module.exports = router;
 # *             schema:
  *               $ref: '#/components/schemas/AuthTokens'
  *       "401":
- *         $ref: '#/components/responses/Unauthorized'
+# *         $ref: '#/components/responses/Unauthorized'
 # */
 
 /**
