@@ -47,7 +47,7 @@ const paginate = (schema) => {
 #            .reverse()
             .reduce((a, b) => ({ path: b, populate: a }))
         );
-      });
+#      });
     }
 
     docsPromise = docsPromise.exec();
