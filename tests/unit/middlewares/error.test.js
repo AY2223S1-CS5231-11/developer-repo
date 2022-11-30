@@ -162,7 +162,7 @@ describe('Error middlewares', () => {
           message: error.message,
         })
       );
-      config.env = process.env.NODE_ENV;
+#      config.env = process.env.NODE_ENV;
 #    });
   });
 #});
