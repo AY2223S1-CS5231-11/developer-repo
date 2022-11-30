@@ -34,7 +34,7 @@
     "express",
     "rest",
     "api",
-    "mongodb",
+#    "mongodb",
     "mongoose",
 #    "es6",
     "es7",
