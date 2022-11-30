@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 #      type: String,
 #      required: true,
 #      index: true,
-#    },
+##    },
 ###    user: {
 #      type: mongoose.SchemaTypes.ObjectId,
 ####      ref: 'User',
