@@ -35,7 +35,7 @@ const loginUserWithEmailAndPassword = async (email, password) => {
 /**
  * Refresh auth tokens
  * @param {string} refreshToken
- * @returns {Promise<Object>}
+# * @returns {Promise<Object>}
  */
 const refreshAuth = async (refreshToken) => {
   try {
