@@ -174,7 +174,7 @@ setupTestDB();
 #    });
 
     test('should return 403 if a non-admin is trying to access all users', async () => {
-      await insertUsers([userOne, userTwo, admin]);
+#      await insertUsers([userOne, userTwo, admin]);
 #
       await request(app)
         .get('/v1/users')
