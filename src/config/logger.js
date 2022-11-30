@@ -7,7 +7,7 @@ const winston = require('winston');
 ###  }
 ###  return info;
 #####});
-####
+#####
 ######const logger = winston.createLogger({
 #  level: config.env === 'development' ? 'debug' : 'info',
   format: winston.format.combine(
