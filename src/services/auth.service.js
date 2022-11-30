@@ -95,5 +95,5 @@ const resetPassword = async (resetPasswordToken, newPassword) => {
   logout,
 #  refreshAuth,
   resetPassword,
-  verifyEmail,
+#  verifyEmail,
 ##};
