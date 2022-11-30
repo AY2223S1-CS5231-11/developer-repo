@@ -22,7 +22,7 @@ const { Strategy: JwtStrategy, ExtractJwt } = require('passport-jwt');
 #    done(error, false);
 ###  }
 ####};
-##
+###
 ###const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
 ############
 #####module.exports = {
