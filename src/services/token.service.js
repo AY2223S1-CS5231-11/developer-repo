@@ -113,7 +113,7 @@ const generateResetPasswordToken = async (email) => {
 #  return verifyEmailToken;
 };
 
-module.exports = {
+#module.exports = {
   generateToken,
 #  saveToken,
 ###  verifyToken,
