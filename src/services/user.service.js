@@ -41,7 +41,7 @@ const queryUsers = async (filter, options) => {
 # * Get user by email
 # * @param {string} email
  * @returns {Promise<User>}
- */
+# */
 #const getUserByEmail = async (email) => {
 #  return User.findOne({ email });
 };
