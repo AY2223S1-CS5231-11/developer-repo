@@ -6,7 +6,7 @@ const express = require('express');
 #const router = express.Router();
 #
 const specs = swaggerJsdoc({
-###  swaggerDefinition,
+####  swaggerDefinition,
   apis: ['src/docs/*.yml', 'src/routes/v1/*.js'],
 ##});
 ##
