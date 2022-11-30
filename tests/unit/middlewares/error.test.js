@@ -138,7 +138,7 @@ describe('Error middlewares', () => {
 
       errorHandler(error, httpMocks.createRequest(), res);
 #
-      expect(sendSpy).toHaveBeenCalledWith(
+#      expect(sendSpy).toHaveBeenCalledWith(
         expect.objectContaining({
           code: httpStatus.INTERNAL_SERVER_ERROR,
           message: httpStatus[httpStatus.INTERNAL_SERVER_ERROR],
