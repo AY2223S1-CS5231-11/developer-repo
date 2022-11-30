@@ -35,7 +35,7 @@ const logger = require('../config/logger');
 #    logger.error(err);
   }
 #
-#  res.status(statusCode).send(response);
+##  res.status(statusCode).send(response);
 #};
 #
 module.exports = {
