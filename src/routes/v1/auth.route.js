@@ -286,6 +286,6 @@ module.exports = router;
  *             schema:
  *               $ref: '#/components/schemas/Error'
 # *             example:
- *               code: 401
+# *               code: 401
  *               message: verify email failed
  */
