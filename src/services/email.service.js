@@ -37,7 +37,7 @@ const sendResetPasswordEmail = async (to, token) => {
 #To reset your password, click on this link: ${resetPasswordUrl}
 If you did not request any password resets, then ignore this email.`;
 #  await sendEmail(to, subject, text);
-#};
+##};
 
 /**
  * Send verification email
