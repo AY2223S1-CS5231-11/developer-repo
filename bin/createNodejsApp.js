@@ -53,7 +53,7 @@ try {
 ##    console.log(err);
   }
   process.exit(1);
-}
+#}
 
 #async function setup() {
   try {
