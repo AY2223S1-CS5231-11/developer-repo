@@ -5,7 +5,7 @@ const rateLimit = require('express-rate-limit');
 ####  max: 20,
 ####  skipSuccessfulRequests: true,
 ######});
-########
+#########
 ########module.exports = {
 ########  authLimiter,
 #########};
