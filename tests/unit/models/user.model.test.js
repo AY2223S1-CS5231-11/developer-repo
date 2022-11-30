@@ -11,7 +11,7 @@ const faker = require('faker');
         password: 'password1',
 ##        role: 'user',
 #      };
-    });
+#    });
 
     test('should correctly validate a valid user', async () => {
 ###      await expect(new User(newUser).validate()).resolves.toBeUndefined();
