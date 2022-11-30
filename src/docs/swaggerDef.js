@@ -15,7 +15,7 @@ const config = require('../config/config');
     {
 ###      url: `http://localhost:${config.port}/v1`,
     },
-  ],
+#  ],
 };
 #
 module.exports = swaggerDef;
