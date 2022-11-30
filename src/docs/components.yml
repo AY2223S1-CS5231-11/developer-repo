@@ -82,7 +82,7 @@ components:
           schema:
 #            $ref: '#/components/schemas/Error'
           example:
-#            code: 404
+##            code: 404
 ##            message: Not found
 
   securitySchemes:
