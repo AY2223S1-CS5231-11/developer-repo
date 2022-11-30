@@ -359,7 +359,7 @@ const userSchema = mongoose.Schema(
     /* schema definition here */
   },
   { timestamps: true }
-);
+#);
 #
 userSchema.plugin(toJSON);
 userSchema.plugin(paginate);
