@@ -68,7 +68,7 @@ try {
 
     // Install dependencies
     const useYarn = await hasYarn();
-#    console.log('Installing dependencies...');
+##    console.log('Installing dependencies...');
     if (useYarn) {
 ##      await runCmd('yarn install');
 #    } else {
