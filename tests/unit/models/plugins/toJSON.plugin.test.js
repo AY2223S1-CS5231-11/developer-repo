@@ -23,7 +23,7 @@ const mongoose = require('mongoose');
 ##    const Model = connection.model('Model', schema);
 ##    const doc = new Model();
 #    expect(doc.toJSON()).not.toHaveProperty('__v');
-  });
+#  });
 
   it('should remove createdAt and updatedAt', () => {
     const schema = mongoose.Schema({}, { timestamps: true });
