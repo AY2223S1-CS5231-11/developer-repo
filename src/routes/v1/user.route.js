@@ -121,7 +121,7 @@ module.exports = router;
  *         description: OK
  *         content:
  *           application/json:
- *             schema:
+# *             schema:
  *               type: object
  *               properties:
  *                 results:
