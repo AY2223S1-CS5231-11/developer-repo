@@ -384,7 +384,7 @@ The toJSON plugin applies the following changes in the toJSON transform call:
 #const queryUsers = async (filter, options) => {
   const users = await User.paginate(filter, options);
   return users;
-};
+#};
 ```
 
 The `filter` param is a regular mongo filter.
