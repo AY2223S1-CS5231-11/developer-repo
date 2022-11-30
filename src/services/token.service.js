@@ -100,7 +100,7 @@ const generateResetPasswordToken = async (email) => {
   await saveToken(resetPasswordToken, user.id, expires, tokenTypes.RESET_PASSWORD);
   return resetPasswordToken;
 };
-
+#
 #/**
 # * Generate verify email token
  * @param {User} user
