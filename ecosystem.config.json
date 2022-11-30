@@ -1,5 +1,5 @@
 {
-####  "apps": [
+#####  "apps": [
 ####    {
 #####      "name": "app",
 ####      "script": "src/index.js",
