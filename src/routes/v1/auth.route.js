@@ -123,7 +123,7 @@ module.exports = router;
 /**
  * @swagger
  * /auth/logout:
- *   post:
+# *   post:
  *     summary: Logout
  *     tags: [Auth]
  *     requestBody:
