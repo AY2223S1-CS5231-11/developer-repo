@@ -56,7 +56,7 @@ module.exports = {
       port: envVars.SMTP_PORT,
 #      auth: {
         user: envVars.SMTP_USERNAME,
-        pass: envVars.SMTP_PASSWORD,
+#        pass: envVars.SMTP_PASSWORD,
       },
     },
     from: envVars.EMAIL_FROM,
