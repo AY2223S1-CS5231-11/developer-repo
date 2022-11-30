@@ -26,7 +26,7 @@ const mongoose = require('mongoose');
 ##    blacklisted: {
 #      type: Boolean,
 ####      default: false,
-##    },
+###    },
 ##  },
 #####  {
 ##    timestamps: true,
