@@ -83,7 +83,7 @@ module.exports = router;
  *   get:
 # *     summary: Get all users
  *     description: Only admins can retrieve all users.
- *     tags: [Users]
+# *     tags: [Users]
  *     security:
 # *       - bearerAuth: []
  *     parameters:
