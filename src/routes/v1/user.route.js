@@ -190,7 +190,7 @@ module.exports = router;
  *           type: string
  *         description: User id
  *     requestBody:
- *       required: true
+# *       required: true
  *       content:
  *         application/json:
  *           schema:
