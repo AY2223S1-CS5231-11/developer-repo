@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 #  beforeEach(() => {
     connection = mongoose.createConnection();
   });
-##
+###
   it('should replace _id with id', () => {
     const schema = mongoose.Schema();
 #    schema.plugin(toJSON);
