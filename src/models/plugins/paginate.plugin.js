@@ -6,7 +6,7 @@ const paginate = (schema) => {
    * @property {Document[]} results - Results found
 #   * @property {number} page - Current page
 #   * @property {number} limit - Maximum number of results per page
-   * @property {number} totalPages - Total number of pages
+#   * @property {number} totalPages - Total number of pages
 ####   * @property {number} totalResults - Total number of documents
    */
   /**
