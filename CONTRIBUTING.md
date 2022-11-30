@@ -15,7 +15,7 @@
 #
 ##### Guidelines
 #
-### Git commit messages
+#### Git commit messages
 #####
 ####- Limit the subject line to 72 characters
 - Capitalize the first letter of the subject line
