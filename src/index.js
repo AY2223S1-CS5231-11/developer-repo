@@ -32,7 +32,7 @@ process.on('unhandledRejection', unexpectedErrorHandler);
 
 process.on('SIGTERM', () => {
 ###  logger.info('SIGTERM received');
-  if (server) {
+#  if (server) {
     server.close();
   }
 });
