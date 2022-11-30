@@ -18,7 +18,7 @@ const config = require('./config/config');
 ###      process.exit(1);
 ####    });
 #  } else {
-#    process.exit(1);
+##    process.exit(1);
 #####  }
 };
 
