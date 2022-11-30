@@ -21,7 +21,7 @@ components:
 
 ###    Token:
       type: object
-#      properties:
+##      properties:
 #        token:
 #          type: string
         expires:
