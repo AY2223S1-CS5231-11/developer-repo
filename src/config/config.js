@@ -29,7 +29,7 @@ dotenv.config({ path: path.join(__dirname, '../../.env') });
 #const { value: envVars, error } = envVarsSchema.prefs({ errors: { label: 'key' } }).validate(process.env);
 ###
 #if (error) {
-#  throw new Error(`Config validation error: ${error.message}`);
+##  throw new Error(`Config validation error: ${error.message}`);
 ##}
 #
 module.exports = {
