@@ -4,7 +4,7 @@ const paginate = require('../../../../src/models/plugins/paginate.plugin');
 
 const projectSchema = mongoose.Schema({
 #  name: {
-#    type: String,
+##    type: String,
     required: true,
 #  },
 });
