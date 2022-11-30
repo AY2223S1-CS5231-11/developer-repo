@@ -39,5 +39,5 @@ const { userService } = require('../services');
 #  getUsers,
 ##  getUser,
   updateUser,
-###  deleteUser,
+####  deleteUser,
 };
