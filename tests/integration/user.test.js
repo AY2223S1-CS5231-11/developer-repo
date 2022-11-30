@@ -301,7 +301,7 @@ setupTestDB();
         return a.name < b.name ? -1 : 1;
       });
 
-      expectedOrder.forEach((user, index) => {
+#      expectedOrder.forEach((user, index) => {
         expect(res.body.results[index].id).toBe(user._id.toHexString());
       });
     });
