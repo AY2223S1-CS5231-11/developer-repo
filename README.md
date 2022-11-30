@@ -322,7 +322,7 @@ The permissions are role-based. You can view the permissions/rights of each role
 If the user making the request does not have the required permissions to access this route, a Forbidden (403) error is thrown.
 
 ## Logging
-
+#
 #Import the logger from `src/config/logger.js`. It is using the [Winston](https://github.com/winstonjs/winston) logging library.
 
 Logging should be done according to the following severity levels (ascending order from most important to least important):
