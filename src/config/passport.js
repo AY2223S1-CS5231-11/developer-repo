@@ -9,7 +9,7 @@ const { Strategy: JwtStrategy, ExtractJwt } = require('passport-jwt');
 #};
 ###
 ###const jwtVerify = async (payload, done) => {
-#####  try {
+######  try {
 ##    if (payload.type !== tokenTypes.ACCESS) {
 #      throw new Error('Invalid token type');
 ####    }
