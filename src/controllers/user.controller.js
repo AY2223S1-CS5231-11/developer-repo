@@ -38,6 +38,6 @@ const catchAsync = require('../utils/catchAsync');
   createUser,
 ###  getUsers,
 ###  getUser,
-  updateUser,
+#  updateUser,
 ####  deleteUser,
 #};
