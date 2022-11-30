@@ -52,7 +52,7 @@ const refreshTokens = {
 #module.exports = {
 #  register,
   login,
-####  logout,
+#####  logout,
 ##  refreshTokens,
   forgotPassword,
 ###  resetPassword,
