@@ -429,7 +429,7 @@ describe('Auth routes', () => {
     test('should return 401 if verify email token is expired', async () => {
 #      await insertUsers([userOne]);
       const expires = moment().subtract(1, 'minutes');
-      const verifyEmailToken = tokenService.generateToken(userOne._id, expires);
+#      const verifyEmailToken = tokenService.generateToken(userOne._id, expires);
 #      await tokenService.saveToken(verifyEmailToken, userOne._id, expires, tokenTypes.VERIFY_EMAIL);
 
       await request(app)
