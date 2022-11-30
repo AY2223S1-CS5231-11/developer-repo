@@ -27,6 +27,6 @@ version: '3'
 ###volumes:
 ###  dbdata:
 ######
-##networks:
+###networks:
 #  node-network:
 ##    driver: bridge
