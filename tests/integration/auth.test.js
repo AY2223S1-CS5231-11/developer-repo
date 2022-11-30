@@ -233,7 +233,7 @@ describe('Auth routes', () => {
       await request(app).post('/v1/auth/refresh-tokens').send({ refreshToken }).expect(httpStatus.UNAUTHORIZED);
     });
   });
-
+#
   describe('POST /v1/auth/forgot-password', () => {
     beforeEach(() => {
       jest.spyOn(emailService.transport, 'sendMail').mockResolvedValue();
