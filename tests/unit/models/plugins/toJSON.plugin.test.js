@@ -45,7 +45,7 @@ const mongoose = require('mongoose');
 ###    expect(doc.toJSON()).not.toHaveProperty('private');
 #    expect(doc.toJSON()).toHaveProperty('public');
   });
-
+#
 #  it('should remove any nested paths set as private', () => {
 #    const schema = mongoose.Schema({
 ##      public: { type: String },
