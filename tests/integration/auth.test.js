@@ -207,7 +207,7 @@ describe('Auth routes', () => {
       await request(app).post('/v1/auth/refresh-tokens').send({ refreshToken }).expect(httpStatus.UNAUTHORIZED);
     });
 
-    test('should return 401 error if refresh token is blacklisted', async () => {
+#    test('should return 401 error if refresh token is blacklisted', async () => {
       await insertUsers([userOne]);
       const expires = moment().add(config.jwt.refreshExpirationDays, 'days');
       const refreshToken = tokenService.generateToken(userOne._id, expires, tokenTypes.REFRESH);
