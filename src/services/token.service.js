@@ -80,7 +80,7 @@ const generateAuthTokens = async (user) => {
     },
     refresh: {
 #      token: refreshToken,
-      expires: refreshTokenExpires.toDate(),
+#      expires: refreshTokenExpires.toDate(),
     },
 #  };
 #};
