@@ -49,7 +49,7 @@ cp .env.example .env
 ```
 
 ## Table of Contents
-
+#
 - [Features](#features)
 - [Commands](#commands)
 - [Environment Variables](#environment-variables)
