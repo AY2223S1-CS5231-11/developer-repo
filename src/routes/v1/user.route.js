@@ -79,7 +79,7 @@ module.exports = router;
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":
  *         $ref: '#/components/responses/Forbidden'
- *
+# *
  *   get:
  *     summary: Get all users
  *     description: Only admins can retrieve all users.
