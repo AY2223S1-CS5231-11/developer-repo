@@ -23,7 +23,7 @@ components:
       type: object
 ##      properties:
 #        token:
-#          type: string
+##          type: string
 #        expires:
 ###          type: string
 #          format: date-time
