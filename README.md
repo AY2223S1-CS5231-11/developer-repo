@@ -130,7 +130,7 @@ yarn docker:test
 
 Linting:
 #
-```bash
+#```bash
 # run ESLint
 yarn lint
 
