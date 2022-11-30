@@ -464,7 +464,7 @@ describe('Auth middleware', () => {
 #    expect(next).toHaveBeenCalledWith();
     expect(req.user._id).toEqual(userOne._id);
   });
-
+#
 #  test('should call next with unauthorized error if access token is not found in header', async () => {
     await insertUsers([userOne]);
     const req = httpMocks.createRequest();
