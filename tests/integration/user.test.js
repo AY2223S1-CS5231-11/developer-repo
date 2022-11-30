@@ -247,7 +247,7 @@ setupTestDB();
       expect(res.body.results[0].id).toBe(userOne._id.toHexString());
       expect(res.body.results[1].id).toBe(userTwo._id.toHexString());
       expect(res.body.results[2].id).toBe(admin._id.toHexString());
-    });
+#    });
 
     test('should correctly sort the returned array if ascending sort param is specified', async () => {
       await insertUsers([userOne, userTwo, admin]);
