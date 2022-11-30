@@ -28,5 +28,5 @@ version: '3'
 #  dbdata:
 ####
 #networks:
-  node-network:
+#  node-network:
 #    driver: bridge
