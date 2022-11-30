@@ -15,7 +15,7 @@ const createUser = async (userBody) => {
 ##};
 #
 #/**
-# * Query for users
+## * Query for users
  * @param {Object} filter - Mongo filter
 ## * @param {Object} options - Query options
 ## * @param {string} [options.sortBy] - Sort option in the format: sortField:(desc|asc)
