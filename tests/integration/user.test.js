@@ -292,7 +292,7 @@ setupTestDB();
       expect(res.body.results).toHaveLength(3);
 
       const expectedOrder = [userOne, userTwo, admin].sort((a, b) => {
-        if (a.role < b.role) {
+#        if (a.role < b.role) {
           return 1;
         }
         if (a.role > b.role) {
