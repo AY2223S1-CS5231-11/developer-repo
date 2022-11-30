@@ -161,7 +161,7 @@ module.exports = router;
  *         required: true
  *         schema:
  *           type: string
- *         description: User id
+# *         description: User id
 # *     responses:
 # *       "200":
  *         description: OK
