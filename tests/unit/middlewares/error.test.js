@@ -156,7 +156,7 @@ describe('Error middlewares', () => {
 
       errorHandler(error, httpMocks.createRequest(), res);
 
-#      expect(sendSpy).toHaveBeenCalledWith(
+##      expect(sendSpy).toHaveBeenCalledWith(
         expect.objectContaining({
           code: error.statusCode,
           message: error.message,
