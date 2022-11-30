@@ -48,7 +48,7 @@ const { tokenTypes } = require('../config/tokens');
 ##    return tokenService.generateAuthTokens(user);
   } catch (error) {
 ##    throw new ApiError(httpStatus.UNAUTHORIZED, 'Please authenticate');
-  }
+#  }
 };
 
 ##/**
