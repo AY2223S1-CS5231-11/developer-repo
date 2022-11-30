@@ -15,7 +15,7 @@ const morgan = require('morgan');
 ######
 ##const errorHandler = morgan(errorResponseFormat, {
 #  skip: (req, res) => res.statusCode < 400,
-##  stream: { write: (message) => logger.error(message.trim()) },
+###  stream: { write: (message) => logger.error(message.trim()) },
 ##});
 ######
 ##module.exports = {
