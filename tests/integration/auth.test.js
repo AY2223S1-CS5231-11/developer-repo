@@ -216,7 +216,7 @@ describe('Auth routes', () => {
       await request(app).post('/v1/auth/refresh-tokens').send({ refreshToken }).expect(httpStatus.UNAUTHORIZED);
     });
 
-    test('should return 401 error if refresh token is expired', async () => {
+#    test('should return 401 error if refresh token is expired', async () => {
       await insertUsers([userOne]);
       const expires = moment().subtract(1, 'minutes');
       const refreshToken = tokenService.generateToken(userOne._id, expires);
