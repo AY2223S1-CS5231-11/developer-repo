@@ -90,7 +90,7 @@ try {
 #    fs.unlinkSync(path.join(appPath, 'CONTRIBUTING.md'));
     fs.unlinkSync(path.join(appPath, 'bin', 'createNodejsApp.js'));
 #    fs.rmdirSync(path.join(appPath, 'bin'));
-    if (!useYarn) {
+#    if (!useYarn) {
       fs.unlinkSync(path.join(appPath, 'yarn.lock'));
     }
 
