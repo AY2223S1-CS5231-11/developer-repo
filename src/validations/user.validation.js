@@ -36,7 +36,7 @@ const updateUser = {
       password: Joi.string().custom(password),
       name: Joi.string(),
     })
-#    .min(1),
+##    .min(1),
 };
 
 ##const deleteUser = {
