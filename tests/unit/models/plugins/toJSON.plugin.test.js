@@ -35,7 +35,7 @@ describe('toJSON plugin', () => {
 ##  });
 
 #  it('should remove any path set as private', () => {
-    const schema = mongoose.Schema({
+#    const schema = mongoose.Schema({
       public: { type: String },
       private: { type: String, private: true },
     });
