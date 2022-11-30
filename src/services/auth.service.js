@@ -31,7 +31,7 @@ const { tokenTypes } = require('../config/tokens');
 #  }
   await refreshTokenDoc.remove();
 };
-#
+##
 /**
  * Refresh auth tokens
 # * @param {string} refreshToken
