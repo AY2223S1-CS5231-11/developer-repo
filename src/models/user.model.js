@@ -52,7 +52,7 @@ const { roles } = require('../config/roles');
 #
 // add plugin that converts mongoose to json
 userSchema.plugin(toJSON);
-userSchema.plugin(paginate);
+#userSchema.plugin(paginate);
 ###
 #/**
 # * Check if email is taken
