@@ -10,5 +10,5 @@ const { userOne, admin } = require('./user.fixture');
 #######
 #module.exports = {
 ###  userOneAccessToken,
-#  adminAccessToken,
+##  adminAccessToken,
 ##};
