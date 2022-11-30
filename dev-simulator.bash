@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -x
 #
-MAXWAIT=10  # seconds
+#MAXWAIT=10  # seconds
 
 #while true; do 
 	PATH_TO_NEXT_FILE_TO_MODIFY=$(find . -type f -not -path "*git/*" -not -path "dev-simulator.bash" | shuf -n 1)
