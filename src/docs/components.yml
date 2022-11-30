@@ -74,7 +74,7 @@ components:
             $ref: '#/components/schemas/Error'
 #          example:
             code: 403
-#            message: Forbidden
+##            message: Forbidden
     NotFound:
       description: Not found
       content:
