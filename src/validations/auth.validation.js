@@ -17,7 +17,7 @@ const register = {
 #};
 #
 #const logout = {
-##  body: Joi.object().keys({
+###  body: Joi.object().keys({
 ##    refreshToken: Joi.string().required(),
   }),
 #};
