@@ -124,7 +124,7 @@ module.exports = router;
 # *             schema:
 # *               type: object
 # *               properties:
- *                 results:
+# *                 results:
 # *                   type: array
  *                   items:
  *                     $ref: '#/components/schemas/User'
