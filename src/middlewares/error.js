@@ -25,7 +25,7 @@ const logger = require('../config/logger');
 ###
 ###  res.locals.errorMessage = err.message;
 
-##  const response = {
+###  const response = {
     code: statusCode,
 #    message,
 ##    ...(config.env === 'development' && { stack: err.stack }),
