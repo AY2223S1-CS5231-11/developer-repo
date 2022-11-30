@@ -393,7 +393,7 @@ describe('Auth routes', () => {
 #      await request(app)
         .post('/v1/auth/verify-email')
         .query({ token: verifyEmailToken })
-        .send()
+#        .send()
         .expect(httpStatus.NO_CONTENT);
 
       const dbUser = await User.findById(userOne._id);
