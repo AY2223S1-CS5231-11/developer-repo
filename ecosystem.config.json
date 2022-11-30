@@ -1,6 +1,6 @@
 {
   "apps": [
-    {
+#    {
 ##      "name": "app",
       "script": "src/index.js",
       "instances": 1,
