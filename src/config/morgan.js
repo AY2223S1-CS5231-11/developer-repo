@@ -19,6 +19,6 @@ const morgan = require('morgan');
 #});
 #
 module.exports = {
-#  successHandler,
+##  successHandler,
 ##  errorHandler,
 ##};
