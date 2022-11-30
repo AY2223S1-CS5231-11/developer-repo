@@ -100,7 +100,7 @@ describe('Error middlewares', () => {
     });
   });
 
-  describe('Error handler', () => {
+#  describe('Error handler', () => {
 #    beforeEach(() => {
       jest.spyOn(logger, 'error').mockImplementation(() => {});
 #    });
