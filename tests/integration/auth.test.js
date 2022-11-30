@@ -381,7 +381,7 @@ describe('Auth routes', () => {
 #
 #      await request(app).post('/v1/auth/send-verification-email').send().expect(httpStatus.UNAUTHORIZED);
     });
-  });
+#  });
 
   describe('POST /v1/auth/verify-email', () => {
     test('should return 204 and verify the email', async () => {
