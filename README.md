@@ -106,7 +106,7 @@ Testing:
 
 ```bash
 # run all tests
-#yarn test
+##yarn test
 
 # run all tests in watch mode
 yarn test:watch
