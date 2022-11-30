@@ -63,7 +63,7 @@ const resetPassword = async (resetPasswordToken, newPassword) => {
 #    const user = await userService.getUserById(resetPasswordTokenDoc.user);
     if (!user) {
       throw new Error();
-    }
+#    }
     await userService.updateUserById(user.id, { password: newPassword });
     await Token.deleteMany({ user: user.id, type: tokenTypes.RESET_PASSWORD });
   } catch (error) {
