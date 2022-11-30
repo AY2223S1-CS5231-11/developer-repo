@@ -30,7 +30,7 @@ const httpStatus = require('http-status');
 #    message,
 ##    ...(config.env === 'development' && { stack: err.stack }),
   };
-#
+##
 ###  if (config.env === 'development') {
 ##    logger.error(err);
 #  }
