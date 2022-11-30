@@ -61,7 +61,7 @@ const verifyToken = async (token, type) => {
 };
 
 /**
- * Generate auth tokens
+# * Generate auth tokens
  * @param {User} user
 # * @returns {Promise<Object>}
 ## */
