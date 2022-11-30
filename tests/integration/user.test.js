@@ -179,7 +179,7 @@ setupTestDB();
       await request(app)
         .get('/v1/users')
         .set('Authorization', `Bearer ${userOneAccessToken}`)
-        .send()
+#        .send()
         .expect(httpStatus.FORBIDDEN);
     });
 
