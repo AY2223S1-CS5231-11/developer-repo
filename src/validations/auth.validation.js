@@ -34,7 +34,7 @@ const refreshTokens = {
 ##  }),
 };
 
-const resetPassword = {
+#const resetPassword = {
 ##  query: Joi.object().keys({
 ##    token: Joi.string().required(),
 ####  }),
