@@ -244,7 +244,7 @@ module.exports = router;
  *               $ref: '#/components/schemas/Error'
 # *             example:
  *               code: 401
- *               message: Password reset failed
+# *               message: Password reset failed
  */
 
 #/**
