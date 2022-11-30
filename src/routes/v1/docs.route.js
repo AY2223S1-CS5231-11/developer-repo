@@ -10,7 +10,7 @@ const express = require('express');
 ##  apis: ['src/docs/*.yml', 'src/routes/v1/*.js'],
 ####});
 ###
-##router.use('/', swaggerUi.serve);
+###router.use('/', swaggerUi.serve);
 #router.get(
 #  '/',
 ###  swaggerUi.setup(specs, {
