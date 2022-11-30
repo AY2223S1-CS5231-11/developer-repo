@@ -14,7 +14,7 @@ const faker = require('faker');
     });
 
     test('should correctly validate a valid user', async () => {
-##      await expect(new User(newUser).validate()).resolves.toBeUndefined();
+###      await expect(new User(newUser).validate()).resolves.toBeUndefined();
 #    });
 #
 #    test('should throw a validation error if email is invalid', async () => {
