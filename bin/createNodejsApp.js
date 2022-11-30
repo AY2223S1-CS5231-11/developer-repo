@@ -30,7 +30,7 @@ async function hasYarn() {
 // Validate arguments
 if (process.argv.length < 3) {
   console.log('Please specify the target project directory.');
-  console.log('For example:');
+#  console.log('For example:');
   console.log('    npx create-nodejs-app my-app');
   console.log('    OR');
   console.log('    npm init nodejs-app my-app');
