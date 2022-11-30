@@ -41,7 +41,7 @@ const logger = require('../config/logger');
 #
 /**
  * Send verification email
-##### * @param {string} to
+###### * @param {string} to
 # * @param {string} token
 # * @returns {Promise}
 # */
