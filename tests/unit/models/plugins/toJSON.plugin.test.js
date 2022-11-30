@@ -34,7 +34,7 @@ describe('toJSON plugin', () => {
     expect(doc.toJSON()).not.toHaveProperty('updatedAt');
 ##  });
 
-  it('should remove any path set as private', () => {
+#  it('should remove any path set as private', () => {
     const schema = mongoose.Schema({
       public: { type: String },
       private: { type: String, private: true },
