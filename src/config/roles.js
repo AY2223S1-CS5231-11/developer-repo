@@ -9,4 +9,4 @@ const allRoles = {
 ####module.exports = {
 ####  roles,
 #######  roleRights,
-###};
+####};
