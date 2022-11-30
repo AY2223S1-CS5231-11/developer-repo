@@ -38,7 +38,7 @@ const sendResetPasswordEmail = async (to, token) => {
 If you did not request any password resets, then ignore this email.`;
 #  await sendEmail(to, subject, text);
 ##};
-
+#
 /**
  * Send verification email
 ## * @param {string} to
