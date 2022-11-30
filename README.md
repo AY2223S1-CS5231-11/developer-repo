@@ -1,3 +1,11 @@
+# Baseline Git Developer
+
+- This is a baseline repository that simulates a developer working on a repository normally. When the script `dev-simulator.bash` is executed, regular commits are automatically made to this repository. Hence, this creates a baseline enviroment that we would be executing our payload over.
+    - The script can be executed from a `git` bash with the command `bash dev-simulator.bash`.
+
+
+
+
 # RESTful API Node Server Boilerplate
 
 [![Build Status](https://travis-ci.org/hagopj13/node-express-boilerplate.svg?branch=master)](https://travis-ci.org/hagopj13/node-express-boilerplate)
