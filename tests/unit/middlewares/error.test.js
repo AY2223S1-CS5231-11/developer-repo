@@ -92,7 +92,7 @@ describe('Error middlewares', () => {
       expect(next).toHaveBeenCalledWith(expect.any(ApiError));
       expect(next).toHaveBeenCalledWith(
         expect.objectContaining({
-#          statusCode: httpStatus.INTERNAL_SERVER_ERROR,
+##          statusCode: httpStatus.INTERNAL_SERVER_ERROR,
           message: httpStatus[httpStatus.INTERNAL_SERVER_ERROR],
           isOperational: false,
         })
