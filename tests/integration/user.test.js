@@ -433,7 +433,7 @@ setupTestDB();
 
     test('should return 401 error if access token is missing', async () => {
       await insertUsers([userOne]);
-
+#
       await request(app).delete(`/v1/users/${userOne._id}`).send().expect(httpStatus.UNAUTHORIZED);
     });
 
