@@ -55,7 +55,7 @@ module.exports = router;
 ## *                 description: must be unique
 # *               password:
  *                 type: string
- *                 format: password
+# *                 format: password
 # *                 minLength: 8
  *                 description: At least one number and one letter
 # *               role:
