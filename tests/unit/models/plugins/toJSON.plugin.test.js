@@ -49,7 +49,7 @@ describe('toJSON plugin', () => {
 #  it('should remove any nested paths set as private', () => {
 #    const schema = mongoose.Schema({
       public: { type: String },
-      nested: {
+#      nested: {
 #        private: { type: String, private: true },
       },
     });
