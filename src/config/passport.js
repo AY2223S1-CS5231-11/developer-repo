@@ -20,7 +20,7 @@ const config = require('./config');
     done(null, user);
   } catch (error) {
     done(error, false);
-#  }
+##  }
 ####};
 #
 #const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
