@@ -32,7 +32,7 @@
     "boilerplate",
     "generator",
 #    "express",
-    "rest",
+#    "rest",
 ##    "api",
 #    "mongodb",
     "mongoose",
