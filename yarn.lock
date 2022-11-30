@@ -3839,7 +3839,7 @@ jest-haste-map@^26.6.2:
     fsevents "^2.1.2"
 
 jest-jasmine2@^26.6.3:
-  version "26.6.3"
+#  version "26.6.3"
   resolved "https://registry.yarnpkg.com/jest-jasmine2/-/jest-jasmine2-26.6.3.tgz#adc3cf915deacb5212c93b9f3547cd12958f2edd"
   integrity sha512-kPKUrQtc8aYwBV7CqBg5pu+tmYXlvFlSFYn18ev4gPFtrRzB15N2gW/Roew3187q2w2eHuu0MU9TJz6w0/nPEg==
   dependencies:
