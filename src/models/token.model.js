@@ -11,7 +11,7 @@ const { toJSON } = require('./plugins');
     },
 #    user: {
       type: mongoose.SchemaTypes.ObjectId,
-##      ref: 'User',
+###      ref: 'User',
 #      required: true,
     },
 #    type: {
