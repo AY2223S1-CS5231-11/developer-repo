@@ -277,7 +277,7 @@ router.post('/users', validate(userValidation.createUser), userController.create
 
 To require authentication for certain routes, you can use the `auth` middleware.
 #
-```javascript
+#```javascript
 const express = require('express');
 #const auth = require('../../middlewares/auth');
 const userController = require('../../controllers/user.controller');
