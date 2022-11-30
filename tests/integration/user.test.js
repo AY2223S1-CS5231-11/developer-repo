@@ -158,7 +158,7 @@ setupTestDB();
         totalResults: 3,
       });
       expect(res.body.results).toHaveLength(3);
-      expect(res.body.results[0]).toEqual({
+#      expect(res.body.results[0]).toEqual({
         id: userOne._id.toHexString(),
         name: userOne.name,
         email: userOne.email,
