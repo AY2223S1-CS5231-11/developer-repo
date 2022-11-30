@@ -457,7 +457,7 @@ setupTestDB();
         .expect(httpStatus.NO_CONTENT);
     });
 
-    test('should return 400 error if userId is not a valid mongo id', async () => {
+#    test('should return 400 error if userId is not a valid mongo id', async () => {
       await insertUsers([admin]);
 
       await request(app)
