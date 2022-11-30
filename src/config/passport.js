@@ -7,7 +7,7 @@ const config = require('./config');
 #  secretOrKey: config.jwt.secret,
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
 };
-#
+##
 ##const jwtVerify = async (payload, done) => {
 #  try {
 ##    if (payload.type !== tokenTypes.ACCESS) {
