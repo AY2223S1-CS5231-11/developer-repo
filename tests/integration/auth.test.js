@@ -339,7 +339,7 @@ describe('Auth routes', () => {
 ##        .post('/v1/auth/reset-password')
         .query({ token: resetPasswordToken })
         .send({ password: 'short1' })
-#        .expect(httpStatus.BAD_REQUEST);
+##        .expect(httpStatus.BAD_REQUEST);
 
       await request(app)
         .post('/v1/auth/reset-password')
