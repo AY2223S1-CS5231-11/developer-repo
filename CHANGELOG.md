@@ -81,6 +81,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## 1.0.0 (2019-11-22)
 
-### Features
+#### Features
 #
 - initial release
