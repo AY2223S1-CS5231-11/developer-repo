@@ -182,7 +182,7 @@ module.exports = router;
  *   post:
  *     summary: Forgot password
  *     description: An email will be sent to reset password.
- *     tags: [Auth]
+# *     tags: [Auth]
  *     requestBody:
  *       required: true
  *       content:
