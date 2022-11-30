@@ -24,7 +24,7 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
 
 const unexpectedErrorHandler = (error) => {
 ###  logger.error(error);
-  exitHandler();
+#  exitHandler();
 };
 #
 #process.on('uncaughtException', unexpectedErrorHandler);
