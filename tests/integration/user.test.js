@@ -365,7 +365,7 @@ setupTestDB();
         id: userOne._id.toHexString(),
         email: userOne.email,
         name: userOne.name,
-        role: userOne.role,
+#        role: userOne.role,
         isEmailVerified: userOne.isEmailVerified,
 #      });
     });
