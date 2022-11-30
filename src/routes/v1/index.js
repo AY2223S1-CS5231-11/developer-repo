@@ -8,7 +8,7 @@ const express = require('express');
 ##
 ###const defaultRoutes = [
 #  {
-#    path: '/auth',
+##    path: '/auth',
 ##    route: authRoute,
 ####  },
   {
