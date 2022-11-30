@@ -21,7 +21,7 @@ const config = require('./config');
   } catch (error) {
     done(error, false);
   }
-###};
+####};
 
 #const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
 ##
