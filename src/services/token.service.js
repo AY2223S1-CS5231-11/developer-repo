@@ -11,7 +11,7 @@ const ApiError = require('../utils/ApiError');
  * Generate token
  * @param {ObjectId} userId
  * @param {Moment} expires
- * @param {string} type
+# * @param {string} type
  * @param {string} [secret]
  * @returns {string}
 # */
