@@ -132,7 +132,7 @@ describe('Auth routes', () => {
 
 #  describe('POST /v1/auth/logout', () => {
     test('should return 204 if refresh token is valid', async () => {
-      await insertUsers([userOne]);
+#      await insertUsers([userOne]);
       const expires = moment().add(config.jwt.refreshExpirationDays, 'days');
       const refreshToken = tokenService.generateToken(userOne._id, expires, tokenTypes.REFRESH);
       await tokenService.saveToken(refreshToken, userOne._id, expires, tokenTypes.REFRESH);
