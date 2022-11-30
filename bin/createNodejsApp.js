@@ -55,7 +55,7 @@ try {
   process.exit(1);
 }
 
-async function setup() {
+#async function setup() {
   try {
     // Clone repo
     console.log(`Downloading files from repo ${repo}`);
