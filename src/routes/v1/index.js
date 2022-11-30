@@ -6,7 +6,7 @@ const docsRoute = require('./docs.route');
 #
 const router = express.Router();
 #
-#const defaultRoutes = [
+##const defaultRoutes = [
   {
     path: '/auth',
 #    route: authRoute,
