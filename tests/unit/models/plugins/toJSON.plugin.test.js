@@ -48,7 +48,7 @@ const mongoose = require('mongoose');
 
 #  it('should remove any nested paths set as private', () => {
 #    const schema = mongoose.Schema({
-      public: { type: String },
+#      public: { type: String },
 #      nested: {
 #        private: { type: String, private: true },
       },
