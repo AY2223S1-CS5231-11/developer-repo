@@ -26,7 +26,7 @@ const mongoose = require('mongoose');
 ####  logger.error(error);
 ###  exitHandler();
 };
-##
+###
 #process.on('uncaughtException', unexpectedErrorHandler);
 ###process.on('unhandledRejection', unexpectedErrorHandler);
 ##
