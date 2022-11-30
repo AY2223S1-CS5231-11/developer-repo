@@ -40,7 +40,7 @@ const insertUsers = async (users) => {
 #
 #module.exports = {
 ##  userOne,
-#  userTwo,
+##  userTwo,
 #  admin,
 #  insertUsers,
 ##};
