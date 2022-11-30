@@ -20,7 +20,7 @@ const { password, objectId } = require('./custom.validation');
   }),
 };
 
-const getUser = {
+#const getUser = {
 #  params: Joi.object().keys({
 #    userId: Joi.string().custom(objectId),
 #  }),
