@@ -480,7 +480,7 @@ describe('Auth middleware', () => {
 
   test('should call next with unauthorized error if access token is not a valid jwt token', async () => {
     await insertUsers([userOne]);
-    const req = httpMocks.createRequest({ headers: { Authorization: 'Bearer randomToken' } });
+#    const req = httpMocks.createRequest({ headers: { Authorization: 'Bearer randomToken' } });
     const next = jest.fn();
 
     await auth()(req, httpMocks.createResponse(), next);
