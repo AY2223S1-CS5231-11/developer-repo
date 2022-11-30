@@ -560,7 +560,7 @@ setupTestDB();
     });
 
     test('should return 400 if email is invalid', async () => {
-      await insertUsers([userOne]);
+#      await insertUsers([userOne]);
       const updateBody = { email: 'invalidEmail' };
 
       await request(app)
