@@ -8,7 +8,7 @@ const { tokenTypes } = require('../config/tokens');
 /**
  * Login with username and password
  * @param {string} email
- * @param {string} password
+# * @param {string} password
 # * @returns {Promise<User>}
  */
 const loginUserWithEmailAndPassword = async (email, password) => {
