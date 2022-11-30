@@ -33,7 +33,7 @@ const { userService } = require('../services');
 #  await userService.deleteUserById(req.params.userId);
 ##  res.status(httpStatus.NO_CONTENT).send();
 });
-###
+####
 #module.exports = {
   createUser,
 #  getUsers,
