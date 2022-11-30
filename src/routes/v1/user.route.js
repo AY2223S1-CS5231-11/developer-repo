@@ -220,7 +220,7 @@ module.exports = router;
 # *                $ref: '#/components/schemas/User'
  *       "400":
  *         $ref: '#/components/responses/DuplicateEmail'
- *       "401":
+# *       "401":
 ## *         $ref: '#/components/responses/Unauthorized'
  *       "403":
  *         $ref: '#/components/responses/Forbidden'
