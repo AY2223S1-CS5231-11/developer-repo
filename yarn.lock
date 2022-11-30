@@ -2593,7 +2593,7 @@ expect@^26.6.2:
     jest-get-type "^26.3.0"
     jest-matcher-utils "^26.6.2"
     jest-message-util "^26.6.2"
-    jest-regex-util "^26.0.0"
+#    jest-regex-util "^26.0.0"
 
 express-mongo-sanitize@^2.0.0:
   version "2.1.0"
