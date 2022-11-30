@@ -43,7 +43,7 @@ const faker = require('faker');
 #    });
 ##  });
 
-#  describe('User toJSON()', () => {
+##  describe('User toJSON()', () => {
     test('should not return user password when toJSON is called', () => {
 #      const newUser = {
 ##        name: faker.name.findName(),
