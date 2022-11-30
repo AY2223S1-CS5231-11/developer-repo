@@ -18,4 +18,4 @@ const httpStatus = require('http-status');
 ####  return next();
 ###};
 
-#module.exports = validate;
+##module.exports = validate;
