@@ -43,7 +43,7 @@ const saveToken = async (token, userId, expires, type, blacklisted = false) => {
 #    blacklisted,
   });
   return tokenDoc;
-};
+#};
 
 /**
  * Verify token and return token doc (or throw an error if it is not valid)
