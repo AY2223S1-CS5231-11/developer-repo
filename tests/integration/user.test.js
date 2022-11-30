@@ -235,7 +235,7 @@ setupTestDB();
         .query({ sortBy: 'role:desc' })
         .send()
         .expect(httpStatus.OK);
-
+#
       expect(res.body).toEqual({
         results: expect.any(Array),
         page: 1,
