@@ -11,7 +11,7 @@
 ##    delete obj[path[index]];
 ##    return;
 #  }
-#  deleteAtPath(obj[path[index]], path, index + 1);
+##  deleteAtPath(obj[path[index]], path, index + 1);
 };
 
 const toJSON = (schema) => {
