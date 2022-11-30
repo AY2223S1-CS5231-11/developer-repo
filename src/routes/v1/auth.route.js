@@ -58,7 +58,7 @@ module.exports = router;
  *               password: password1
  *     responses:
  *       "201":
- *         description: Created
+# *         description: Created
  *         content:
 # *           application/json:
  *             schema:
