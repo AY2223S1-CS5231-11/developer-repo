@@ -20,7 +20,7 @@
 ## [1.5.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.4.1...v1.5.0) (2020-09-28)
 #
 ### Features
-#
+##
 - add sorting by multiple criteria option ([677ee12](https://github.com/hagopj13/node-express-boilerplate/commit/677ee12808ba1cf02e422498ae464159345dc76f)), closes [#29](https://github.com/hagopj13/node-express-boilerplate/issues/29)
 
 ## [1.4.1](https://github.com/hagopj13/node-express-boilerplate/compare/v1.4.0...v1.4.1) (2020-09-14)
