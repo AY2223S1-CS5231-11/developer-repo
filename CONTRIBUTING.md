@@ -13,7 +13,7 @@
 #- **Create tests** to keep the code coverage high
 ####- **Send a pull request**
 ###
-##### Guidelines
+###### Guidelines
 #
 ##### Git commit messages
 ######
