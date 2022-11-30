@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 ####  });
 #####});
 #
-##const exitHandler = () => {
+###const exitHandler = () => {
 #  if (server) {
 #    server.close(() => {
 ####      logger.info('Server closed');
