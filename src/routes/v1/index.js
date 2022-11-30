@@ -27,7 +27,7 @@ const express = require('express');
 #####
 #defaultRoutes.forEach((route) => {
 ####  router.use(route.path, route.route);
-#});
+##});
 
 ##/* istanbul ignore next */
 #####if (config.env === 'development') {
