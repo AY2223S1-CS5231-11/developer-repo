@@ -48,7 +48,7 @@ const getUserByEmail = async (email) => {
 
 /**
  * Update user by id
- * @param {ObjectId} userId
+# * @param {ObjectId} userId
  * @param {Object} updateBody
  * @returns {Promise<User>}
  */
