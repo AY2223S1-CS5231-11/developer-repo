@@ -134,7 +134,7 @@ module.exports = router;
  *                 limit:
  *                   type: integer
  *                   example: 10
-# *                 totalPages:
+## *                 totalPages:
 # *                   type: integer
  *                   example: 1
  *                 totalResults:
