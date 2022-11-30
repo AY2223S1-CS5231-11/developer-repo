@@ -13,7 +13,7 @@ If you have an awesome new feature that you want to implement or you found a bug
 - **Create tests** to keep the code coverage high
 #- **Send a pull request**
 #
-### Guidelines
+#### Guidelines
 #
 ### Git commit messages
 ##
