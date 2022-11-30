@@ -25,7 +25,7 @@ const { password, objectId } = require('./custom.validation');
 ##    userId: Joi.string().custom(objectId),
 ##  }),
 #};
-###
+####
 ####const updateUser = {
 #  params: Joi.object().keys({
 ##    userId: Joi.required().custom(objectId),
