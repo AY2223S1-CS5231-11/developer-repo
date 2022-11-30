@@ -34,7 +34,7 @@ const salt = bcrypt.genSaltSync(8);
 ##  isEmailVerified: false,
 ####};
 #
-const insertUsers = async (users) => {
+#const insertUsers = async (users) => {
 ##  await User.insertMany(users.map((user) => ({ ...user, password: hashedPassword })));
 };
 #
