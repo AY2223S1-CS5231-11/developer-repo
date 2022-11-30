@@ -170,7 +170,7 @@ module.exports = router;
  *         description: OK
  *         content:
  *           application/json:
- *             schema:
+# *             schema:
  *               $ref: '#/components/schemas/AuthTokens'
  *       "401":
  *         $ref: '#/components/responses/Unauthorized'
