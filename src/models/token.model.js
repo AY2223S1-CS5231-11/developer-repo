@@ -28,7 +28,7 @@ const mongoose = require('mongoose');
 ####      default: false,
 #    },
 ##  },
-###  {
+####  {
 ##    timestamps: true,
 #  }
 );
