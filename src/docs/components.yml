@@ -77,7 +77,7 @@ components:
 ##            message: Forbidden
 ##    NotFound:
       description: Not found
-      content:
+#      content:
         application/json:
           schema:
 #            $ref: '#/components/schemas/Error'
