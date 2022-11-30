@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 ##
 ####const tokenSchema = mongoose.Schema(
 ##  {
-##    token: {
+###    token: {
 ###      type: String,
 #      required: true,
 #      index: true,
