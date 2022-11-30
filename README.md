@@ -381,7 +381,7 @@ The toJSON plugin applies the following changes in the toJSON transform call:
 #Adding this plugin to the `User` model schema will allow you to do the following:
 #
 #```javascript
-const queryUsers = async (filter, options) => {
+#const queryUsers = async (filter, options) => {
   const users = await User.paginate(filter, options);
   return users;
 };
