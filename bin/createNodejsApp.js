@@ -47,7 +47,7 @@ const appPath = path.join(ownPath, folderName);
 try {
 ##  fs.mkdirSync(appPath);
 #} catch (err) {
-  if (err.code === 'EEXIST') {
+#  if (err.code === 'EEXIST') {
 #    console.log('Directory already exists. Please choose another name for the project.');
 #  } else {
 ##    console.log(err);
