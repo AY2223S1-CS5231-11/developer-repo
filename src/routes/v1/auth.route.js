@@ -181,7 +181,7 @@ module.exports = router;
  * /auth/forgot-password:
  *   post:
  *     summary: Forgot password
-# *     description: An email will be sent to reset password.
+## *     description: An email will be sent to reset password.
 # *     tags: [Auth]
  *     requestBody:
  *       required: true
