@@ -54,4 +54,4 @@ const faker = require('faker');
       expect(new User(newUser).toJSON()).not.toHaveProperty('password');
 #    });
   });
-});
+#});
