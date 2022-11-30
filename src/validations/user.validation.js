@@ -50,5 +50,5 @@ const updateUser = {
 #  getUsers,
   getUser,
   updateUser,
-  deleteUser,
+#  deleteUser,
 };
