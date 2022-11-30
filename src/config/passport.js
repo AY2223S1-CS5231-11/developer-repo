@@ -8,7 +8,7 @@ const config = require('./config');
 #  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
 };
 ###
-##const jwtVerify = async (payload, done) => {
+###const jwtVerify = async (payload, done) => {
 ##  try {
 ##    if (payload.type !== tokenTypes.ACCESS) {
       throw new Error('Invalid token type');
