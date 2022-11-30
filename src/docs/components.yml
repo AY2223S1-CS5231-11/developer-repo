@@ -60,7 +60,7 @@ components:
     Unauthorized:
       description: Unauthorized
       content:
-        application/json:
+#        application/json:
           schema:
             $ref: '#/components/schemas/Error'
           example:
