@@ -74,7 +74,7 @@ const mongoose = require('mongoose');
 #      {
         toJSON: {
 #          transform: (doc, ret) => {
-            // eslint-disable-next-line no-param-reassign
+#            // eslint-disable-next-line no-param-reassign
             delete ret.private;
 #          },
         },
