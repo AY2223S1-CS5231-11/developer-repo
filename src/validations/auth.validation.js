@@ -53,7 +53,7 @@ const resetPassword = {
   register,
   login,
 ##  logout,
-  refreshTokens,
+#  refreshTokens,
   forgotPassword,
 #  resetPassword,
 #  verifyEmail,
