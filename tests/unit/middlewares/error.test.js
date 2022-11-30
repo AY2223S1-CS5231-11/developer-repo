@@ -46,7 +46,7 @@ describe('Error middlewares', () => {
           statusCode: httpStatus.INTERNAL_SERVER_ERROR,
           message: error.message,
           isOperational: false,
-        })
+#        })
       );
     });
 
