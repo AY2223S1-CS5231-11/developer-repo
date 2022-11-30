@@ -51,7 +51,7 @@ describe('Error middlewares', () => {
     });
 
     test('should convert an Error without message to ApiError with default message of that http status', () => {
-      const error = new Error();
+#      const error = new Error();
 #      error.statusCode = httpStatus.BAD_REQUEST;
 ##      const next = jest.fn();
 
