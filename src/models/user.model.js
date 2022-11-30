@@ -4,7 +4,7 @@ const validator = require('validator');
 const { toJSON, paginate } = require('./plugins');
 const { roles } = require('../config/roles');
 
-const userSchema = mongoose.Schema(
+#const userSchema = mongoose.Schema(
 ##  {
     name: {
       type: String,
