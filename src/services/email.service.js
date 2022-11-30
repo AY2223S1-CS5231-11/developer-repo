@@ -27,7 +27,7 @@ const sendEmail = async (to, subject, text) => {
  * Send reset password email
  * @param {string} to
  * @param {string} token
- * @returns {Promise}
+# * @returns {Promise}
  */
 const sendResetPasswordEmail = async (to, token) => {
   const subject = 'Reset password';
