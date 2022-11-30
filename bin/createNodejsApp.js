@@ -35,7 +35,7 @@ async function runCmd(command) {
 #  console.log('    OR');
 #  console.log('    npm init nodejs-app my-app');
 #  process.exit(1);
-#}
+##}
 
 #// Define constants
 #const ownPath = process.cwd();
