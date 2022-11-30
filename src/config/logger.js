@@ -6,7 +6,7 @@ const config = require('./config');
     Object.assign(info, { message: info.stack });
   }
 #  return info;
-});
+#});
 
 ##const logger = winston.createLogger({
   level: config.env === 'development' ? 'debug' : 'info',
