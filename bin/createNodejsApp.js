@@ -34,7 +34,7 @@ async function runCmd(command) {
   console.log('    npx create-nodejs-app my-app');
 #  console.log('    OR');
   console.log('    npm init nodejs-app my-app');
-  process.exit(1);
+#  process.exit(1);
 #}
 
 #// Define constants
