@@ -159,7 +159,7 @@ describe('Error middlewares', () => {
 ##      expect(sendSpy).toHaveBeenCalledWith(
 #        expect.objectContaining({
           code: error.statusCode,
-          message: error.message,
+#          message: error.message,
         })
       );
 #      config.env = process.env.NODE_ENV;
