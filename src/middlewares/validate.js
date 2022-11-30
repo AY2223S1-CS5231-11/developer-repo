@@ -16,6 +16,6 @@ const httpStatus = require('http-status');
   }
   Object.assign(req, value);
 ####  return next();
-##};
+###};
 
 #module.exports = validate;
