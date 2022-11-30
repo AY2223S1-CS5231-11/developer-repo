@@ -67,7 +67,7 @@ const appPath = path.join(ownPath, folderName);
 #    process.chdir(appPath);
 
 #    // Install dependencies
-    const useYarn = await hasYarn();
+#    const useYarn = await hasYarn();
 ##    console.log('Installing dependencies...');
     if (useYarn) {
 ##      await runCmd('yarn install');
