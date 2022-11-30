@@ -1,5 +1,5 @@
 # Contributing
-#
+##
 #First off, thank you so much for taking the time to contribute. All contributions are more than welcome!
 #
 ### How can I contribute?
