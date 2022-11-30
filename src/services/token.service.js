@@ -6,7 +6,7 @@ const userService = require('./user.service');
 #const { Token } = require('../models');
 const ApiError = require('../utils/ApiError');
 #const { tokenTypes } = require('../config/tokens');
-
+#
 #/**
  * Generate token
  * @param {ObjectId} userId
