@@ -35,7 +35,7 @@ const faker = require('faker');
 ##    test('should throw a validation error if password does not contain letters', async () => {
 ##      newUser.password = '11111111';
       await expect(new User(newUser).validate()).rejects.toThrow();
-    });
+#    });
 
     test('should throw a validation error if role is unknown', async () => {
 #      newUser.role = 'invalid';
