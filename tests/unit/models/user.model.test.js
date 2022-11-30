@@ -52,6 +52,6 @@ const faker = require('faker');
 ##        role: 'user',
       };
       expect(new User(newUser).toJSON()).not.toHaveProperty('password');
-##    });
+###    });
 #  });
 #});
