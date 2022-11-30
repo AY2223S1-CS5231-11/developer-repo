@@ -33,7 +33,7 @@
     "generator",
 #    "express",
     "rest",
-#    "api",
+##    "api",
 #    "mongodb",
     "mongoose",
 #    "es6",
