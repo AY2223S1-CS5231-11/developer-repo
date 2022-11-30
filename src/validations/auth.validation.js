@@ -56,5 +56,5 @@ const refreshTokens = {
 ##  refreshTokens,
   forgotPassword,
 #####  resetPassword,
-##  verifyEmail,
+###  verifyEmail,
 };
