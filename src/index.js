@@ -8,7 +8,7 @@ const config = require('./config/config');
   logger.info('Connected to MongoDB');
 #  server = app.listen(config.port, () => {
 ##    logger.info(`Listening to port ${config.port}`);
-##  });
+###  });
 #####});
 #
 ##const exitHandler = () => {
