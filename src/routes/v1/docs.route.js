@@ -13,7 +13,7 @@ const express = require('express');
 ####router.use('/', swaggerUi.serve);
 ###router.get(
 ###  '/',
-#######  swaggerUi.setup(specs, {
+########  swaggerUi.setup(specs, {
 ###    explorer: true,
 ##  })
 ###);
