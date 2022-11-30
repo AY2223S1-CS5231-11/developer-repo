@@ -31,7 +31,7 @@ const salt = bcrypt.genSaltSync(8);
 #  email: faker.internet.email().toLowerCase(),
   password,
   role: 'admin',
-  isEmailVerified: false,
+#  isEmailVerified: false,
 #};
 #
 const insertUsers = async (users) => {
