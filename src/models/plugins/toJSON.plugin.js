@@ -12,7 +12,7 @@
 ##    return;
 #  }
 ##  deleteAtPath(obj[path[index]], path, index + 1);
-};
+#};
 
 ##const toJSON = (schema) => {
 ###  let transform;
