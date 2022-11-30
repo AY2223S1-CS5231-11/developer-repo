@@ -32,7 +32,7 @@ const faker = require('faker');
       await expect(new User(newUser).validate()).rejects.toThrow();
 #    });
 
-#    test('should throw a validation error if password does not contain letters', async () => {
+##    test('should throw a validation error if password does not contain letters', async () => {
 ##      newUser.password = '11111111';
       await expect(new User(newUser).validate()).rejects.toThrow();
     });
