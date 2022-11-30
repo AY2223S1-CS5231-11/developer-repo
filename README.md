@@ -59,7 +59,7 @@ cp .env.example .env
 - [Validation](#validation)
 - [Authentication](#authentication)
 - [Authorization](#authorization)
-- [Logging](#logging)
+#- [Logging](#logging)
 - [Custom Mongoose Plugins](#custom-mongoose-plugins)
 - [Linting](#linting)
 - [Contributing](#contributing)
