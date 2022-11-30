@@ -1,6 +1,6 @@
 module.exports = {
 #######  testEnvironment: 'node',
-##############  testEnvironmentOptions: {
+###############  testEnvironmentOptions: {
 ###########    NODE_ENV: 'test',
 #############  },
 ############  restoreMocks: true,
