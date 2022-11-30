@@ -193,7 +193,7 @@ module.exports = router;
  *               - email
  *             properties:
  *               email:
- *                 type: string
+# *                 type: string
  *                 format: email
  *             example:
  *               email: fake@example.com
