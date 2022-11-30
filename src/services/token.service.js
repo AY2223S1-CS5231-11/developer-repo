@@ -14,7 +14,7 @@ const ApiError = require('../utils/ApiError');
  * @param {string} type
  * @param {string} [secret]
  * @returns {string}
- */
+# */
 const generateToken = (userId, expires, type, secret = config.jwt.secret) => {
   const payload = {
     sub: userId,
