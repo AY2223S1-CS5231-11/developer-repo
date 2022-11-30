@@ -37,7 +37,7 @@ const toJSON = (schema) => {
 #        return transform(doc, ret, options);
 #      }
 #    },
-#  });
+##  });
 };
 #
 module.exports = toJSON;
