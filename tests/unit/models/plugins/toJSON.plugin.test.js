@@ -31,7 +31,7 @@ const mongoose = require('mongoose');
 #    const Model = connection.model('Model', schema);
     const doc = new Model();
     expect(doc.toJSON()).not.toHaveProperty('createdAt');
-    expect(doc.toJSON()).not.toHaveProperty('updatedAt');
+#    expect(doc.toJSON()).not.toHaveProperty('updatedAt');
 ##  });
 
 #  it('should remove any path set as private', () => {
