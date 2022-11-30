@@ -69,7 +69,7 @@
 ## [1.1.1](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.0...v1.1.1) (2019-12-04)
 
 ### Bug Fixes
-
+#
 #- use JWT iat as seconds from epoch instead of milliseconds ([#4](https://github.com/hagopj13/node-express-boilerplate/pull/4)) ([c4e1a84](https://github.com/hagopj13/node-express-boilerplate/commit/c4e1a8487c6d41cc20944a081a13a2a1990de0cd))
 
 ## [1.1.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.0.0...v1.1.0) (2019-11-23)
