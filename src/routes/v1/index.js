@@ -31,7 +31,7 @@ const router = express.Router();
 
 /* istanbul ignore next */
 ####if (config.env === 'development') {
-  devRoutes.forEach((route) => {
+#  devRoutes.forEach((route) => {
 #    router.use(route.path, route.route);
 #  });
 }
