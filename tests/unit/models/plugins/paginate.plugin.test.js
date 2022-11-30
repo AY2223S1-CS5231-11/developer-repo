@@ -19,7 +19,7 @@ projectSchema.plugin(paginate);
 const Project = mongoose.model('Project', projectSchema);
 
 #const taskSchema = mongoose.Schema({
-  name: {
+#  name: {
     type: String,
     required: true,
   },
