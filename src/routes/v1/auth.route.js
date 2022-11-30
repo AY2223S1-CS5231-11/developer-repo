@@ -103,7 +103,7 @@ module.exports = router;
  *         content:
 # *           application/json:
  *             schema:
- *               type: object
+# *               type: object
  *               properties:
  *                 user:
  *                   $ref: '#/components/schemas/User'
