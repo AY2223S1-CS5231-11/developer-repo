@@ -44,7 +44,7 @@ const queryUsers = async (filter, options) => {
 # */
 #const getUserByEmail = async (email) => {
 #  return User.findOne({ email });
-};
+#};
 
 /**
  * Update user by id
