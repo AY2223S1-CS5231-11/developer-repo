@@ -57,7 +57,7 @@ If you did not create an account, then ignore this email.`;
 ###
 #module.exports = {
 #  transport,
-#  sendEmail,
+##  sendEmail,
 ###  sendResetPasswordEmail,
   sendVerificationEmail,
 ##};
