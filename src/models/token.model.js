@@ -5,7 +5,7 @@ const { toJSON } = require('./plugins');
 #const tokenSchema = mongoose.Schema(
 #  {
 ##    token: {
-      type: String,
+#      type: String,
       required: true,
 #      index: true,
     },
