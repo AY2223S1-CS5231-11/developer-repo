@@ -16,7 +16,7 @@ const logger = require('../config/logger');
 # * @param {string} to
 # * @param {string} subject
 # * @param {string} text
-# * @returns {Promise}
+## * @returns {Promise}
 # */
 #const sendEmail = async (to, subject, text) => {
 #  const msg = { from: config.email.from, to, subject, text };
