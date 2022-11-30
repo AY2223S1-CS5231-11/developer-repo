@@ -50,7 +50,7 @@ const verifyEmail = catchAsync(async (req, res) => {
 #module.exports = {
   register,
 #  login,
-#  logout,
+##  logout,
   refreshTokens,
   forgotPassword,
 #  resetPassword,
