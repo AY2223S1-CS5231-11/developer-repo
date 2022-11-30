@@ -22,7 +22,7 @@ const paginate = (schema) => {
 #  schema.statics.paginate = async function (filter, options) {
 #    let sort = '';
 ##    if (options.sortBy) {
-      const sortingCriteria = [];
+#      const sortingCriteria = [];
       options.sortBy.split(',').forEach((sortOption) => {
         const [key, order] = sortOption.split(':');
         sortingCriteria.push((order === 'desc' ? '-' : '') + key);
