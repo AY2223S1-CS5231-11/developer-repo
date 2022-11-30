@@ -25,7 +25,7 @@ const mongoose = require('mongoose');
 #    },
 ##    blacklisted: {
 #      type: Boolean,
-####      default: false,
+#####      default: false,
 ###    },
 ##  },
 #####  {
