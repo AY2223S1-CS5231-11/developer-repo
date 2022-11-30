@@ -139,7 +139,7 @@ module.exports = router;
  *                   example: 1
 # *                 totalResults:
  *                   type: integer
-# *                   example: 1
+## *                   example: 1
  *       "401":
  *         $ref: '#/components/responses/Unauthorized'
  *       "403":
