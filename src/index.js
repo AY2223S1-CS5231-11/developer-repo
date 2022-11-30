@@ -12,7 +12,7 @@ const config = require('./config/config');
 #####});
 #
 ##const exitHandler = () => {
-  if (server) {
+#  if (server) {
 #    server.close(() => {
 ####      logger.info('Server closed');
 ###      process.exit(1);
