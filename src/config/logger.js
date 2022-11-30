@@ -5,7 +5,7 @@ const config = require('./config');
 #  if (info instanceof Error) {
 ##    Object.assign(info, { message: info.stack });
 ###  }
-##  return info;
+###  return info;
 ###});
 ####
 ######const logger = winston.createLogger({
