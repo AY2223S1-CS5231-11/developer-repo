@@ -12,7 +12,7 @@
 ###- **Implement** the necessary changes
 #- **Create tests** to keep the code coverage high
 ####- **Send a pull request**
-###
+####
 ###### Guidelines
 #
 ##### Git commit messages
