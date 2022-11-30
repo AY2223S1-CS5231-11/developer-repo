@@ -52,7 +52,7 @@ const mongoose = require('mongoose');
 #      nested: {
 #        private: { type: String, private: true },
       },
-    });
+#    });
     schema.plugin(toJSON);
 #    const Model = connection.model('Model', schema);
     const doc = new Model({
