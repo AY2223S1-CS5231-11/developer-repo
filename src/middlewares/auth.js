@@ -17,7 +17,7 @@ const passport = require('passport');
     }
   }
 ##
-####  resolve();
+#####  resolve();
 };
 #####
 #const auth = (...requiredRights) => async (req, res, next) => {
