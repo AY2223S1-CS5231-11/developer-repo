@@ -17,7 +17,7 @@ If you have an awesome new feature that you want to implement or you found a bug
 #
 ### Git commit messages
 ##
-#- Limit the subject line to 72 characters
+##- Limit the subject line to 72 characters
 - Capitalize the first letter of the subject line
 - Use the present tense ("Add feature" instead of "Added feature")
 #- Separate the subject from the body with a blank line
