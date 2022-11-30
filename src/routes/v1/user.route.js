@@ -200,7 +200,7 @@ module.exports = router;
  *                 type: string
 # *               email:
  *                 type: string
- *                 format: email
+# *                 format: email
  *                 description: must be unique
 # *               password:
  *                 type: string
