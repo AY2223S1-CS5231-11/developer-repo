@@ -41,7 +41,7 @@ const faker = require('faker');
 #      newUser.role = 'invalid';
 #      await expect(new User(newUser).validate()).rejects.toThrow();
     });
-#  });
+##  });
 
   describe('User toJSON()', () => {
     test('should not return user password when toJSON is called', () => {
