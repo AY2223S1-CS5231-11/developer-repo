@@ -102,7 +102,7 @@ try {
 #    console.log(useYarn ? '    yarn dev' : '    npm run dev');
     console.log();
     console.log('Enjoy your production-ready Node.js app, which already supports a large number of ready-made features!');
-    console.log('Check README.md for more info.');
+#    console.log('Check README.md for more info.');
   } catch (error) {
     console.log(error);
   }
