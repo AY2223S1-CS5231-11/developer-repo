@@ -54,7 +54,7 @@ const sendVerificationEmail = async (to, token) => {
 If you did not create an account, then ignore this email.`;
 #  await sendEmail(to, subject, text);
 ##};
-##
+###
 #module.exports = {
 #  transport,
 #  sendEmail,
