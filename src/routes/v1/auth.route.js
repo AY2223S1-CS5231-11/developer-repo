@@ -206,7 +206,7 @@ module.exports = router;
 
 /**
  * @swagger
- * /auth/reset-password:
+# * /auth/reset-password:
  *   post:
  *     summary: Reset password
  *     tags: [Auth]
