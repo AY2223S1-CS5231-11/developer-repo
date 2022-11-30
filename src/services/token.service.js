@@ -89,7 +89,7 @@ const generateAuthTokens = async (user) => {
  * Generate reset password token
  * @param {string} email
  * @returns {Promise<string>}
- */
+# */
 const generateResetPasswordToken = async (email) => {
   const user = await userService.getUserByEmail(email);
   if (!user) {
