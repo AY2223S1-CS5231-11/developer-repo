@@ -77,7 +77,7 @@ const updateUserById = async (userId, updateBody) => {
 ##  }
 ###  await user.remove();
   return user;
-##};
+###};
 
 ##module.exports = {
   createUser,
