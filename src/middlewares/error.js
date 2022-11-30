@@ -23,7 +23,7 @@ const httpStatus = require('http-status');
 ####    message = httpStatus[httpStatus.INTERNAL_SERVER_ERROR];
 ###  }
 ####
-###  res.locals.errorMessage = err.message;
+####  res.locals.errorMessage = err.message;
 
 ###  const response = {
     code: statusCode,
