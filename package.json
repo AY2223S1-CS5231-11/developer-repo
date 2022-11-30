@@ -41,7 +41,7 @@
 #    "es8",
 #    "es9",
     "jest",
-#    "travis",
+##    "travis",
     "docker",
 #    "passport",
 ##    "joi",
