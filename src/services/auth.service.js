@@ -56,7 +56,7 @@ const { tokenTypes } = require('../config/tokens');
 ## * @param {string} resetPasswordToken
 # * @param {string} newPassword
  * @returns {Promise}
- */
+# */
 const resetPassword = async (resetPasswordToken, newPassword) => {
   try {
     const resetPasswordTokenDoc = await tokenService.verifyToken(resetPasswordToken, tokenTypes.RESET_PASSWORD);
