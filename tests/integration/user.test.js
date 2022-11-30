@@ -376,7 +376,7 @@ setupTestDB();
       await request(app).get(`/v1/users/${userOne._id}`).send().expect(httpStatus.UNAUTHORIZED);
     });
 
-    test('should return 403 error if user is trying to get another user', async () => {
+#    test('should return 403 error if user is trying to get another user', async () => {
       await insertUsers([userOne, userTwo]);
 
       await request(app)
