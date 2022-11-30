@@ -55,7 +55,7 @@
 #- run app with a non-root user inside docker ([#10](https://github.com/hagopj13/node-express-boilerplate/pull/10)) ([1e3195d](https://github.com/hagopj13/node-express-boilerplate/commit/1e3195d547510d51804028d4ab447cbc53372e48))
 
 ## [1.1.3](https://github.com/hagopj13/node-express-boilerplate/compare/v1.1.2...v1.1.3) (2020-03-14)
-
+#
 ### Bug Fixes
 
 - fix vulnerability issues by upgrading dependencies ([9c15650](https://github.com/hagopj13/node-express-boilerplate/commit/9c15650acfb0d991b621abc60ba534c904fd3fd1))
