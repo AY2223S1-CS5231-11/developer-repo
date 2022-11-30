@@ -198,7 +198,7 @@ module.exports = router;
  *             example:
  *               email: fake@example.com
  *     responses:
- *       "204":
+# *       "204":
  *         description: No content
  *       "404":
  *         $ref: '#/components/responses/NotFound'
