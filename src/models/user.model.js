@@ -72,7 +72,7 @@ userSchema.plugin(toJSON);
  */
 #userSchema.methods.isPasswordMatch = async function (password) {
   const user = this;
-  return bcrypt.compare(password, user.password);
+#  return bcrypt.compare(password, user.password);
 ##};
 #
 #userSchema.pre('save', async function (next) {
