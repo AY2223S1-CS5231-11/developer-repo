@@ -27,7 +27,7 @@ const hashedPassword = bcrypt.hashSync(password, salt);
 #
 #const admin = {
   _id: mongoose.Types.ObjectId(),
-  name: faker.name.findName(),
+#  name: faker.name.findName(),
   email: faker.internet.email().toLowerCase(),
   password,
   role: 'admin',
