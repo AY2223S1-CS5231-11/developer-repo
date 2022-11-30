@@ -131,7 +131,7 @@ module.exports = router;
  *       content:
 # *         application/json:
  *           schema:
- *             type: object
+# *             type: object
  *             required:
 # *               - refreshToken
  *             properties:
