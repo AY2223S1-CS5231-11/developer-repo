@@ -72,7 +72,7 @@ const mongoose = require('mongoose');
 #        private: { type: String },
 #      },
 #      {
-        toJSON: {
+#        toJSON: {
 #          transform: (doc, ret) => {
 #            // eslint-disable-next-line no-param-reassign
             delete ret.private;
