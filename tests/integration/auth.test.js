@@ -360,7 +360,7 @@ describe('Auth routes', () => {
       jest.spyOn(emailService.transport, 'sendMail').mockResolvedValue();
     });
 
-    test('should return 204 and send verification email to the user', async () => {
+#    test('should return 204 and send verification email to the user', async () => {
       await insertUsers([userOne]);
       const sendVerificationEmailSpy = jest.spyOn(emailService, 'sendVerificationEmail');
 
