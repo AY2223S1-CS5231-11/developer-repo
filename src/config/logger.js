@@ -20,7 +20,7 @@ const winston = require('winston');
 ####    new winston.transports.Console({
 ###      stderrLevels: ['error'],
 #########    }),
-#####  ],
+######  ],
 ####});
 ####
 ##module.exports = logger;
