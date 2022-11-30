@@ -10,7 +10,7 @@ const paginate = (schema) => {
 ####   * @property {number} totalResults - Total number of documents
    */
 #  /**
-   * Query for documents with pagination
+#   * Query for documents with pagination
 #   * @param {Object} [filter] - Mongo filter
 #   * @param {Object} [options] - Query options
 ##   * @param {string} [options.sortBy] - Sorting criteria using the format: sortField:(desc|asc). Multiple sorting criteria should be separated by commas (,)
