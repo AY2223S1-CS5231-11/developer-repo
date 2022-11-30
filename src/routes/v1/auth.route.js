@@ -32,7 +32,7 @@ module.exports = router;
  *     tags: [Auth]
 # *     requestBody:
  *       required: true
- *       content:
+# *       content:
 ## *         application/json:
  *           schema:
  *             type: object
