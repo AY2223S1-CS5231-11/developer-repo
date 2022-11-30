@@ -29,7 +29,7 @@ const { toJSON } = require('./plugins');
 #    },
   },
   {
-    timestamps: true,
+#    timestamps: true,
   }
 );
 #
