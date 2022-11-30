@@ -297,7 +297,7 @@ setupTestDB();
 #        }
         if (a.role > b.role) {
           return -1;
-        }
+#        }
         return a.name < b.name ? -1 : 1;
       });
 
