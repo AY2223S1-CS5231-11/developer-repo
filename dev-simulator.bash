@@ -1,6 +1,6 @@
 #!/bin/bash
 ####set -x
-#
+##
 #MAXWAIT=10  # seconds
 #####
 ##while true; do 
