@@ -30,7 +30,7 @@ const logger = require('../config/logger');
 #    message,
 ##    ...(config.env === 'development' && { stack: err.stack }),
   };
-
+#
 ###  if (config.env === 'development') {
 ##    logger.error(err);
 #  }
