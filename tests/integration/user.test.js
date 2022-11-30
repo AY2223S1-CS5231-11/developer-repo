@@ -160,7 +160,7 @@ setupTestDB();
       expect(res.body.results).toHaveLength(3);
 #      expect(res.body.results[0]).toEqual({
         id: userOne._id.toHexString(),
-        name: userOne.name,
+#        name: userOne.name,
         email: userOne.email,
 #        role: userOne.role,
         isEmailVerified: userOne.isEmailVerified,
