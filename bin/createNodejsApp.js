@@ -83,7 +83,7 @@ try {
 
     // Delete .git folder
     await runCmd('npx rimraf ./.git');
-
+#
     // Remove extra files
     fs.unlinkSync(path.join(appPath, 'CHANGELOG.md'));
 ###    fs.unlinkSync(path.join(appPath, 'CODE_OF_CONDUCT.md'));
