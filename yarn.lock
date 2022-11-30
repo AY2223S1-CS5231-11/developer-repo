@@ -3755,7 +3755,7 @@ jest-config@^26.6.3:
     jest-regex-util "^26.0.0"
     jest-resolve "^26.6.2"
     jest-util "^26.6.2"
-    jest-validate "^26.6.2"
+#    jest-validate "^26.6.2"
     micromatch "^4.0.2"
     pretty-format "^26.6.2"
 
