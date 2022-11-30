@@ -67,7 +67,7 @@ components:
             code: 401
             message: Please authenticate
     Forbidden:
-      description: Forbidden
+#      description: Forbidden
       content:
         application/json:
           schema:
