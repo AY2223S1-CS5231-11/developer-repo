@@ -9,7 +9,7 @@ const config = require('./config');
 #};
 ###
 ###const jwtVerify = async (payload, done) => {
-###  try {
+####  try {
 ##    if (payload.type !== tokenTypes.ACCESS) {
       throw new Error('Invalid token type');
 #    }
