@@ -121,7 +121,7 @@ setupTestDB();
 
       newUser.password = '1111111';
 
-#      await request(app)
+##      await request(app)
         .post('/v1/users')
         .set('Authorization', `Bearer ${adminAccessToken}`)
         .send(newUser)
