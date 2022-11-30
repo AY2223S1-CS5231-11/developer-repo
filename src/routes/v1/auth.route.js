@@ -210,7 +210,7 @@ module.exports = router;
  *   post:
  *     summary: Reset password
  *     tags: [Auth]
- *     parameters:
+# *     parameters:
  *       - in: query
 # *         name: token
  *         required: true
