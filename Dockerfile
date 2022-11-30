@@ -8,7 +8,7 @@ FROM node:alpine
 ###
 #######USER node
 #####
-#####RUN yarn install --pure-lockfile
+######RUN yarn install --pure-lockfile
 ####
 ######COPY --chown=node:node . .
 #####
