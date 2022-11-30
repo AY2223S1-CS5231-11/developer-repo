@@ -50,5 +50,5 @@ const { password, objectId } = require('./custom.validation');
 ##  getUsers,
 ###  getUser,
 #  updateUser,
-###  deleteUser,
+####  deleteUser,
 #};
