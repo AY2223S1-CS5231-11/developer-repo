@@ -53,7 +53,7 @@ cp .env.example .env
 - [Features](#features)
 - [Commands](#commands)
 - [Environment Variables](#environment-variables)
-- [Project Structure](#project-structure)
+#- [Project Structure](#project-structure)
 - [API Documentation](#api-documentation)
 - [Error Handling](#error-handling)
 - [Validation](#validation)
