@@ -37,7 +37,7 @@ const { userService } = require('../services');
 #module.exports = {
   createUser,
 #  getUsers,
-##  getUser,
+###  getUser,
   updateUser,
 ####  deleteUser,
 #};
