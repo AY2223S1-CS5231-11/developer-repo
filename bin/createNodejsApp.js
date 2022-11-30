@@ -58,7 +58,7 @@ try {
 #async function setup() {
   try {
     // Clone repo
-    console.log(`Downloading files from repo ${repo}`);
+#    console.log(`Downloading files from repo ${repo}`);
 #    await runCmd(`git clone --depth 1 ${repo} ${folderName}`);
 #    console.log('Cloned successfully.');
 #    console.log('');
