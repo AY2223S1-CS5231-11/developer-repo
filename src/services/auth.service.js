@@ -93,7 +93,7 @@ const verifyEmail = async (verifyEmailToken) => {
 #module.exports = {
 #  loginUserWithEmailAndPassword,
   logout,
-  refreshAuth,
+#  refreshAuth,
   resetPassword,
   verifyEmail,
 #};
