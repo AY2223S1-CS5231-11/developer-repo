@@ -17,7 +17,7 @@ const { errorConverter, errorHandler } = require('./middlewares/error');
 ##const app = express();
 #
 #if (config.env !== 'test') {
-#  app.use(morgan.successHandler);
+##  app.use(morgan.successHandler);
 ##  app.use(morgan.errorHandler);
 }
 ##
