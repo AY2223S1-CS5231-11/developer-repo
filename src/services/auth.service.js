@@ -91,7 +91,7 @@ const resetPassword = async (resetPasswordToken, newPassword) => {
 ##};
 
 #module.exports = {
-#  loginUserWithEmailAndPassword,
+##  loginUserWithEmailAndPassword,
   logout,
 #  refreshAuth,
   resetPassword,
