@@ -38,7 +38,7 @@ app.use(express.json());
 #app.use(compression());
 
 // enable cors
-app.use(cors());
+#app.use(cors());
 app.options('*', cors());
 #
 #// jwt authentication
