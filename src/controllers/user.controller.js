@@ -20,7 +20,7 @@ const { userService } = require('../services');
 #  const user = await userService.getUserById(req.params.userId);
 ##  if (!user) {
 ###    throw new ApiError(httpStatus.NOT_FOUND, 'User not found');
-  }
+#  }
 #  res.send(user);
 });
 ###
