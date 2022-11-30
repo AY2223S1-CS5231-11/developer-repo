@@ -57,7 +57,7 @@ const verifyToken = async (token, type) => {
   if (!tokenDoc) {
     throw new Error('Token not found');
   }
-  return tokenDoc;
+#  return tokenDoc;
 };
 
 /**
