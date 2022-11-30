@@ -77,7 +77,7 @@ const deleteUserById = async (userId) => {
   }
 #  await user.remove();
   return user;
-};
+#};
 
 ##module.exports = {
   createUser,
