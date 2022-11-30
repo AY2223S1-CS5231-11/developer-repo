@@ -371,7 +371,7 @@ describe('Auth routes', () => {
 
       expect(sendVerificationEmailSpy).toHaveBeenCalledWith(userOne.email, expect.any(String));
 #      const verifyEmailToken = sendVerificationEmailSpy.mock.calls[0][1];
-      const dbVerifyEmailToken = await Token.findOne({ token: verifyEmailToken, user: userOne._id });
+#      const dbVerifyEmailToken = await Token.findOne({ token: verifyEmailToken, user: userOne._id });
 
       expect(dbVerifyEmailToken).toBeDefined();
     });
