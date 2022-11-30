@@ -24,7 +24,7 @@ const { roles } = require('../config/roles');
       },
 ##    },
 #    password: {
-#      type: String,
+##      type: String,
 ##      required: true,
       trim: true,
 ###      minlength: 8,
