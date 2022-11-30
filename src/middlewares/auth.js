@@ -24,7 +24,7 @@ const passport = require('passport');
 ######  return new Promise((resolve, reject) => {
 #####    passport.authenticate('jwt', { session: false }, verifyCallback(req, resolve, reject, requiredRights))(req, res, next);
 ##  })
-    .then(() => next())
+#    .then(() => next())
 ##    .catch((err) => next(err));
 };
 ####
