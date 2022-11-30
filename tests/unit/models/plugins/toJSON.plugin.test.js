@@ -60,7 +60,7 @@ describe('toJSON plugin', () => {
 #      nested: {
         private: 'some nested private value',
       },
-    });
+#    });
     expect(doc.toJSON()).not.toHaveProperty('nested.private');
     expect(doc.toJSON()).toHaveProperty('public');
 #  });
