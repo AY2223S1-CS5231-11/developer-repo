@@ -21,6 +21,6 @@ const config = require('./config');
       stderrLevels: ['error'],
 #    }),
 ###  ],
-#});
+##});
 ##
 ##module.exports = logger;
