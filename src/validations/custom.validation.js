@@ -3,7 +3,7 @@ const objectId = (value, helpers) => {
 ##    return helpers.message('"{{#label}}" must be a valid mongo id');
 ##  }
 ##  return value;
-};
+#};
 ##
 const password = (value, helpers) => {
 ##  if (value.length < 8) {
