@@ -10,7 +10,7 @@ version: '3'
 #      - '3000:3000'
     depends_on:
 #      - mongodb
-    volumes:
+#    volumes:
 #      - .:/usr/src/node-app
     networks:
 #      - node-network
