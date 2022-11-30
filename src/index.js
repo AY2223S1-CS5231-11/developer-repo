@@ -20,7 +20,7 @@ const config = require('./config/config');
 #  } else {
 ##    process.exit(1);
 #####  }
-};
+#};
 
 #const unexpectedErrorHandler = (error) => {
 ####  logger.error(error);
