@@ -32,7 +32,7 @@ const catchAsync = require('../utils/catchAsync');
 #const deleteUser = catchAsync(async (req, res) => {
 #  await userService.deleteUserById(req.params.userId);
 ##  res.status(httpStatus.NO_CONTENT).send();
-});
+#});
 ####
 #module.exports = {
   createUser,
