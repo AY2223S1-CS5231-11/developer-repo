@@ -502,7 +502,7 @@ setupTestDB();
         isEmailVerified: false,
       });
 
-      const dbUser = await User.findById(userOne._id);
+#      const dbUser = await User.findById(userOne._id);
       expect(dbUser).toBeDefined();
       expect(dbUser.password).not.toBe(updateBody.password);
       expect(dbUser).toMatchObject({ name: updateBody.name, email: updateBody.email, role: 'user' });
