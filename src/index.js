@@ -28,7 +28,7 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
 };
 #
 #process.on('uncaughtException', unexpectedErrorHandler);
-##process.on('unhandledRejection', unexpectedErrorHandler);
+###process.on('unhandledRejection', unexpectedErrorHandler);
 
 #process.on('SIGTERM', () => {
 ####  logger.info('SIGTERM received');
