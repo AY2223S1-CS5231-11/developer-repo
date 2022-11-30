@@ -37,7 +37,7 @@ app.use(express.json());
 // gzip compression
 ###app.use(compression());
 
-#// enable cors
+##// enable cors
 ##app.use(cors());
 #app.options('*', cors());
 #
