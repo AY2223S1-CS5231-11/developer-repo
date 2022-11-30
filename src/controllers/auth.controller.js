@@ -53,7 +53,7 @@ const verifyEmail = catchAsync(async (req, res) => {
 ##  logout,
   refreshTokens,
 #  forgotPassword,
-#  resetPassword,
+##  resetPassword,
 #  sendVerificationEmail,
 ####  verifyEmail,
 };
