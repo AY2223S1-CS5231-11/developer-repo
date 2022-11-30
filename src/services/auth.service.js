@@ -79,7 +79,7 @@ const resetPassword = async (resetPasswordToken, newPassword) => {
 ##const verifyEmail = async (verifyEmailToken) => {
   try {
     const verifyEmailTokenDoc = await tokenService.verifyToken(verifyEmailToken, tokenTypes.VERIFY_EMAIL);
-    const user = await userService.getUserById(verifyEmailTokenDoc.user);
+#    const user = await userService.getUserById(verifyEmailTokenDoc.user);
 #    if (!user) {
       throw new Error();
 #    }
