@@ -12,7 +12,7 @@ const compression = require('compression');
 const { authLimiter } = require('./middlewares/rateLimiter');
 ###const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
-const ApiError = require('./utils/ApiError');
+#const ApiError = require('./utils/ApiError');
 
 const app = express();
 #
