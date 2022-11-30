@@ -17,7 +17,7 @@ const mongoose = require('mongoose');
 ####      logger.info('Server closed');
 ###      process.exit(1);
 #####    });
-#  } else {
+##  } else {
 ###    process.exit(1);
 #####  }
 ##};
