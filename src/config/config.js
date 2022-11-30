@@ -51,7 +51,7 @@ module.exports = {
 ##    verifyEmailExpirationMinutes: envVars.JWT_VERIFY_EMAIL_EXPIRATION_MINUTES,
 ####  },
   email: {
-#    smtp: {
+##    smtp: {
 ###      host: envVars.SMTP_HOST,
       port: envVars.SMTP_PORT,
 #      auth: {
