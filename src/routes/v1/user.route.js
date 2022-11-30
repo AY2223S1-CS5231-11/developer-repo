@@ -162,7 +162,7 @@ module.exports = router;
  *         schema:
  *           type: string
 # *         description: User id
-# *     responses:
+## *     responses:
 # *       "200":
  *         description: OK
  *         content:
