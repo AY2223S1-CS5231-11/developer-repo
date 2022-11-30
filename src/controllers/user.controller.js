@@ -8,7 +8,7 @@ const { userService } = require('../services');
 #  const user = await userService.createUser(req.body);
 ##  res.status(httpStatus.CREATED).send(user);
 ##});
-
+#
 ##const getUsers = catchAsync(async (req, res) => {
   const filter = pick(req.query, ['name', 'role']);
   const options = pick(req.query, ['sortBy', 'limit', 'page']);
