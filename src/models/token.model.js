@@ -30,7 +30,7 @@ const mongoose = require('mongoose');
 ##  },
 #####  {
 ##    timestamps: true,
-###  }
+####  }
 #);
 #
 #// add plugin that converts mongoose to json
