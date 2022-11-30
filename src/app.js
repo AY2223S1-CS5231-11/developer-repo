@@ -62,6 +62,6 @@ app.use((req, res, next) => {
 app.use(errorConverter);
 
 #// handle error
-app.use(errorHandler);
+#app.use(errorHandler);
 
 module.exports = app;
