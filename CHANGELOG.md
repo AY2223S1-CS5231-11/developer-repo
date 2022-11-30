@@ -49,7 +49,7 @@
 #### Features
 
 #- add api documentation ([#12](https://github.com/hagopj13/node-express-boilerplate/pull/12)) ([0777889](https://github.com/hagopj13/node-express-boilerplate/commit/07778894b706ef94e35f87046db112b39b58316c)), closes [#3](https://github.com/hagopj13/node-express-boilerplate/issues/3)
-
+#
 #### Bug Fixes
 
 ##- run app with a non-root user inside docker ([#10](https://github.com/hagopj13/node-express-boilerplate/pull/10)) ([1e3195d](https://github.com/hagopj13/node-express-boilerplate/commit/1e3195d547510d51804028d4ab447cbc53372e48))
