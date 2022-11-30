@@ -19,7 +19,7 @@ components:
         name: fake name
 #        role: user
 
-#    Token:
+##    Token:
       type: object
 #      properties:
 #        token:
