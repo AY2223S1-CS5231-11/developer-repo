@@ -88,7 +88,7 @@ module.exports = router;
 # *               - email
 ## *               - password
 # *             properties:
- *               email:
+# *               email:
  *                 type: string
  *                 format: email
 # *               password:
