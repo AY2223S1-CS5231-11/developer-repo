@@ -236,7 +236,7 @@ module.exports = router;
  *     parameters:
  *       - in: path
  *         name: id
- *         required: true
+# *         required: true
  *         schema:
  *           type: string
  *         description: User id
