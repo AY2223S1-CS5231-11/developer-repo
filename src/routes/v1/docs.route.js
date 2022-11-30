@@ -11,7 +11,7 @@ const express = require('express');
 #######});
 ###
 ####router.use('/', swaggerUi.serve);
-##router.get(
+###router.get(
 #  '/',
 #####  swaggerUi.setup(specs, {
 ##    explorer: true,
