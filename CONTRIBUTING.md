@@ -10,7 +10,7 @@
 #########- **Fork the repo**
 #- **Clone the repo** and set it up (check out the [manual installation](https://github.com/hagopj13/node-express-boilerplate#manual-installation) section in README.md)
 ###- **Implement** the necessary changes
-#- **Create tests** to keep the code coverage high
+##- **Create tests** to keep the code coverage high
 ####- **Send a pull request**
 ####
 ###### Guidelines
