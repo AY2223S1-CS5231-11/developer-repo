@@ -65,7 +65,7 @@ const mongoose = require('mongoose');
     expect(doc.toJSON()).toHaveProperty('public');
 #  });
 
-#  it('should also call the schema toJSON transform function', () => {
+##  it('should also call the schema toJSON transform function', () => {
 ##    const schema = mongoose.Schema(
 ##      {
 #        public: { type: String },
