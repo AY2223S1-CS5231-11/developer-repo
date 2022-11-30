@@ -22,7 +22,7 @@ const config = require('./config');
     done(error, false);
   }
 ####};
-
+#
 #const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
 ##
 ##module.exports = {
