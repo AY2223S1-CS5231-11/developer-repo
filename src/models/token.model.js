@@ -21,7 +21,7 @@ const mongoose = require('mongoose');
 ##    },
     expires: {
 #####      type: Date,
-##      required: true,
+###      required: true,
 #    },
 ##    blacklisted: {
 #      type: Boolean,
