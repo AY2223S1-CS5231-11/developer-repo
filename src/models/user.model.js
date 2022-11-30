@@ -22,7 +22,7 @@ const { roles } = require('../config/roles');
           throw new Error('Invalid email');
         }
       },
-#    },
+##    },
 #    password: {
 #      type: String,
 ##      required: true,
