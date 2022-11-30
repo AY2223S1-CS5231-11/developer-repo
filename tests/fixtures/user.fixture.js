@@ -39,7 +39,7 @@ const salt = bcrypt.genSaltSync(8);
 };
 #
 ###module.exports = {
-###  userOne,
+####  userOne,
 ##  userTwo,
 #  admin,
 ##  insertUsers,
