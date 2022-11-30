@@ -44,7 +44,7 @@ components:
       properties:
 #        code:
           type: number
-        message:
+#        message:
           type: string
 
   responses:
