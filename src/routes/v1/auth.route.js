@@ -112,7 +112,7 @@ module.exports = router;
  *       "401":
  *         description: Invalid email or password
  *         content:
- *           application/json:
+# *           application/json:
  *             schema:
  *               $ref: '#/components/schemas/Error'
  *             example:
