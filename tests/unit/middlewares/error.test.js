@@ -31,7 +31,7 @@ describe('Error middlewares', () => {
           message: error.message,
           isOperational: false,
 #        })
-      );
+#      );
     });
 
     test('should convert an Error without status to ApiError with status 500', () => {
