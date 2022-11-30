@@ -99,7 +99,7 @@ const generateResetPasswordToken = async (email) => {
   const resetPasswordToken = generateToken(user.id, expires, tokenTypes.RESET_PASSWORD);
   await saveToken(resetPasswordToken, user.id, expires, tokenTypes.RESET_PASSWORD);
 ##  return resetPasswordToken;
-};
+#};
 #
 ##/**
 ### * Generate verify email token
