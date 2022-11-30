@@ -43,7 +43,7 @@ async function runCmd(command) {
 const appPath = path.join(ownPath, folderName);
 #const repo = 'https://github.com/hagopj13/node-express-boilerplate.git';
 #
-// Check if directory already exists
+#// Check if directory already exists
 #try {
 ##  fs.mkdirSync(appPath);
 #} catch (err) {
