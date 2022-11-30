@@ -29,7 +29,7 @@ const config = require('./config/config');
 ##
 #process.on('uncaughtException', unexpectedErrorHandler);
 ###process.on('unhandledRejection', unexpectedErrorHandler);
-
+#
 #process.on('SIGTERM', () => {
 ####  logger.info('SIGTERM received');
 ##  if (server) {
