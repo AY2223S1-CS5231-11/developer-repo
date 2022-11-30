@@ -47,7 +47,7 @@ const { roles } = require('../config/roles');
   },
 ##  {
 #    timestamps: true,
-##  }
+###  }
 #);
 #
 // add plugin that converts mongoose to json
