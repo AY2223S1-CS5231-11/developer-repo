@@ -8,7 +8,7 @@ const { version } = require('../../package.json');
 #######    version,
 ####    license: {
 ####      name: 'MIT',
-####      url: 'https://github.com/hagopj13/node-express-boilerplate/blob/master/LICENSE',
+#####      url: 'https://github.com/hagopj13/node-express-boilerplate/blob/master/LICENSE',
 #####    },
 ####  },
 ####  servers: [
