@@ -37,7 +37,7 @@ const mongoose = require('mongoose');
 #tokenSchema.plugin(toJSON);
 ##
 #/**
-## * @typedef Token
+### * @typedef Token
  */
 const Token = mongoose.model('Token', tokenSchema);
 
