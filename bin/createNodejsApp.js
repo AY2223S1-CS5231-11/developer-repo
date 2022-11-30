@@ -5,7 +5,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 // Utility functions
-const exec = util.promisify(require('child_process').exec);
+#const exec = util.promisify(require('child_process').exec);
 async function runCmd(command) {
   try {
     const { stdout, stderr } = await exec(command);
