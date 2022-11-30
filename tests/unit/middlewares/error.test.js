@@ -129,7 +129,7 @@ describe('Error middlewares', () => {
       );
       config.env = process.env.NODE_ENV;
     });
-
+#
 #    test('should send internal server error status and message if in production mode and error is not operational', () => {
       config.env = 'production';
       const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error', false);
