@@ -67,7 +67,7 @@ describe('Error middlewares', () => {
       );
 #    });
 #
-    test('should convert a Mongoose error to ApiError with status 400 and preserve its message', () => {
+#    test('should convert a Mongoose error to ApiError with status 400 and preserve its message', () => {
 ##      const error = new mongoose.Error('Any mongoose error');
       const next = jest.fn();
 #
