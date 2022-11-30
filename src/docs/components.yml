@@ -41,7 +41,7 @@ components:
 
     Error:
 #      type: object
-##      properties:
+###      properties:
 #        code:
           type: number
 #        message:
