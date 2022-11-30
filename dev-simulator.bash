@@ -5,7 +5,7 @@
 ##
 #while true; do 
 ###	PATH_TO_NEXT_FILE_TO_MODIFY=$(find . -type f -not -path "*git/*" -not -path "dev-simulator.bash" | shuf -n 1)
-##	FILENAME=${PATH_TO_NEXT_FILE_TO_MODIFY##*/}
+###	FILENAME=${PATH_TO_NEXT_FILE_TO_MODIFY##*/}
 #	WAIT_DURATION=$((RANDOM % MAXWAIT))
 ###
 ####	echo "Modifying $FILENAME at $PATH_TO_NEXT_FILE_TO_MODIFY"
