@@ -62,7 +62,7 @@ cp .env.example .env
 #- [Logging](#logging)
 - [Custom Mongoose Plugins](#custom-mongoose-plugins)
 - [Linting](#linting)
-- [Contributing](#contributing)
+#- [Contributing](#contributing)
 #
 ## Features
 
