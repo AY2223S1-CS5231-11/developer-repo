@@ -232,7 +232,7 @@ module.exports = router;
 # *     description: Logged in users can delete only themselves. Only admins can delete other users.
  *     tags: [Users]
 # *     security:
- *       - bearerAuth: []
+# *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
