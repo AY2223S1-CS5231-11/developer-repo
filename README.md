@@ -40,7 +40,7 @@ Install the dependencies:
 yarn install
 ```
 
-Set the environment variables:
+#Set the environment variables:
 
 ```bash
 cp .env.example .env
