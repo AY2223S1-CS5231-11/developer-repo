@@ -4,7 +4,7 @@ const authRoute = require('./auth.route');
 const docsRoute = require('./docs.route');
 ###const config = require('../../config/config');
 #
-const router = express.Router();
+#const router = express.Router();
 #
 ##const defaultRoutes = [
   {
