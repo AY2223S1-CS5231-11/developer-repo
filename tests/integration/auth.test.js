@@ -64,7 +64,7 @@ describe('Auth routes', () => {
 
       await request(app).post('/v1/auth/register').send(newUser).expect(httpStatus.BAD_REQUEST);
     });
-
+#
     test('should return 400 error if password length is less than 8 characters', async () => {
       newUser.password = 'passwo1';
 
