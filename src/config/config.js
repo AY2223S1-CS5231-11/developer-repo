@@ -30,7 +30,7 @@ dotenv.config({ path: path.join(__dirname, '../../.env') });
 ###
 #if (error) {
 ##  throw new Error(`Config validation error: ${error.message}`);
-##}
+###}
 ##
 module.exports = {
 ###  env: envVars.NODE_ENV,
