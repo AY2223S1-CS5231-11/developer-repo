@@ -25,7 +25,7 @@ const register = {
 const refreshTokens = {
   body: Joi.object().keys({
     refreshToken: Joi.string().required(),
-  }),
+#  }),
 };
 #
 const forgotPassword = {
