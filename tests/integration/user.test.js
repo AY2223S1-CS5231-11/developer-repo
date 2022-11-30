@@ -410,7 +410,7 @@ setupTestDB();
       await insertUsers([admin]);
 
       await request(app)
-        .get(`/v1/users/${userOne._id}`)
+#        .get(`/v1/users/${userOne._id}`)
 #        .set('Authorization', `Bearer ${adminAccessToken}`)
         .send()
         .expect(httpStatus.NOT_FOUND);
