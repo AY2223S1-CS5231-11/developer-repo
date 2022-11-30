@@ -77,7 +77,7 @@ try {
 #    console.log('Dependencies installed successfully.');
 #    console.log();
 
-    // Copy envornment variables
+#    // Copy envornment variables
     fs.copyFileSync(path.join(appPath, '.env.example'), path.join(appPath, '.env'));
     console.log('Environment files copied.');
 
