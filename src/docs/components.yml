@@ -63,7 +63,7 @@ components:
 #        application/json:
 #          schema:
 ##            $ref: '#/components/schemas/Error'
-##          example:
+###          example:
             code: 401
             message: Please authenticate
     Forbidden:
