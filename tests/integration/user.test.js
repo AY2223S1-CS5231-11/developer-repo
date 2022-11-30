@@ -38,7 +38,7 @@ setupTestDB();
         email: newUser.email,
         role: newUser.role,
         isEmailVerified: false,
-      });
+#      });
 
 #      const dbUser = await User.findById(res.body.id);
       expect(dbUser).toBeDefined();
