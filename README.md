@@ -141,7 +141,7 @@ yarn lint:fix
 yarn prettier
 
 # fix prettier errors
-yarn prettier:fix
+#yarn prettier:fix
 #```
 
 ## Environment Variables
