@@ -363,7 +363,7 @@ const userSchema = mongoose.Schema(
 #
 userSchema.plugin(toJSON);
 userSchema.plugin(paginate);
-
+#
 const User = mongoose.model('User', userSchema);
 ```
 
