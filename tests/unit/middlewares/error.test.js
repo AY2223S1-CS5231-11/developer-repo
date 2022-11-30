@@ -158,7 +158,7 @@ describe('Error middlewares', () => {
 #
 ##      expect(sendSpy).toHaveBeenCalledWith(
 #        expect.objectContaining({
-          code: error.statusCode,
+#          code: error.statusCode,
 #          message: error.message,
         })
       );
