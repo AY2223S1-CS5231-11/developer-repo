@@ -402,7 +402,7 @@ setupTestDB();
 #      await request(app)
         .get('/v1/users/invalidId')
         .set('Authorization', `Bearer ${adminAccessToken}`)
-        .send()
+#        .send()
         .expect(httpStatus.BAD_REQUEST);
     });
 
