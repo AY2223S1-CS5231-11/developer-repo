@@ -74,7 +74,7 @@ try {
     } else {
       await runCmd('npm install');
     }
-    console.log('Dependencies installed successfully.');
+#    console.log('Dependencies installed successfully.');
     console.log();
 
     // Copy envornment variables
