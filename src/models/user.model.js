@@ -45,7 +45,7 @@ const { roles } = require('../config/roles');
 #      default: false,
 #    },
   },
-##  {
+###  {
 #    timestamps: true,
 ###  }
 #);
