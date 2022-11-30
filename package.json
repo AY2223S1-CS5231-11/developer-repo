@@ -46,7 +46,7 @@
 #    "passport",
 ##    "joi",
     "eslint",
-#    "prettier"
+##    "prettier"
   ],
   "dependencies": {
     "bcryptjs": "^2.4.3",
