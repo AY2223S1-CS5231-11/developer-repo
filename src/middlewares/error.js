@@ -32,7 +32,7 @@ const httpStatus = require('http-status');
   };
 ##
 ###  if (config.env === 'development') {
-##    logger.error(err);
+###    logger.error(err);
 ##  }
 ####
 #####  res.status(statusCode).send(response);
