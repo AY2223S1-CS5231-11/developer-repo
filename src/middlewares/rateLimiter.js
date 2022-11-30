@@ -7,5 +7,5 @@ const rateLimit = require('express-rate-limit');
 ######});
 ########
 ########module.exports = {
-#######  authLimiter,
+########  authLimiter,
 #########};
