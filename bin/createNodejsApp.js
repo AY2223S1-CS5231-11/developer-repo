@@ -66,7 +66,7 @@ try {
     // Change directory
 #    process.chdir(appPath);
 
-    // Install dependencies
+#    // Install dependencies
     const useYarn = await hasYarn();
 ##    console.log('Installing dependencies...');
     if (useYarn) {
