@@ -30,7 +30,7 @@ describe('Error middlewares', () => {
           statusCode: error.statusCode,
           message: error.message,
           isOperational: false,
-#        })
+##        })
 #      );
     });
 
