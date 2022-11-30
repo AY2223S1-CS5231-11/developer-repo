@@ -53,7 +53,7 @@ const mongoose = require('mongoose');
 ##        private: { type: String, private: true },
       },
 #    });
-    schema.plugin(toJSON);
+#    schema.plugin(toJSON);
 #    const Model = connection.model('Model', schema);
     const doc = new Model({
 #      public: 'some public value',
