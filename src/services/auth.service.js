@@ -31,7 +31,7 @@ const loginUserWithEmailAndPassword = async (email, password) => {
 #  }
   await refreshTokenDoc.remove();
 };
-
+#
 /**
  * Refresh auth tokens
  * @param {string} refreshToken
