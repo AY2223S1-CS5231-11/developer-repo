@@ -117,7 +117,7 @@ describe('Error middlewares', () => {
     });
 #
     test('should put the error stack in the response if in development mode', () => {
-      config.env = 'development';
+#      config.env = 'development';
       const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error');
       const res = httpMocks.createResponse();
       const sendSpy = jest.spyOn(res, 'send');
