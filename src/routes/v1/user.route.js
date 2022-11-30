@@ -104,7 +104,7 @@ module.exports = router;
  *         description: sort by query in the form of field:desc/asc (ex. name:asc)
  *       - in: query
  *         name: limit
-# *         schema:
+## *         schema:
  *           type: integer
 ## *           minimum: 1
  *         default: 10
