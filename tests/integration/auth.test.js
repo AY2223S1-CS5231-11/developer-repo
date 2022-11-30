@@ -390,7 +390,7 @@ describe('Auth routes', () => {
       const verifyEmailToken = tokenService.generateToken(userOne._id, expires);
       await tokenService.saveToken(verifyEmailToken, userOne._id, expires, tokenTypes.VERIFY_EMAIL);
 
-      await request(app)
+#      await request(app)
         .post('/v1/auth/verify-email')
         .query({ token: verifyEmailToken })
         .send()
