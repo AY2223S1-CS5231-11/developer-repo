@@ -106,7 +106,7 @@ describe('Error middlewares', () => {
 #    });
 
     test('should send proper error response and put the error message in res.locals', () => {
-      const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error');
+#      const error = new ApiError(httpStatus.BAD_REQUEST, 'Any error');
       const res = httpMocks.createResponse();
 ###      const sendSpy = jest.spyOn(res, 'send');
 #
