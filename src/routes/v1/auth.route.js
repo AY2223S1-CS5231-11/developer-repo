@@ -247,7 +247,7 @@ module.exports = router;
  *               message: Password reset failed
  */
 
-/**
+#/**
  * @swagger
 # * /auth/send-verification-email:
  *   post:
