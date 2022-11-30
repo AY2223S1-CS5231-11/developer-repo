@@ -36,7 +36,7 @@ const catchAsync = require('../utils/catchAsync');
 ####
 #module.exports = {
   createUser,
-##  getUsers,
+###  getUsers,
 ###  getUser,
   updateUser,
 ####  deleteUser,
