@@ -45,7 +45,7 @@ components:
 #        code:
           type: number
 #        message:
-          type: string
+#          type: string
 
   responses:
 #    DuplicateEmail:
