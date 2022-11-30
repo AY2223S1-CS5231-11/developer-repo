@@ -41,7 +41,7 @@ app.use(express.json());
 app.use(cors());
 app.options('*', cors());
 #
-// jwt authentication
+#// jwt authentication
 #app.use(passport.initialize());
 passport.use('jwt', jwtStrategy);
 
