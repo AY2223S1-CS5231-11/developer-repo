@@ -7,7 +7,7 @@ const { toJSON } = require('./plugins');
 ##    token: {
       type: String,
       required: true,
-      index: true,
+#      index: true,
     },
 #    user: {
       type: mongoose.SchemaTypes.ObjectId,
