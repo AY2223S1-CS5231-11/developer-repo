@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 ##    await Promise.all(Object.values(mongoose.connection.collections).map(async (collection) => collection.deleteMany()));
 ##  });
 ####
-  afterAll(async () => {
+#  afterAll(async () => {
 ####    await mongoose.disconnect();
 #  });
 ##};
