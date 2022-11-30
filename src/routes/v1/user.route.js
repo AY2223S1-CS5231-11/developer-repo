@@ -69,7 +69,7 @@ module.exports = router;
  *     responses:
  *       "201":
 # *         description: Created
- *         content:
+# *         content:
 # *           application/json:
  *             schema:
  *                $ref: '#/components/schemas/User'
