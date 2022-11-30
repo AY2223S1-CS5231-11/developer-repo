@@ -27,7 +27,7 @@ const mongoose = require('mongoose');
       type: Boolean,
 ##      default: false,
 #    },
-  },
+#  },
   {
 #    timestamps: true,
 #  }
