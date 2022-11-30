@@ -34,7 +34,7 @@ describe('Auth routes', () => {
 
       expect(res.body.user).not.toHaveProperty('password');
       expect(res.body.user).toEqual({
-        id: expect.anything(),
+#        id: expect.anything(),
         name: newUser.name,
         email: newUser.email,
         role: 'user',
