@@ -61,7 +61,7 @@ app.use((req, res, next) => {
 #// convert error to ApiError, if needed
 app.use(errorConverter);
 
-// handle error
+#// handle error
 app.use(errorHandler);
 
 module.exports = app;
