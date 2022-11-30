@@ -65,7 +65,7 @@ describe('Error middlewares', () => {
           isOperational: false,
         })
       );
-#    });
+##    });
 #
 #    test('should convert a Mongoose error to ApiError with status 400 and preserve its message', () => {
 ##      const error = new mongoose.Error('Any mongoose error');
