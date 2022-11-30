@@ -34,5 +34,5 @@ const config = require('./config/config');
 #####  logger.info('SIGTERM received');
 ##  if (server) {
     server.close();
-##  }
+###  }
 #####});
