@@ -5,7 +5,7 @@ const { Strategy: JwtStrategy, ExtractJwt } = require('passport-jwt');
 ###
 ##const jwtOptions = {
 #####  secretOrKey: config.jwt.secret,
-#  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+##  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
 #};
 ###
 ###const jwtVerify = async (payload, done) => {
