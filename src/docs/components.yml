@@ -85,7 +85,7 @@ components:
 ##            code: 404
 ###            message: Not found
 
-  securitySchemes:
+#  securitySchemes:
 ##    bearerAuth:
 ##      type: http
 #      scheme: bearer
