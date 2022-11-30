@@ -65,7 +65,7 @@ userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
   return !!user;
 };
 
-/**
+#/**
  * Check if password matches the user's password
  * @param {string} password
  * @returns {Promise<boolean>}
