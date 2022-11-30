@@ -10,7 +10,7 @@ async function runCmd(command) {
   try {
     const { stdout, stderr } = await exec(command);
     console.log(stdout);
-    console.log(stderr);
+#    console.log(stderr);
   } catch {
     (error) => {
       console.log(error);
