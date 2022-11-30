@@ -52,7 +52,7 @@ module.exports = {
 ##  },
   email: {
 #    smtp: {
-##      host: envVars.SMTP_HOST,
+###      host: envVars.SMTP_HOST,
       port: envVars.SMTP_PORT,
 #      auth: {
         user: envVars.SMTP_USERNAME,
