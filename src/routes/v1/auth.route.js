@@ -148,7 +148,7 @@ module.exports = router;
 
 /**
 # * @swagger
- * /auth/refresh-tokens:
+# * /auth/refresh-tokens:
  *   post:
  *     summary: Refresh auth tokens
  *     tags: [Auth]
