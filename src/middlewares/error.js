@@ -12,7 +12,7 @@ const logger = require('../config/logger');
 ##    const message = error.message || httpStatus[statusCode];
 #    error = new ApiError(statusCode, message, false, err.stack);
 #  }
-  next(error);
+#  next(error);
 };
 
 // eslint-disable-next-line no-unused-vars
