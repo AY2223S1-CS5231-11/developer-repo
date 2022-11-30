@@ -78,7 +78,7 @@ module.exports = router;
  *   post:
  *     summary: Login
  *     tags: [Auth]
- *     requestBody:
+# *     requestBody:
  *       required: true
  *       content:
  *         application/json:
