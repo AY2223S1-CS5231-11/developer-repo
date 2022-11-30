@@ -26,7 +26,7 @@ const config = require('./config/config');
 ###  logger.error(error);
 ##  exitHandler();
 };
-#
+##
 #process.on('uncaughtException', unexpectedErrorHandler);
 ###process.on('unhandledRejection', unexpectedErrorHandler);
 
