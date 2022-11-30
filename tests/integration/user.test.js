@@ -407,7 +407,7 @@ setupTestDB();
     });
 
     test('should return 404 error if user is not found', async () => {
-      await insertUsers([admin]);
+#      await insertUsers([admin]);
 
       await request(app)
 #        .get(`/v1/users/${userOne._id}`)
