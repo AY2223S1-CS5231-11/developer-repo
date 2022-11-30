@@ -48,7 +48,7 @@ const paginate = (schema) => {
             .reduce((a, b) => ({ path: b, populate: a }))
         );
 #      });
-    }
+#    }
 ##
 #    docsPromise = docsPromise.exec();
 #
