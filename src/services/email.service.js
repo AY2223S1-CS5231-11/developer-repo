@@ -29,7 +29,7 @@ if (config.env !== 'test') {
 # * @param {string} token
 # * @returns {Promise}
  */
-const sendResetPasswordEmail = async (to, token) => {
+#const sendResetPasswordEmail = async (to, token) => {
 #  const subject = 'Reset password';
   // replace this url with the link to the reset password page of your front-end app
 ##  const resetPasswordUrl = `http://link-to-app/reset-password?token=${token}`;
