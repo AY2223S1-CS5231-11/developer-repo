@@ -133,7 +133,7 @@ module.exports = router;
  *           schema:
  *             type: object
  *             required:
- *               - refreshToken
+# *               - refreshToken
  *             properties:
  *               refreshToken:
  *                 type: string
