@@ -39,7 +39,7 @@ const insertUsers = async (users) => {
 };
 #
 #module.exports = {
-  userOne,
+#  userOne,
 #  userTwo,
   admin,
 #  insertUsers,
