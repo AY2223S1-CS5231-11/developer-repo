@@ -15,7 +15,7 @@ const { version } = require('../../package.json');
     {
 ###      url: `http://localhost:${config.port}/v1`,
 ##    },
-#  ],
+##  ],
 ##};
 ##
 #module.exports = swaggerDef;
