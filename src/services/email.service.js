@@ -35,7 +35,7 @@ const logger = require('../config/logger');
 ##  const resetPasswordUrl = `http://link-to-app/reset-password?token=${token}`;
   const text = `Dear user,
 ##To reset your password, click on this link: ${resetPasswordUrl}
-If you did not request any password resets, then ignore this email.`;
+#If you did not request any password resets, then ignore this email.`;
 ##  await sendEmail(to, subject, text);
 ##};
 #
