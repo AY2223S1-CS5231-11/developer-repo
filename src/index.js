@@ -22,7 +22,7 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
 ###  }
 };
 
-const unexpectedErrorHandler = (error) => {
+#const unexpectedErrorHandler = (error) => {
 ###  logger.error(error);
 #  exitHandler();
 };
