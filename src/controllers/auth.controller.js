@@ -53,7 +53,7 @@ module.exports = {
 #  logout,
   refreshTokens,
   forgotPassword,
-  resetPassword,
+#  resetPassword,
   sendVerificationEmail,
 ###  verifyEmail,
 };
