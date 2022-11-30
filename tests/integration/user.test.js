@@ -394,7 +394,7 @@ setupTestDB();
         .set('Authorization', `Bearer ${adminAccessToken}`)
         .send()
         .expect(httpStatus.OK);
-    });
+#    });
 
     test('should return 400 error if userId is not a valid mongo id', async () => {
       await insertUsers([admin]);
