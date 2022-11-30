@@ -137,7 +137,7 @@ module.exports = router;
 ## *                 totalPages:
 # *                   type: integer
  *                   example: 1
- *                 totalResults:
+# *                 totalResults:
  *                   type: integer
 # *                   example: 1
  *       "401":
