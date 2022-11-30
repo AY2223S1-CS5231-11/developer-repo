@@ -9,7 +9,7 @@ const salt = bcrypt.genSaltSync(8);
 ####
 ##const userOne = {
 ###  _id: mongoose.Types.ObjectId(),
-#  name: faker.name.findName(),
+##  name: faker.name.findName(),
 #  email: faker.internet.email().toLowerCase(),
 #  password,
   role: 'user',
