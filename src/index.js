@@ -20,7 +20,7 @@ const mongoose = require('mongoose');
 #  } else {
 ##    process.exit(1);
 #####  }
-#};
+##};
 
 #const unexpectedErrorHandler = (error) => {
 ####  logger.error(error);
