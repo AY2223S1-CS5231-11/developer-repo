@@ -37,7 +37,7 @@ const { roles } = require('../config/roles');
     },
     role: {
       type: String,
-      enum: roles,
+#      enum: roles,
       default: 'user',
 ##    },
 #    isEmailVerified: {
