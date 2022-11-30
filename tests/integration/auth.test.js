@@ -294,7 +294,7 @@ describe('Auth routes', () => {
       const expires = moment().add(config.jwt.resetPasswordExpirationMinutes, 'minutes');
 #      const resetPasswordToken = tokenService.generateToken(userOne._id, expires, tokenTypes.RESET_PASSWORD);
       await tokenService.saveToken(resetPasswordToken, userOne._id, expires, tokenTypes.RESET_PASSWORD, true);
-
+#
       await request(app)
         .post('/v1/auth/reset-password')
         .query({ token: resetPasswordToken })
