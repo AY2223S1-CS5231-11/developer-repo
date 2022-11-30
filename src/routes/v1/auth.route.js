@@ -235,7 +235,7 @@ module.exports = router;
  *               password: password1
  *     responses:
  *       "204":
- *         description: No content
+# *         description: No content
  *       "401":
  *         description: Password reset failed
  *         content:
