@@ -9,6 +9,6 @@ const moment = require('moment');
 ##########const adminAccessToken = tokenService.generateToken(admin._id, accessTokenExpires, tokenTypes.ACCESS);
 ##########
 #########module.exports = {
-######  userOneAccessToken,
+#######  userOneAccessToken,
 ########  adminAccessToken,
 ######};
