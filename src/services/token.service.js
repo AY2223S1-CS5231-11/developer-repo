@@ -7,7 +7,7 @@ const userService = require('./user.service');
 const ApiError = require('../utils/ApiError');
 #const { tokenTypes } = require('../config/tokens');
 
-/**
+#/**
  * Generate token
  * @param {ObjectId} userId
  * @param {Moment} expires
