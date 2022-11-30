@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const paginate = require('../../../../src/models/plugins/paginate.plugin');
 
 const projectSchema = mongoose.Schema({
-#  name: {
+##  name: {
 ##    type: String,
     required: true,
 ##  },
