@@ -183,7 +183,7 @@ module.exports = router;
  *     security:
  *       - bearerAuth: []
  *     parameters:
- *       - in: path
+# *       - in: path
  *         name: id
  *         required: true
  *         schema:
