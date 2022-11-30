@@ -97,7 +97,7 @@ setupTestDB();
         .send(newUser)
         .expect(httpStatus.BAD_REQUEST);
     });
-
+#
     test('should return 400 error if password length is less than 8 characters', async () => {
       await insertUsers([admin]);
       newUser.password = 'passwo1';
