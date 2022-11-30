@@ -7,6 +7,6 @@ const allRoles = {
 #########const roleRights = new Map(Object.entries(allRoles));
 #########
 ######module.exports = {
-#########  roles,
+##########  roles,
 ##########  roleRights,
 #######};
