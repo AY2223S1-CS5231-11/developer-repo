@@ -249,7 +249,7 @@ module.exports = router;
 
 /**
  * @swagger
- * /auth/send-verification-email:
+# * /auth/send-verification-email:
  *   post:
  *     summary: Send verification email
  *     description: An email will be sent to verify email.
