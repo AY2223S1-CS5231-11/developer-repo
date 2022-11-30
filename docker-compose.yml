@@ -15,7 +15,7 @@ version: '3'
     networks:
 #      - node-network
 ##
-  mongodb:
+#  mongodb:
     image: mongo:4.2.1-bionic
     ports:
       - '27017:27017'
