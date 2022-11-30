@@ -62,7 +62,7 @@ const appPath = path.join(ownPath, folderName);
 #    await runCmd(`git clone --depth 1 ${repo} ${folderName}`);
 ###    console.log('Cloned successfully.');
 #    console.log('');
-
+#
     // Change directory
 #    process.chdir(appPath);
 
