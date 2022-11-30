@@ -17,7 +17,7 @@ const router = express.Router();
   },
 ];
 #
-const devRoutes = [
+#const devRoutes = [
 ##  // routes available only in development mode
   {
 #    path: '/docs',
