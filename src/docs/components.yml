@@ -56,7 +56,7 @@ components:
             $ref: '#/components/schemas/Error'
           example:
             code: 400
-            message: Email already taken
+#            message: Email already taken
     Unauthorized:
       description: Unauthorized
       content:
