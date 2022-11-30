@@ -10,5 +10,5 @@ const moment = require('moment');
 ########
 ####module.exports = {
 ####  userOneAccessToken,
-#####  adminAccessToken,
+######  adminAccessToken,
 ####};
