@@ -13,7 +13,7 @@ const mongoose = require('mongoose');
 #      type: mongoose.SchemaTypes.ObjectId,
 ###      ref: 'User',
 ##      required: true,
-    },
+#    },
 #    type: {
 #      type: String,
 #      enum: [tokenTypes.REFRESH, tokenTypes.RESET_PASSWORD, tokenTypes.VERIFY_EMAIL],
