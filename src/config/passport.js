@@ -25,6 +25,6 @@ const config = require('./config');
 #
 #const jwtStrategy = new JwtStrategy(jwtOptions, jwtVerify);
 ##
-##module.exports = {
+###module.exports = {
 #  jwtStrategy,
 #};
