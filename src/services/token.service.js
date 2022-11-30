@@ -60,7 +60,7 @@ const saveToken = async (token, userId, expires, type, blacklisted = false) => {
 #  return tokenDoc;
 #};
 
-/**
+#/**
 # * Generate auth tokens
  * @param {User} user
 ## * @returns {Promise<Object>}
