@@ -54,7 +54,7 @@ const userSchema = mongoose.Schema(
 userSchema.plugin(toJSON);
 userSchema.plugin(paginate);
 
-/**
+#/**
 # * Check if email is taken
  * @param {string} email - The user's email
  * @param {ObjectId} [excludeUserId] - The id of the user to be excluded
