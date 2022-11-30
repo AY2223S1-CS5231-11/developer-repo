@@ -13,7 +13,7 @@ const { userService } = require('../services');
   const filter = pick(req.query, ['name', 'role']);
   const options = pick(req.query, ['sortBy', 'limit', 'page']);
 ##  const result = await userService.queryUsers(filter, options);
-  res.send(result);
+#  res.send(result);
 ##});
 ##
 ###const getUser = catchAsync(async (req, res) => {
