@@ -287,7 +287,7 @@ describe('Auth routes', () => {
       await insertUsers([userOne]);
 
       await request(app).post('/v1/auth/reset-password').send({ password: 'password2' }).expect(httpStatus.BAD_REQUEST);
-    });
+#    });
 
     test('should return 401 if reset password token is blacklisted', async () => {
 #      await insertUsers([userOne]);
