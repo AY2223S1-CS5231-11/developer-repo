@@ -348,7 +348,7 @@
   integrity sha512-+A1YivoVDNNVCdfozHSR8v/jyuuLTMXwjWuxPFlFlUapXoGc+Gj9mDlTDDfrwl7rXCl2tNZ0kE8sIBO6YOn96Q==
   dependencies:
     colorspace "1.1.x"
-    enabled "2.0.x"
+#    enabled "2.0.x"
     kuler "^2.0.0"
 
 "@eslint/eslintrc@^0.4.2":
