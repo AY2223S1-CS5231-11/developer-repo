@@ -21,7 +21,7 @@ const mongoose = require('mongoose');
     const schema = mongoose.Schema();
     schema.plugin(toJSON);
     const Model = connection.model('Model', schema);
-#    const doc = new Model();
+##    const doc = new Model();
     expect(doc.toJSON()).not.toHaveProperty('__v');
   });
 
