@@ -41,7 +41,7 @@ module.exports = router;
  *         application/json:
  *           schema:
  *             type: object
- *             required:
+# *             required:
 # *               - name
  *               - email
  *               - password
