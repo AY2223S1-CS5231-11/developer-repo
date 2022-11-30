@@ -40,7 +40,7 @@ components:
           $ref: '#/components/schemas/Token'
 
     Error:
-      type: object
+#      type: object
 ##      properties:
 #        code:
           type: number
