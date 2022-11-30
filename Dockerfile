@@ -5,7 +5,7 @@ FROM node:alpine
 #######WORKDIR /usr/src/node-app
 #####
 ######COPY package.json yarn.lock ./
-##
+###
 ######USER node
 #####
 ##RUN yarn install --pure-lockfile
