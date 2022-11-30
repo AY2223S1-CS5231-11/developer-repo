@@ -101,7 +101,7 @@ describe('Auth routes', () => {
       });
 
       expect(res.body.tokens).toEqual({
-        access: { token: expect.anything(), expires: expect.anything() },
+#        access: { token: expect.anything(), expires: expect.anything() },
         refresh: { token: expect.anything(), expires: expect.anything() },
       });
     });
