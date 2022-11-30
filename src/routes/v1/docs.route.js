@@ -15,7 +15,7 @@ const express = require('express');
 #  '/',
 #####  swaggerUi.setup(specs, {
 ##    explorer: true,
-#  })
+##  })
 ###);
 ##
 #####module.exports = router;
