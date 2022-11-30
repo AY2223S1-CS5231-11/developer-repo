@@ -16,7 +16,7 @@ const config = require('./config');
     winston.format.splat(),
 #    winston.format.printf(({ level, message }) => `${level}: ${message}`)
 ####  ),
-###  transports: [
+####  transports: [
 #    new winston.transports.Console({
 #      stderrLevels: ['error'],
 ####    }),
