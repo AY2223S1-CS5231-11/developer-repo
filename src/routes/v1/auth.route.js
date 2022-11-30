@@ -192,7 +192,7 @@ module.exports = router;
  *             required:
  *               - email
  *             properties:
- *               email:
+# *               email:
 # *                 type: string
  *                 format: email
  *             example:
