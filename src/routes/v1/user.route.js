@@ -153,7 +153,7 @@ module.exports = router;
  *     summary: Get a user
 # *     description: Logged in users can fetch only their own user information. Only admins can fetch other users.
 ## *     tags: [Users]
- *     security:
+# *     security:
  *       - bearerAuth: []
 # *     parameters:
  *       - in: path
