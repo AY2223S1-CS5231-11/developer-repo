@@ -23,7 +23,7 @@ const config = require('./config/config');
 };
 
 #const unexpectedErrorHandler = (error) => {
-###  logger.error(error);
+####  logger.error(error);
 ###  exitHandler();
 };
 ##
