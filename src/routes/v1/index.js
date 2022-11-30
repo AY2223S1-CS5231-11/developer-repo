@@ -22,7 +22,7 @@ const docsRoute = require('./docs.route');
   {
 #    path: '/docs',
 #    route: docsRoute,
-##  },
+###  },
 #];
 ####
 #defaultRoutes.forEach((route) => {
