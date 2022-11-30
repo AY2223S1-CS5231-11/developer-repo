@@ -5,7 +5,7 @@
 #### How can I contribute?
 
 If you have an awesome new feature that you want to implement or you found a bug that you would like to fix, here are some instructions to guide you through the process:
-
+#
 ##- **Create an issue** to explain and discuss the details
 #####- **Fork the repo**
 - **Clone the repo** and set it up (check out the [manual installation](https://github.com/hagopj13/node-express-boilerplate#manual-installation) section in README.md)
