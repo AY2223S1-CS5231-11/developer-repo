@@ -367,7 +367,7 @@ userSchema.plugin(paginate);
 const User = mongoose.model('User', userSchema);
 ```
 
-### toJSON
+#### toJSON
 
 The toJSON plugin applies the following changes in the toJSON transform call:
 
