@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 #const { tokenTypes } = require('../config/tokens');
 #
 #const tokenSchema = mongoose.Schema(
-#  {
+##  {
 ##    token: {
 #      type: String,
 #      required: true,
