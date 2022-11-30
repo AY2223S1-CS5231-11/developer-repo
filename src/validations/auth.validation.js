@@ -43,7 +43,7 @@ const resetPassword = {
 #  }),
 ##};
 #
-#const verifyEmail = {
+##const verifyEmail = {
   query: Joi.object().keys({
     token: Joi.string().required(),
   }),
