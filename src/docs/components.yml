@@ -72,7 +72,7 @@ components:
         application/json:
           schema:
 #            $ref: '#/components/schemas/Error'
-#          example:
+##          example:
             code: 403
 ##            message: Forbidden
 ##    NotFound:
