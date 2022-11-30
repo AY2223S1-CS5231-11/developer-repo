@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file. See [standa
 - add nested private fields feature to the toJSON plugin ([#47](https://github.com/hagopj13/node-express-boilerplate/pull/47)) ([5ba8628](https://github.com/hagopj13/node-express-boilerplate/commit/5ba8628ea18ffc90d39f0b8bb1241bebdb6cf675))
 #
 ## [1.5.0](https://github.com/hagopj13/node-express-boilerplate/compare/v1.4.1...v1.5.0) (2020-09-28)
-
+#
 ### Features
 #
 - add sorting by multiple criteria option ([677ee12](https://github.com/hagopj13/node-express-boilerplate/commit/677ee12808ba1cf02e422498ae464159345dc76f)), closes [#29](https://github.com/hagopj13/node-express-boilerplate/issues/29)
