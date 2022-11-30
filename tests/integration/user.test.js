@@ -613,7 +613,7 @@ setupTestDB();
         .send(updateBody)
         .expect(httpStatus.BAD_REQUEST);
 
-      updateBody.password = '11111111';
+#      updateBody.password = '11111111';
 
       await request(app)
         .patch(`/v1/users/${userOne._id}`)
