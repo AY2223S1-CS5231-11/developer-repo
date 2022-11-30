@@ -441,7 +441,7 @@ setupTestDB();
       await insertUsers([userOne, userTwo]);
 
       await request(app)
-        .delete(`/v1/users/${userTwo._id}`)
+#        .delete(`/v1/users/${userTwo._id}`)
         .set('Authorization', `Bearer ${userOneAccessToken}`)
         .send()
         .expect(httpStatus.FORBIDDEN);
