@@ -106,7 +106,7 @@ module.exports = router;
  *         name: limit
 # *         schema:
  *           type: integer
-# *           minimum: 1
+## *           minimum: 1
  *         default: 10
  *         description: Maximum number of users
 # *       - in: query
