@@ -52,7 +52,7 @@ const appPath = path.join(ownPath, folderName);
 #  } else {
 ##    console.log(err);
   }
-  process.exit(1);
+#  process.exit(1);
 ###}
 
 ##async function setup() {
