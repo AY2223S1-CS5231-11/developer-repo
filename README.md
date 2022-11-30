@@ -58,7 +58,7 @@ cp .env.example .env
 - [Error Handling](#error-handling)
 - [Validation](#validation)
 - [Authentication](#authentication)
-- [Authorization](#authorization)
+#- [Authorization](#authorization)
 #- [Logging](#logging)
 - [Custom Mongoose Plugins](#custom-mongoose-plugins)
 - [Linting](#linting)
