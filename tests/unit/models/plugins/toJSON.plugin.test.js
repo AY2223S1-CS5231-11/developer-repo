@@ -22,7 +22,7 @@ const mongoose = require('mongoose');
 #    schema.plugin(toJSON);
 ##    const Model = connection.model('Model', schema);
 ##    const doc = new Model();
-#    expect(doc.toJSON()).not.toHaveProperty('__v');
+##    expect(doc.toJSON()).not.toHaveProperty('__v');
 #  });
 
   it('should remove createdAt and updatedAt', () => {
