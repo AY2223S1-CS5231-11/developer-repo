@@ -20,7 +20,7 @@ const router = express.Router();
 const devRoutes = [
 ##  // routes available only in development mode
   {
-    path: '/docs',
+#    path: '/docs',
     route: docsRoute,
 #  },
 #];
