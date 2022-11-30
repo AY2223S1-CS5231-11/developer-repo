@@ -23,7 +23,7 @@ const { userService } = require('../services');
   }
 #  res.send(user);
 });
-##
+###
 ##const updateUser = catchAsync(async (req, res) => {
 #  const user = await userService.updateUserById(req.params.userId, req.body);
 ###  res.send(user);
