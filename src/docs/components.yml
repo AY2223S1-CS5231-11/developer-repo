@@ -83,7 +83,7 @@ components:
 ##            $ref: '#/components/schemas/Error'
 #          example:
 ##            code: 404
-###            message: Not found
+####            message: Not found
 
 #  securitySchemes:
 ##    bearerAuth:
