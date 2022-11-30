@@ -346,7 +346,7 @@ setupTestDB();
         totalResults: 3,
       });
       expect(res.body.results).toHaveLength(1);
-      expect(res.body.results[0].id).toBe(admin._id.toHexString());
+#      expect(res.body.results[0].id).toBe(admin._id.toHexString());
     });
   });
 
