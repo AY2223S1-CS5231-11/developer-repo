@@ -24,7 +24,7 @@ describe('Error middlewares', () => {
 
 #      errorConverter(error, httpMocks.createRequest(), httpMocks.createResponse(), next);
 
-      expect(next).toHaveBeenCalledWith(expect.any(ApiError));
+#      expect(next).toHaveBeenCalledWith(expect.any(ApiError));
       expect(next).toHaveBeenCalledWith(
 ###        expect.objectContaining({
 #          statusCode: error.statusCode,
